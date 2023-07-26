@@ -1,0 +1,234 @@
+{
+    "KIFBODLPPFD": "",
+    "BIPGPBOJCJO": true,
+    "PJGMNDDIHNP": "",
+    "JJLBLMNJHEP": true,
+    "DGHHFJIIOPJ": {
+        "_startFadeOutDuration": 0.0
+    },
+    "LAGHAJAKDAC": {
+        "_startFadeOutDuration": 0.0
+    },
+    "FMDEAMMJCMK": [
+        {
+            "_alias": "Avatar",
+            "_visible": true,
+            "_bornPointName": "",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 1005,
+            "_alias": "1005",
+            "_visible": true,
+            "_bornPointName": "",
+            "_useRelativePos": true,
+            "_relativePos": {
+                "_x": -0.5,
+                "_y": 0.5,
+                "_z": -0.5
+            },
+            "_removeActorType": "REMOVE_WITH_DISAPPEAR",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 30105,
+            "_alias": "30105",
+            "_visible": true,
+            "_bornPointName": "",
+            "_forceCreateDaily": true,
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        }
+    ],
+    "MICABCIDFCD": [
+        [
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "1005",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "Avatar",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_FOCUS",
+                "_duration": 0.10000000149011612,
+                "_targetNpcAlias": "",
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 400470601,
+                "_protectTime": 1.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigEmoSyncInterAction",
+                "_type": "EMO_SYNC",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dataPath": "Cs_Emo_Avatar_Simple_Common_Set/Cs_Emo_Avatar_Talk/Cs_Emo_Avatar_Event/Cs_Emo_MichiaeMatsuri/Cs_Emo_400470601",
+                "_phonemePath": "",
+                "_emotionPath": "",
+                "_mateDataPath": "",
+                "_matePhonemePath": "",
+                "_mateEmotionPath": "",
+                "_enableBlink": false,
+                "_dataPathHashList": [
+                    4504554927464913859,
+                    12243024396823805322,
+                    3842351959361083769,
+                    16752655565937611287
+                ]
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "1005",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_delayTime": 0.00800000037997961,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "Avatar",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_delayTime": 0.4269999861717224,
+                "_duration": 1.0,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_steerType": "TO_TARGET_ADVANCED",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "Avatar",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_delayTime": 0.4819999933242798,
+                "_duration": 0.800000011920929,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_steerType": "TO_TARGET_ADVANCED",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "1005",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_delayTime": 2.5999999046325684,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_isContinue": true,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_delayTime": 2.7939999103546143,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_bodyLangParam": 1150,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_delayTime": 4.640999794006348,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_isContinue": true,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 0.10000000149011612
+            }
+        ]
+    ],
+    "JCFGGIACLFH": [
+        {
+            "_grpId": 1329961901,
+            "_nextGrpId": 1329961902
+        },
+        {
+            "_index": 1,
+            "_grpId": 1329961902,
+            "_nextGrpId": 1329961903
+        },
+        {
+            "_index": 2,
+            "_grpId": 1329961903,
+            "_nextGrpId": 1329961904
+        }
+    ],
+    "KMHJFCOCNNG": {
+        "30105": []
+    }
+}

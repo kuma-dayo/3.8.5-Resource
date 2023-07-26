@@ -1,0 +1,1564 @@
+{
+    "KIFBODLPPFD": "",
+    "JCGAJJBMJOD": 2.0,
+    "PJGMNDDIHNP": "",
+    "JJLBLMNJHEP": true,
+    "KKLCDNHOEKM": true,
+    "NONFBMAANPP": true,
+    "MBFOLAIBIFD": true,
+    "DGHHFJIIOPJ": {
+        "_startFadeInDuration": 0.5,
+        "_startFadeOutDuration": 0.5
+    },
+    "LAGHAJAKDAC": {
+        "_startFadeOutDuration": 0.0
+    },
+    "FMDEAMMJCMK": [
+        {
+            "_alias": "Avatar",
+            "_visible": true,
+            "_bornPointName": "Q2300304_N10000005",
+            "_relativePosType": "AVATAR_NEW",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 4004,
+            "_alias": "4004",
+            "_visible": true,
+            "_bornPointName": "",
+            "_forceCreateDaily": true,
+            "_relativePosType": "AVATAR_NEW",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 1005,
+            "_alias": "1005",
+            "_visible": true,
+            "_bornPointName": "Q2300304_N1005",
+            "_relativePos": {
+                "_x": -0.5,
+                "_z": 0.5
+            },
+            "_removeActorType": "REMOVE_WITH_DISAPPEAR",
+            "_relativePosType": "AVATAR_NEW",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        }
+    ],
+    "MICABCIDFCD": [
+        [
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 3.0
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSimpleBlackScreenAction",
+                "_type": "SIMPLE_BLACK_SCREEN",
+                "_actionId": 240,
+                "_durationToBlack": 0.5,
+                "_durationKeepBlack": 2.0,
+                "_durationFromBlack": 0.5,
+                "_textMapID": "",
+                "_useTextFade": true
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSitOrStandAction",
+                "_type": "SIT_OR_STAND",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_isSit": true
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSitOrStandAction",
+                "_type": "SIT_OR_STAND",
+                "_delayTime": 0.5,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_actionId": 242,
+                "_haveNextAction": true
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_delayTime": 0.800000011920929,
+                "_duration": 1.5,
+                "_actionId": 241,
+                "_camPosOffset": {
+                    "_x": -3.0260000228881836,
+                    "_y": 6.284999847412109,
+                    "_z": 5.765999794006348
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -3.572000026702881,
+                    "_y": 5.565999984741211,
+                    "_z": 5.335000038146973
+                },
+                "_camFov": 40.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigTeleportToAction",
+                "_type": "TELEPORT_TO",
+                "_delayTime": 1.0,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_actionId": 243,
+                "_preActionId": 242,
+                "_position": {
+                    "_x": -7.0,
+                    "_y": 1.2000000476837158,
+                    "_z": 3.5999999046325684
+                },
+                "_forward": {
+                    "_z": 1.0
+                },
+                "_openLongDisTeleport": true,
+                "_posBindMovingTargetKey": "",
+                "_forwardBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSitOrStandAction",
+                "_type": "SIT_OR_STAND",
+                "_delayTime": 1.5,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_isSit": true
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -3.0260000228881836,
+                    "_y": 6.284999847412109,
+                    "_z": 5.765999794006348
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -3.572000026702881,
+                    "_y": 5.565999984741211,
+                    "_z": 5.335000038146973
+                },
+                "_camFov": 40.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "4004",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030401,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "Avatar",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "4004",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_delayTime": 0.04500000178813934,
+                "_duration": 13.588000297546387,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -2.747999906539917,
+                    "_y": 5.98199987411499,
+                    "_z": 5.020999908447266
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -3.372999906539917,
+                    "_y": 5.289000034332275,
+                    "_z": 4.6620001792907715
+                },
+                "_camFov": 40.0,
+                "_cameraBlendType": "EaseOutQuad",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "1005",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 230030402,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_bodyLangParam": 1090,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -5.855000019073486,
+                    "_y": 2.260999917984009,
+                    "_z": 4.063000202178955
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -6.447999954223633,
+                    "_y": 2.052000045776367,
+                    "_z": 3.2850000858306885
+                },
+                "_camFov": 30.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "4004",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030403,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -6.552999973297119,
+                    "_y": 1.8609999418258667,
+                    "_z": 2.447000026702881
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -7.136000156402588,
+                    "_y": 1.9290000200271606,
+                    "_z": 1.6369999647140503
+                },
+                "_camFov": 20.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030404,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_bodyLangParam": 8040,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "Avatar",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -6.519000053405762,
+                    "_y": 1.9989999532699585,
+                    "_z": 0.5989999771118164
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -6.77400016784668,
+                    "_y": 1.9049999713897705,
+                    "_z": 1.562000036239624
+                },
+                "_camFov": 30.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030405,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_bodyLangParam": 8060,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.8500000238418579,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -6.519000053405762,
+                    "_y": 1.9989999532699585,
+                    "_z": 0.5989999771118164
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -6.675000190734863,
+                    "_y": 1.937000036239624,
+                    "_z": 1.5850000381469727
+                },
+                "_camFov": 30.0,
+                "_cameraBlendType": "EaseInOutQuad",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_rotateAngle": 0.4339999854564667,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "1005",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "1005",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 230030406,
+                "_protectTime": 1.0
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_bodyLangParam": 1110,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogSelectAction",
+                "_type": "DIALOG_SELECT",
+                "_delayTime": 1.0,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_dialogIDList": [
+                    230030407
+                ],
+                "_grpIDList": [
+                    1432938558
+                ],
+                "_useGrpId": true
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -6.52400016784668,
+                    "_y": 1.9819999933242798,
+                    "_z": 2.877000093460083
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -7.014999866485596,
+                    "_y": 1.8849999904632568,
+                    "_z": 2.010999917984009
+                },
+                "_camFov": 30.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "4004",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030408,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_isContinue": true,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -6.414999961853027,
+                    "_y": 2.052999973297119,
+                    "_z": 2.618000030517578
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -6.5320000648498535,
+                    "_y": 2.0280001163482666,
+                    "_z": 3.6110000610351562
+                },
+                "_camFov": 30.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "1005",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 230030409,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_bodyLangParam": 1050,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -2.943000078201294,
+                    "_y": 1.8329999446868896,
+                    "_z": 0.9570000171661377
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -3.8550000190734863,
+                    "_y": 1.784000039100647,
+                    "_z": 1.3650000095367432
+                },
+                "_camFov": 30.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_actionId": 236,
+                "_isContinue": true,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_cantBackToIdleWhenSitLoop": true,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 230030410,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_bodyLangParam": 1150,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_delayTime": 0.05400000140070915,
+                "_duration": 12.25,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -3.0269999504089355,
+                    "_y": 1.8329999446868896,
+                    "_z": 0.7689999938011169
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -3.938999891281128,
+                    "_y": 1.784000039100647,
+                    "_z": 1.1770000457763672
+                },
+                "_camFov": 30.0,
+                "_cameraBlendType": "EaseOutQuad",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "4004",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030411,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_bodyLangParam": 8040,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -5.809000015258789,
+                    "_y": 1.7380000352859497,
+                    "_z": 2.941999912261963
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -6.577000141143799,
+                    "_y": 1.7430000305175781,
+                    "_z": 2.302000045776367
+                },
+                "_camFov": 30.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030412,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_bodyLangParam": 8041,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -6.8520002365112305,
+                    "_y": 1.965999960899353,
+                    "_z": 0.3109999895095825
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -6.914999961853027,
+                    "_y": 1.9049999713897705,
+                    "_z": 1.3070000410079956
+                },
+                "_camFov": 25.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030413,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -6.633999824523926,
+                    "_y": 1.9919999837875366,
+                    "_z": 4.732999801635742
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -6.800000190734863,
+                    "_y": 1.8949999809265137,
+                    "_z": 3.752000093460083
+                },
+                "_camFov": 25.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030414,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_actionId": 233,
+                "_bodyLangParam": 8060,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_cantBackToIdleWhenSitLoop": true,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_delayTime": 0.04600000008940697,
+                "_duration": 10.888999938964844,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -6.586999893188477,
+                    "_y": 2.0190000534057617,
+                    "_z": 5.006999969482422
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -6.752999782562256,
+                    "_y": 1.9220000505447388,
+                    "_z": 4.026000022888184
+                },
+                "_camFov": 25.0,
+                "_cameraBlendType": "EaseOutQuad",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "1005",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 230030415,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_bodyLangParam": 1100,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -7.419000148773193,
+                    "_y": 1.9290000200271606,
+                    "_z": 2.821000099182129
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -6.566999912261963,
+                    "_y": 2.015000104904175,
+                    "_z": 3.3380000591278076
+                },
+                "_camFov": 25.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 230030416,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_bodyLangParam": 1170,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -7.214000225067139,
+                    "_y": 1.8940000534057617,
+                    "_z": 2.5999999046325684
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -7.218999862670898,
+                    "_y": 1.9290000200271606,
+                    "_z": 1.6009999513626099
+                },
+                "_camFov": 25.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "4004",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030417,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_bodyLangParam": 8060,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_enableHead": true,
+                "_headTurnTime": 0.5,
+                "_targetNpcAlias": "Avatar",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_isContinue": true,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogSelectAction",
+                "_type": "DIALOG_SELECT",
+                "_delayTime": 0.4000000059604645,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_dialogIDList": [
+                    230030418
+                ],
+                "_grpIDList": [
+                    1471422177
+                ],
+                "_useGrpId": true
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -9.024999618530273,
+                    "_y": 3.624000072479248,
+                    "_z": 4.409999847412109
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -8.413999557495117,
+                    "_y": 3.0269999504089355,
+                    "_z": 3.890000104904175
+                },
+                "_camFov": 40.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030419,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_delayTime": 0.057999998331069946,
+                "_duration": 5.671000003814697,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -9.116000175476074,
+                    "_y": 3.7130000591278076,
+                    "_z": 4.486999988555908
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -8.505000114440918,
+                    "_y": 3.115999937057495,
+                    "_z": 3.9670000076293945
+                },
+                "_camFov": 40.0,
+                "_cameraBlendType": "EaseOutQuad",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030420,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_actionId": 234,
+                "_isContinue": true,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_cantBackToIdleWhenSitLoop": true,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -7.888999938964844,
+                    "_y": 2.0299999713897705,
+                    "_z": 0.7860000133514404
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -7.341000080108643,
+                    "_y": 1.8860000371932983,
+                    "_z": 1.6100000143051147
+                },
+                "_camFov": 30.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030421,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_bodyLangParam": 8040,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_delayTime": 0.03200000151991844,
+                "_duration": 8.904999732971191,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -7.932000160217285,
+                    "_y": 2.0350000858306885,
+                    "_z": 0.8159999847412109
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -7.383999824523926,
+                    "_y": 1.8910000324249268,
+                    "_z": 1.6399999856948853
+                },
+                "_camFov": 30.0,
+                "_cameraBlendType": "EaseOutQuad",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogSelectAction",
+                "_type": "DIALOG_SELECT",
+                "_delayTime": 0.4000000059604645,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_dialogIDList": [
+                    230030422,
+                    230030423
+                ],
+                "_grpIDList": [
+                    1471422201,
+                    1471422201
+                ],
+                "_useGrpId": true
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -7.816999912261963,
+                    "_y": 1.8329999446868896,
+                    "_z": 2.1489999294281006
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -7.111999988555908,
+                    "_y": 1.9520000219345093,
+                    "_z": 1.4500000476837158
+                },
+                "_camFov": 25.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030424,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_bodyLangParam": 8041,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 0.10000000149011612,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -7.961999893188477,
+                    "_y": 3.055999994277954,
+                    "_z": 1.718000054359436
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -7.504000186920166,
+                    "_y": 2.265000104904175,
+                    "_z": 2.124000072479248
+                },
+                "_camFov": 25.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4004"
+                ],
+                "_dialogID": 230030425,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_delayTime": 0.04899999871850014,
+                "_duration": 14.210000038146973,
+                "_actionId": 207,
+                "_camPosOffset": {
+                    "_x": -7.695000171661377,
+                    "_y": 2.931999921798706,
+                    "_z": 1.809999942779541
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -7.236999988555908,
+                    "_y": 2.1410000324249268,
+                    "_z": 2.2160000801086426
+                },
+                "_camFov": 25.0,
+                "_cameraBlendType": "EaseOutQuad",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigSimpleBlackScreenAction",
+                "_type": "SIMPLE_BLACK_SCREEN",
+                "_durationToBlack": 0.5,
+                "_durationKeepBlack": 3.0,
+                "_textMapID": "",
+                "_useTextFade": true,
+                "_dialogID": 230030426
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG_CLEAR"
+            },
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 3.0,
+                "_actionId": 235
+            },
+            {
+                "$type": "MoleMole.Config.ConfigVisibleInterAction",
+                "_type": "VISIBLE",
+                "_delayTime": 1.0,
+                "_aliasList": [
+                    "4004"
+                ],
+                "_extraParam": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigSimpleBlackScreenAction",
+                "_type": "SIMPLE_BLACK_SCREEN",
+                "_durationKeepBlack": 1.0,
+                "_durationFromBlack": 0.5,
+                "_textMapID": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 0.699999988079071
+            }
+        ]
+    ],
+    "JCFGGIACLFH": [
+        {
+            "_grpId": 1432938551,
+            "_nextGrpId": 1432938552
+        },
+        {
+            "_index": 1,
+            "_grpId": 1432938552,
+            "_nextGrpId": 1432938553
+        },
+        {
+            "_index": 2,
+            "_grpId": 1432938553,
+            "_nextGrpId": 1432938554
+        },
+        {
+            "_index": 3,
+            "_grpId": 1432938554,
+            "_nextGrpId": 1432938555
+        },
+        {
+            "_index": 4,
+            "_grpId": 1432938555,
+            "_nextGrpId": 1432938556
+        },
+        {
+            "_index": 5,
+            "_grpId": 1432938556,
+            "_nextGrpId": 1432938557
+        },
+        {
+            "_index": 6,
+            "_grpId": 1432938557,
+            "_nextGrpId": 1432938558
+        },
+        {
+            "_index": 7,
+            "_grpId": 1432938558,
+            "_nextGrpId": 1432938559
+        },
+        {
+            "_index": 8,
+            "_grpId": 1432938559,
+            "_nextGrpId": 1471422169
+        },
+        {
+            "_index": 9,
+            "_grpId": 1471422169,
+            "_nextGrpId": 1471422170
+        },
+        {
+            "_index": 10,
+            "_grpId": 1471422170,
+            "_nextGrpId": 1471422171
+        },
+        {
+            "_index": 11,
+            "_grpId": 1471422171,
+            "_nextGrpId": 1471422172
+        },
+        {
+            "_index": 12,
+            "_grpId": 1471422172,
+            "_nextGrpId": 1471422173
+        },
+        {
+            "_index": 13,
+            "_grpId": 1471422173,
+            "_nextGrpId": 1471422174
+        },
+        {
+            "_index": 14,
+            "_grpId": 1471422174,
+            "_nextGrpId": 1471422175
+        },
+        {
+            "_index": 15,
+            "_grpId": 1471422175,
+            "_nextGrpId": 1471422176
+        },
+        {
+            "_index": 16,
+            "_grpId": 1471422176,
+            "_nextGrpId": 1471422177
+        },
+        {
+            "_index": 17,
+            "_grpId": 1471422177,
+            "_nextGrpId": 1471422178
+        },
+        {
+            "_index": 18,
+            "_grpId": 1471422178,
+            "_nextGrpId": 1471422200
+        },
+        {
+            "_index": 19,
+            "_grpId": 1471422200,
+            "_nextGrpId": 1471422201
+        },
+        {
+            "_index": 20,
+            "_grpId": 1471422201,
+            "_nextGrpId": 1471422202
+        },
+        {
+            "_index": 21,
+            "_grpId": 1471422202,
+            "_nextGrpId": 1471422203
+        },
+        {
+            "_index": 22,
+            "_grpId": 1471422203,
+            "_nextGrpId": 1471422204
+        },
+        {
+            "_index": 23,
+            "_grpId": 1471422204,
+            "_nextGrpId": 1471422205
+        }
+    ],
+    "KMHJFCOCNNG": {
+        "4004": [
+            8040,
+            8060,
+            8041
+        ]
+    }
+}

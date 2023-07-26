@@ -1,0 +1,253 @@
+{
+    "KIFBODLPPFD": "",
+    "PJGMNDDIHNP": "",
+    "JJLBLMNJHEP": true,
+    "DGHHFJIIOPJ": {
+        "_startFadeOutDuration": 0.0
+    },
+    "LAGHAJAKDAC": {
+        "_startFadeOutDuration": 0.0
+    },
+    "FMDEAMMJCMK": [
+        {
+            "_alias": "Avatar",
+            "_visible": true,
+            "_bornPointName": "",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 501,
+            "_alias": "501",
+            "_visible": true,
+            "_bornPointName": "COOP101401Babala01",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        }
+    ],
+    "MICABCIDFCD": [
+        [
+            {
+                "$type": "MoleMole.Config.ConfigEmotionTemplateAction",
+                "_type": "EMOTION_TEMPLATE",
+                "_delayTime": 0.30000001192092896,
+                "_aliasList": [
+                    "501"
+                ],
+                "_emoTemplateID": 10100
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_delayTime": 0.30000001192092896,
+                "_aliasList": [
+                    "501"
+                ],
+                "_enableHead": true,
+                "_enableAbsolute": true,
+                "_targetOffset": {
+                    "_x": 2347.527099609375,
+                    "_y": 261.25201416015625,
+                    "_z": -699.9879760742188
+                },
+                "_targetPosition": {
+                    "_x": 2019.5169677734375,
+                    "_y": 262.4419860839844,
+                    "_z": -360.22601318359375
+                },
+                "_headTurnTime": 0.30000001192092896,
+                "_targetNpcAlias": "",
+                "_lookAtTargetType": "CAMERA",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraDOFAction",
+                "_type": "CAMERA_DOF",
+                "_delayTime": 0.30000001192092896,
+                "_focusDistance": 6.0,
+                "_focusRange": 6.0,
+                "_quality": 3
+            },
+            {
+                "$type": "MoleMole.Config.ConfigVisibleInterAction",
+                "_type": "VISIBLE",
+                "_delayTime": 0.30000001192092896,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_extraParam": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigEmotionTemplateAction",
+                "_type": "EMOTION_TEMPLATE",
+                "_aliasList": [
+                    "501"
+                ],
+                "_emoTemplateID": 10801
+            },
+            {
+                "$type": "MoleMole.Config.ConfigEmoSyncInterAction",
+                "_type": "EMO_SYNC",
+                "_aliasList": [
+                    "501"
+                ],
+                "_dataPath": "Cs_Emo_Avatar_Simple_Common_Set/Cs_Emo_Avatar_Talk/Cs_Emo_Coop_Common/Cs_Emo_Coop_Barbara_01/Cs_Emo_1900102201",
+                "_phonemePath": "",
+                "_emotionPath": "",
+                "_mateDataPath": "",
+                "_matePhonemePath": "",
+                "_mateEmotionPath": "",
+                "_dataPathHashList": [
+                    11710493964265856893,
+                    17534031414190522640,
+                    15932616863476319685,
+                    8578420287214683874
+                ]
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_cameraPosType": "RELATIVE_TO_TARGET_ENTITY",
+                "_camTargetType": "RELATIVE_TO_TARGET_ENTITY",
+                "_camFov": 30.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_targetNpcAlias": "501",
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "501"
+                ],
+                "_dialogID": 1900102201
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigEmoSyncInterAction",
+                "_type": "EMO_SYNC",
+                "_aliasList": [
+                    "501"
+                ],
+                "_dataPath": "Cs_Emo_Avatar_Simple_Common_Set/Cs_Emo_Avatar_Talk/Cs_Emo_Coop_Common/Cs_Emo_Coop_Barbara_01/Cs_Emo_1900102202",
+                "_phonemePath": "",
+                "_emotionPath": "",
+                "_mateDataPath": "",
+                "_matePhonemePath": "",
+                "_mateEmotionPath": "",
+                "_dataPathHashList": [
+                    12675908859222545627,
+                    15094371666292937713,
+                    7375472643120728352,
+                    3098817648695003528
+                ]
+            },
+            {
+                "$type": "MoleMole.Config.ConfigEmotionTemplateAction",
+                "_type": "EMOTION_TEMPLATE",
+                "_aliasList": [
+                    "501"
+                ],
+                "_emoTemplateID": 10100
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "501"
+                ],
+                "_dialogID": 1900102202
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigSimpleBlackScreenAction",
+                "_type": "SIMPLE_BLACK_SCREEN",
+                "_duration": 1.7999999523162842,
+                "_durationToBlack": 0.30000001192092896,
+                "_durationKeepBlack": 1.2000000476837158,
+                "_durationFromBlack": 0.30000001192092896,
+                "_textMapID": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 0.30000001192092896
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_delayTime": 0.30000001192092896,
+                "_aliasList": [
+                    "501"
+                ],
+                "_enableHead": true,
+                "_enableAbsolute": true,
+                "_targetOffset": {
+                    "_x": 2347.527099609375,
+                    "_y": 261.25201416015625,
+                    "_z": -699.9879760742188
+                },
+                "_targetPosition": {
+                    "_x": 2020.490966796875,
+                    "_y": 261.9219970703125,
+                    "_z": -359.2409973144531
+                },
+                "_headTurnTime": 0.30000001192092896,
+                "_targetNpcAlias": "",
+                "_lookAtTargetType": "NONE",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigVisibleInterAction",
+                "_type": "VISIBLE",
+                "_delayTime": 0.30000001192092896,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_isVisible": true,
+                "_extraParam": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG_CLEAR",
+                "_delayTime": 0.30000001192092896
+            }
+        ]
+    ],
+    "JCFGGIACLFH": [
+        {
+            "_grpId": 1258232613,
+            "_nextGrpId": 1258232614
+        },
+        {
+            "_index": 1,
+            "_grpId": 1258232614,
+            "_nextGrpId": 1258232615
+        },
+        {
+            "_index": 2,
+            "_grpId": 1258232615,
+            "_nextGrpId": 1258232616
+        },
+        {
+            "_index": 3,
+            "_grpId": 1258232616,
+            "_nextGrpId": 1258232617
+        }
+    ],
+    "KMHJFCOCNNG": {
+        "501": [
+            10100,
+            10801
+        ]
+    }
+}

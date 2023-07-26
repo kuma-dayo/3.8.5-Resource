@@ -1,0 +1,78 @@
+{
+    "KIFBODLPPFD": "",
+    "PJGMNDDIHNP": "",
+    "MICABCIDFCD": [
+        [
+            {
+                "$type": "MoleMole.Config.ConfigUITriggerInterAction",
+                "_type": "UI_TRIGGER",
+                "_delayTime": 2.0999999046325684,
+                "_contextName": "JourneyDiceDungeonPage",
+                "_param": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 2.0,
+                "_actionId": 126,
+                "_camPosOffset": {
+                    "_x": 2221.68701171875,
+                    "_y": 232.125,
+                    "_z": -800.7009887695312
+                },
+                "_camForwardTargetOffset": {
+                    "_x": 2222.135009765625,
+                    "_y": 231.23199462890625,
+                    "_z": -800.64697265625
+                },
+                "_cameraBlendType": "EaseInOutQuad",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG_CLEAR"
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_duration": 1.0,
+                "_steerType": "RETURN",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigAudioPlayAction",
+                "_type": "AUDIO_PLAY",
+                "_audioEventStr": "Play_ui_activity_Journey_Dice_WhooshIn"
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_delayTime": 0.10000000149011612,
+                "_duration": 0.5,
+                "_cameraPosType": "EXIT",
+                "_camTargetType": "TO_INTEE",
+                "_lerpRatio": 5.0,
+                "_targetNpcAlias": "",
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigAudioPlayAction",
+                "_type": "AUDIO_PLAY",
+                "_audioEventStr": "Play_ui_activity_Journey_Dice_WhooshOut"
+            }
+        ]
+    ]
+}

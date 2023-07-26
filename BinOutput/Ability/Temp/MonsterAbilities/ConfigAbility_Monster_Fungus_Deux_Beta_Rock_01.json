@@ -1,0 +1,243 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Fungus_Deux_Beta_Rock_Steer",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "FlyingBashNormal_BS"
+                    ],
+                    "IAEOHPAMKIL": 3.0,
+                    "MPFOAOKIGCA": 540.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "FlyingBashOverdose_BS"
+                    ],
+                    "IAEOHPAMKIL": 3.0,
+                    "MPFOAOKIGCA": 540.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "FlyingBashDecay_BS"
+                    ],
+                    "IAEOHPAMKIL": 3.0,
+                    "MPFOAOKIGCA": 540.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "FlyingBash"
+                    ],
+                    "IAEOHPAMKIL": 99.0,
+                    "MPFOAOKIGCA": 30.0,
+                    "GCECEIPILLB": ""
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Fungus_Deux_Beta_Rock_MeleeAttackNormal",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "MeleeAttackDecay_BS",
+                        "MeleeAttackDecay_Loop"
+                    ],
+                    "PEJCGBFFICP": "MeleeAttackBSEffect_Decayed"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "MeleeAttackBSEffect_Decayed": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Fungus_Deux_Beta_Rock_MeleeAttackDecayed_Loop",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Fungus_Deux_Beta_Rock_FlyingBashNormal",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "FlyingBashDecay_BS",
+                        "FlyingBashDecay_Loop"
+                    ],
+                    "PEJCGBFFICP": "FlyingBashBSEffect_Decayed"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Standby",
+                        "StandbyFree"
+                    ],
+                    "PEJCGBFFICP": "FlyingBashOverdoseStartHandler"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "FlyingBashOverdose_Attack"
+                    ],
+                    "PEJCGBFFICP": "FlyingBashOverdoseHandler"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "FlyingBashNormal_Attack",
+                        "FlyingBashNormal_AS",
+                        "FlyingBashOverdose_Attack",
+                        "FlyingBashOverdose_AS"
+                    ],
+                    "PEJCGBFFICP": "FlyingBashAttackEffect_Normal"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "FlyingBashDecay_Attack",
+                        "FlyingBashDecay_AS"
+                    ],
+                    "PEJCGBFFICP": "FlyingBashAttackEffect_Decayed"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "FlyingBashOverdoseCount": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "FlyingBashBSEffect_Decayed": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Fungus_Deux_Beta_Rock_FlyingBashDecayed_Loop",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "FlyingBashOverdoseStartHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 0.0,
+                            "EPDHICCGHAL": "_MONSTER_FUNGUS_DEUX_BETA_ROCK_FLYINGBASHOVERDOSECOUNT_",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "FMHCKOKPEPO",
+                            "AMOOLHDIAIH": "_MONSTER_FUNGUS_DEUX_BETA_ROCK_FLYINGBASHOVERDOSECOUNT_",
+                            "KFHDNIDDHID": "FlyingBashOverdoseCount"
+                        },
+                        {
+                            "$type": "DFHFEMNGANP",
+                            "CMOCNBDEJGD": "FlyingBashOverdoseCount",
+                            "HPDLNIPCGHB": "FlyingBashOverdoseCount"
+                        }
+                    ]
+                },
+                "FlyingBashOverdoseHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_MONSTER_FUNGUS_DEUX_BETA_ROCK_FLYINGBASHOVERDOSECOUNT_",
+                            "BFEAMPHKKCE": 3.0,
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "FMHCKOKPEPO",
+                            "AMOOLHDIAIH": "_MONSTER_FUNGUS_DEUX_BETA_ROCK_FLYINGBASHOVERDOSECOUNT_",
+                            "KFHDNIDDHID": "FlyingBashOverdoseCount"
+                        },
+                        {
+                            "$type": "DFHFEMNGANP",
+                            "CMOCNBDEJGD": "FlyingBashOverdoseCount",
+                            "HPDLNIPCGHB": "FlyingBashOverdoseCount"
+                        }
+                    ]
+                },
+                "FlyingBashAttackEffect_Normal": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Fungus_Deux_Beta_Rock_FlyingBashNormal_Attack",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "FlyingBashAttackEffect_Decayed": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Fungus_Deux_Beta_Rock_FlyingBashDecayed_Attack",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Fungus_Deux_Beta_Rock_HitThrowDropToGround",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "HGKGGEKHOBB",
+                    "PILMKPPOHPN": [
+                        {
+                            "$type": "GJAHFBBOKIM",
+                            "CELIAGABLLE": [
+                                "Water"
+                            ]
+                        }
+                    ],
+                    "BDJHNHMPGDB": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Monster_Fungus_HitThrowToGround_Water",
+                            "LMEAGKCCLON": -1.0,
+                            "MCMNOPGGLBF": true
+                        }
+                    ],
+                    "BLCNENOAPBF": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Monster_Fungus_Deux_Beta_Rock_HitThrowToGround",
+                            "LMEAGKCCLON": -1.0,
+                            "MCMNOPGGLBF": true
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

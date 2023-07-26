@@ -1,0 +1,207 @@
+{
+    "KIFBODLPPFD": "",
+    "PJGMNDDIHNP": "",
+    "JJLBLMNJHEP": true,
+    "DGHHFJIIOPJ": {
+        "_startFadeOutDuration": 0.0
+    },
+    "LAGHAJAKDAC": {
+        "_startFadeOutDuration": 0.0
+    },
+    "FMDEAMMJCMK": [
+        {
+            "_alias": "Avatar",
+            "_visible": true,
+            "_bornPointName": "",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 20526,
+            "_alias": "20526",
+            "_visible": true,
+            "_bornPointName": "",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 1005,
+            "_alias": "1005",
+            "_visible": true,
+            "_bornPointName": "",
+            "_useRelativePos": true,
+            "_relativePos": {
+                "_x": -0.5,
+                "_z": 0.5
+            },
+            "_removeActorType": "REMOVE_WITH_DISAPPEAR",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        }
+    ],
+    "MICABCIDFCD": [
+        [
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 0.10000000149011612
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_delayTime": 0.16699999570846558,
+                "_duration": 1.0,
+                "_aliasList": [
+                    "20526"
+                ],
+                "_steerType": "TO_LOCAL_AVATAR",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_delayTime": 0.32499998807907104,
+                "_duration": 1.0,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_steerType": "TO_TARGET",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "20526",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_delayTime": 0.42500001192092896,
+                "_duration": 1.0,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_steerType": "TO_TARGET",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "20526",
+                "_bindMovingTargetKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "20526"
+                ],
+                "_dialogID": 710630401,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 1.0,
+                "_camPosOffset": {
+                    "_x": -786.3790283203125,
+                    "_y": 378.4949951171875,
+                    "_z": 2059.33203125
+                },
+                "_camForwardTargetOffset": {
+                    "_x": -785.7230224609375,
+                    "_y": 378.15899658203125,
+                    "_z": 2058.656982421875
+                },
+                "_camFov": 54.63999938964844,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_needZAxisRotate": true,
+                "_rotateAngle": 0.0010000000474974513,
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_delayTime": 0.21699999272823334,
+                "_aliasList": [
+                    "20526"
+                ],
+                "_bodyLangParam": 1172,
+                "_forceDoFreeStyle": true,
+                "_canDoRepeatFreeStyle": false,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogSelectAction",
+                "_type": "DIALOG_SELECT",
+                "_delayTime": 0.4000000059604645,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_dialogIDList": [
+                    710630402
+                ],
+                "_grpIDList": [
+                    511114870
+                ],
+                "_useGrpId": true
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 0.10000000149011612
+            },
+            {
+                "$type": "MoleMole.Config.ConfigUITriggerInterAction",
+                "_type": "UI_TRIGGER",
+                "_delayTime": 0.15800000727176666,
+                "_contextName": "GivenDialog",
+                "_param": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 0.10000000149011612
+            }
+        ]
+    ],
+    "JCFGGIACLFH": [
+        {
+            "_grpId": 511114868,
+            "_nextGrpId": 511114869
+        },
+        {
+            "_index": 1,
+            "_grpId": 511114869,
+            "_nextGrpId": 511114870
+        },
+        {
+            "_index": 2,
+            "_grpId": 511114870,
+            "_nextGrpId": 511114871
+        },
+        {
+            "_index": 3,
+            "_grpId": 511114871,
+            "_nextGrpId": 511114872
+        }
+    ],
+    "KMHJFCOCNNG": {
+        "20526": [
+            1172
+        ]
+    }
+}

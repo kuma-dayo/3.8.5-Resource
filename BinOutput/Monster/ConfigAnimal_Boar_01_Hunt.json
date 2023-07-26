@@ -1,0 +1,519 @@
+{
+    "OFNHPDKGMBO": {
+        "KPDCCCFMMNM": {
+            "$type": "CDMOEIFBCBL",
+            "PBDBHNNFKJC": "EffectMesh"
+        },
+        "LLKKIMCGGMP": 80.0,
+        "JFFHGPPIMPK": 1.5,
+        "KIJFPIAFOKB": true,
+        "JJICMJMKEGN": true,
+        "LJPOBNMEHDI": false,
+        "MDBNPGGABHG": true
+    },
+    "DDIGPJLJGKO": {
+        "FNEPOCJLBOB": "",
+        "CICGMFOPNGH": "",
+        "AOMCDAICKHC": false
+    },
+    "KHJIOLEGICF": {
+        "DGHLIDBLCPA": 1.0
+    },
+    "CIBPEHHKMLD": {
+        "KHNPKIHIGHL": [
+            "SGV_STAGE"
+        ],
+        "MHAJKGCMMKN": {
+            "SGV_STAGE": 1.0
+        }
+    },
+    "AKPOCAMDGEL": {
+        "BOHBDKMKFJE": {
+            "KBLEHGMMDLH": "Monster_Minion",
+            "EBCFFCMCDML": 80.0
+        },
+        "LNBADHMFIMB": {
+            "BHFKKLAMLPH": "",
+            "JNOCHKLMAMD": true
+        },
+        "HMMLLBBLCLE": {
+            "EPMENDKCCCF": "CircleLockEnemy",
+            "HLFOGIDKLIN": "Animal_Lv2"
+        },
+        "MFJMJGIDDKA": {
+            "PDEFNNPDCPH": 2.0,
+            "HLADHKKAEEB": 10.0,
+            "DFJOABCBAKD": ""
+        },
+        "FODEENGJLPJ": {
+            "RushAtk": {
+                "MNACMFPGGJM": {
+                    "$type": "BHDHGOPPAPF",
+                    "KIALPPECALL": "TriggerNoRepeat",
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.5,
+                            "GCFAGHEGMOK": 0.25
+                        }
+                    },
+                    "LAGKLBKPJOD": 0.6000000238418579
+                },
+                "MKDNKDGFHOB": {
+                    "NCHHOHMMGLO": "",
+                    "FBHEHNEKCEC": "",
+                    "JJDHKGHLAPG": "default",
+                    "ECAAIDPICHF": {
+                        "BHIHBFJCJMF": 1.0,
+                        "MPFFDBKNGKK": 0.0,
+                        "DJHMCMJNDJL": 100.0,
+                        "GIDLGFOGCPI": "Blunt",
+                        "GDDCEDKCPHA": "Melee"
+                    },
+                    "NBOPNJKHONH": {
+                        "EFMEOMPPGGB": "default",
+                        "IMPBPALEIPI": "LV4",
+                        "MKEBGHGEHJI": "ByTangent",
+                        "LGINDGDBHAP": true
+                    }
+                }
+            }
+        }
+    },
+    "GFMPGALDFCL": [
+        {
+            "DMOIAIOPGLK": "AIStateInitial",
+            "EIIJMGGKJME": "Animal_Boar_AIStateInitial",
+            "ADAIAEJJJOI": ""
+        },
+        {
+            "DMOIAIOPGLK": "Animal_Boar_RushAtk",
+            "EIIJMGGKJME": "Animal_Boar_RushAtk",
+            "ADAIAEJJJOI": ""
+        },
+        {
+            "DMOIAIOPGLK": "",
+            "EIIJMGGKJME": "Animal_Boar_Hunt_Steer",
+            "ADAIAEJJJOI": ""
+        },
+        {
+            "DMOIAIOPGLK": "",
+            "EIIJMGGKJME": "Animal_Boar_Hunt_BeCaptured_Disappear",
+            "ADAIAEJJJOI": ""
+        },
+        {
+            "DMOIAIOPGLK": "",
+            "EIIJMGGKJME": "Animal_Hunt_Sneak_Attract_Effect",
+            "ADAIAEJJJOI": ""
+        },
+        {
+            "DMOIAIOPGLK": "",
+            "EIIJMGGKJME": "Animal_Hunt_AlertHideBillboard",
+            "ADAIAEJJJOI": ""
+        }
+    ],
+    "BOPDGGDNGGA": {
+        "defaultLayer": {
+            "$type": "BDNMJMOALBB",
+            "EIJBDDFAFHI": "",
+            "ALCCGJPAPAP": {
+                "Born": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Born": []
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "DoSkill"
+                    ]
+                },
+                "NormalIdle": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Standby": []
+                    },
+                    "PEKJNBLPIAG": true,
+                    "HGOCNBJLAHH": true,
+                    "OEEEHHOGCPP": [
+                        "DoSkill"
+                    ]
+                },
+                "NormalMove": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Walk": [
+                            "Audio_Boar_walk"
+                        ],
+                        "Run": [
+                            "Audio_Boar_Run_Hunt"
+                        ],
+                        "Disappear": []
+                    },
+                    "PEKJNBLPIAG": true,
+                    "HGOCNBJLAHH": true,
+                    "OEEEHHOGCPP": [
+                        "DoSkill"
+                    ],
+                    "OPBDBMNDAEE": true
+                },
+                "Turn": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "TurnLeft": [],
+                        "TurnRight": []
+                    },
+                    "PEKJNBLPIAG": true,
+                    "HGOCNBJLAHH": true,
+                    "OEEEHHOGCPP": [
+                        "DoSkill"
+                    ],
+                    "OPBDBMNDAEE": true,
+                    "EMKELHMKIBN": true
+                },
+                "BeHit": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Hit_L": [
+                            "Audio_Boar_hit_l"
+                        ]
+                    },
+                    "AHNDHCGDPAB": [
+                        "BeHit"
+                    ],
+                    "OEEEHHOGCPP": [
+                        "DoSkill"
+                    ]
+                },
+                "Die": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Die": [
+                            "Animal_BoarHunt_Die",
+                            "Audio_Boar_die"
+                        ],
+                        "Die_Disappear": [
+                            "Animal_BoarHunt_Die"
+                        ]
+                    }
+                },
+                "Alert": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Alert": [
+                            "Animal_Boar_Alert"
+                        ]
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                },
+                "RushAtk": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "RushAtk": [
+                            "Animal_Boar_RushAtk",
+                            "Audio_Boar_Run_Hunt"
+                        ],
+                        "Crash": []
+                    },
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill",
+                        "CrashTrigger"
+                    ],
+                    "OPBDBMNDAEE": true
+                },
+                "Personality_101": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Personality_101": []
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                },
+                "Personality_102": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Personality_102": []
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                },
+                "RushAtk_BS": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "RushAtk_BS": [
+                            "Animal_Boar_Hunt_Rush_BSEffect",
+                            "Animal_Boar_Hunt_RushWarning"
+                        ]
+                    },
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill",
+                        "CrashTrigger"
+                    ],
+                    "OPBDBMNDAEE": true
+                },
+                "RushAtk_Hunt": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "RushAtk_Hunt": [
+                            "Animal_Boar_RushAtk",
+                            "Audio_Boar_Run_Hunt"
+                        ]
+                    },
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill",
+                        "CrashTrigger"
+                    ],
+                    "OPBDBMNDAEE": true
+                },
+                "Attract": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Attract": []
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                },
+                "Search": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Search": []
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                }
+            }
+        }
+    },
+    "ANEDCADKJCF": {
+        "$type": "AMOBCOICAIP",
+        "CCHDFMLMFPB": "BillboardAttach",
+        "KFHPDJBPILF": {
+            "_y": 1.0
+        },
+        "NFCBNMMPCAI": "Character",
+        "MPHBHDEGDMM": 50.0,
+        "KDDMNOLCNCK": true
+    },
+    "BIPNALLAFAP": {
+        "Default": {},
+        "Hunt_Sneak": {
+            "OLECAGKAAHI": 1001,
+            "IJFKJIHPGFP": {
+                "LKJPMJHPNAN": {
+                    "HuntSneak": "true"
+                }
+            }
+        }
+    },
+    "PBHIHNLMDMB": {
+        "KEEJFLJBFKM": true,
+        "LDBDDNJABKB": {
+            "MDDAALMBPKE": {
+                "DefaultSetting": {
+                    "LGOOBFMHIIA": 10.0,
+                    "IENHCNPMGJE": 60.0,
+                    "GEKOCHKKHFN": 8.0,
+                    "AMOLIIHFDOC": 8.0
+                },
+                "HuntSneak": {
+                    "LGOOBFMHIIA": 10.0,
+                    "IENHCNPMGJE": 60.0,
+                    "GEKOCHKKHFN": 8.0,
+                    "AMOLIIHFDOC": 8.0
+                }
+            },
+            "EGHPMMNGDEH": {
+                "DefaultTemplate": {
+                    "DefaultPoses": "DefaultSetting",
+                    "1001": "HuntSneak"
+                }
+            }
+        },
+        "AKIDGLJAGDJ": {
+            "DefaultSetting": [
+                "HIT",
+                "WEATHER_BAD",
+                "FEAR"
+            ]
+        },
+        "DBKDPIOFBEH": {
+            "NJIFKFECGMB": 30.0,
+            "CNHOEGPNFPK": 60.0,
+            "MJHMOCIAEEE": 100.0,
+            "GNLEDMAGNLJ": [
+                {
+                    "IJDGHDPACBJ": 7.0,
+                    "BHJPOLJKFKN": 1.0
+                },
+                {
+                    "IJDGHDPACBJ": 15.0,
+                    "BHJPOLJKFKN": 0.75
+                }
+            ]
+        },
+        "JKGCEOCJIKI": {
+            "HPMPAMMFAOG": 100.0
+        },
+        "OONOIMEJNIA": {
+            "DDCGBDHJHBK": false
+        },
+        "OBLHFHMHJHM": {
+            "3": {
+                "EONPAHCMPOI": "OnAlert",
+                "HCADBFNDJAE": "OnAlert",
+                "MNBMLJLBHNN": "",
+                "JHLODABBGDO": true,
+                "AJCHPBDCOGH": false,
+                "ALCCGJPAPAP": [
+                    "Alert"
+                ],
+                "KFCEIOHAFKA": "10",
+                "FAOLJKNENAB": "01",
+                "JEHMEKCLPNE": "10",
+                "IFALIEJEMJP": "11"
+            },
+            "101": {
+                "EONPAHCMPOI": "Personality_101",
+                "HCADBFNDJAE": "Free",
+                "AEOGHAGMFIO": 17.5,
+                "MBMINIMBNAN": 7.5,
+                "HGPHPHDGHJB": 5.0,
+                "PJPOLLMBDCH": 7.5,
+                "MNBMLJLBHNN": "",
+                "ALCCGJPAPAP": [
+                    "Personality_101"
+                ],
+                "KFCEIOHAFKA": "10",
+                "FAOLJKNENAB": "01",
+                "JEHMEKCLPNE": "10",
+                "IFALIEJEMJP": "11"
+            },
+            "102": {
+                "EONPAHCMPOI": "Personality_102",
+                "HCADBFNDJAE": "Free",
+                "AEOGHAGMFIO": 17.5,
+                "MBMINIMBNAN": 7.5,
+                "HGPHPHDGHJB": 5.0,
+                "PJPOLLMBDCH": 7.5,
+                "MNBMLJLBHNN": "",
+                "ALCCGJPAPAP": [
+                    "Personality_102"
+                ],
+                "KFCEIOHAFKA": "10",
+                "FAOLJKNENAB": "01",
+                "JEHMEKCLPNE": "10",
+                "IFALIEJEMJP": "11"
+            },
+            "301": {
+                "EONPAHCMPOI": "RushAtk",
+                "KBJDKOPKNDB": {
+                    "JHMDALMOFKE": [
+                        101,
+                        201
+                    ]
+                },
+                "AEOGHAGMFIO": 2.0,
+                "MBMINIMBNAN": 5.0,
+                "PJPOLLMBDCH": 3.0,
+                "MNBMLJLBHNN": "",
+                "ALCCGJPAPAP": [
+                    "RushAtk_BS",
+                    "RushAtk_Hunt"
+                ],
+                "KFCEIOHAFKA": "10",
+                "FAOLJKNENAB": "01",
+                "JEHMEKCLPNE": "10",
+                "IFALIEJEMJP": "11"
+            }
+        },
+        "ODDLABMOJFN": 3.0,
+        "CPNEGNCAMNB": {
+            "KEEJFLJBFKM": true
+        },
+        "IPPBDLLDFAE": {
+            "KEEJFLJBFKM": true,
+            "OAPCJDGDOKM": {
+                "JHMDALMOFKE": [
+                    1,
+                    1001
+                ]
+            },
+            "ELPEJKDEOEI": {
+                "HIMLAIHOGIG": 0.25,
+                "EBHHJJBPKGL": 17.5,
+                "EMDFGAOJGKF": 12.5,
+                "IBKJEHAGLCP": 10.0,
+                "MKMHKNEPGLO": 3.0,
+                "MBMDOHEDFMP": 5.0
+            }
+        },
+        "EOOJOHGNLEN": {
+            "KEEJFLJBFKM": true,
+            "OAPCJDGDOKM": {
+                "JHMDALMOFKE": [
+                    101,
+                    201
+                ]
+            },
+            "ELPEJKDEOEI": {
+                "PBLCCOKIJCD": 1,
+                "FFMNODDFLHD": 5.0,
+                "OIABBILKFAO": 50.0,
+                "IOCNMLCIBCI": 0.0,
+                "IBFCHAEAAAG": 0
+            }
+        },
+        "JBEJHOLLBLJ": {
+            "KEEJFLJBFKM": true,
+            "OAPCJDGDOKM": {
+                "JHMDALMOFKE": [
+                    1001
+                ]
+            },
+            "ELPEJKDEOEI": {
+                "MHJEDOEANNF": 1.5,
+                "CJKKOEPIGCD": true
+            }
+        }
+    },
+    "FAGBAKBKIGP": [
+        {
+            "MMPNGMNAOCD": 301,
+            "OJAHDBEIFPD": 257,
+            "EIIJMGGKJME": ""
+        }
+    ],
+    "BOKHCFGPOJO": {
+        "$type": "DKCLHKGDPDB",
+        "DKMIBGNOGEA": {
+            "GKMLMDIGHIL": [
+                "RetreatAirType",
+                "RetreatType"
+            ]
+        }
+    },
+    "KHCPOKFGOHJ": {
+        "KKHCOMAPDLI": {
+            "BKOEFJKLKNO": "Eff_SceneObj_CatchAnimal_CaughtSuccess"
+        }
+    }
+}

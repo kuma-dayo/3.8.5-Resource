@@ -1,0 +1,200 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_ForlornVessel_EndureDelta_Add",
+            "ABGJNGNECKP": {
+                "ForlornVessel_Endure": 0.5
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_ForlornVessel_EndureDelta": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_EndureDelta": "ForlornVessel_Endure"
+                    }
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "ForlornVessel_ElementShield",
+                            "HPDLNIPCGHB": 0.0,
+                            "NECALNHGCCP": "NoneOrEqual"
+                        }
+                    ],
+                    "PEJCGBFFICP": "UNIQUE_ForlornVessel_EndureDelta"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_ForlornVessel_EndureDelta_Remove",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "EONOAKNDNMO",
+                    "PEJCGBFFICP": "UNIQUE_ForlornVessel_EndureDelta"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_ForlornVessel_BeHitThrow",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "BeHitThrow"
+                    ],
+                    "PEJCGBFFICP": "ForlornVessel_HitThrowHandler"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "ForlornVessel_HitThrowHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "DCEIBHLHDAN"
+                        },
+                        {
+                            "$type": "LCPLENNDIPN",
+                            "GNAKHIKCKMA": [
+                                "WindZoneType"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_ForlornVessel_BeHeal",
+            "DNEECINBPHM": [
+                {
+                    "$type": "AOBGBMLFACK",
+                    "HPDLNIPCGHB": 0.0,
+                    "EPDHICCGHAL": "ForlornVessel_Lance_Heal",
+                    "BFEAMPHKKCE": 0.0,
+                    "CMLGDBNFNNO": 0.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_ForlornVessel_Strong_Salute",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Salute"
+                    ],
+                    "PEJCGBFFICP": "ForlornVessel_Strong_SaluteAction"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "ForlornVessel_Strong_SaluteAction": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "IOLJHGGPCFP",
+                            "JCOGJNPEJHJ": [
+                                "Salute"
+                            ],
+                            "MPFOAOKIGCA": 720.0,
+                            "GCECEIPILLB": "",
+                            "ONDOPIDEGKP": "_FORLORNVESSEL_SALUTE_POS_"
+                        }
+                    ],
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_FORLORNVESSEL_SALUTE_",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "DCHBNFCPPAP": {
+                                "$type": "LBLIPELFECO",
+                                "HODFEAPMHID": "Nearest",
+                                "DEMBLENCNFF": "CircleR15",
+                                "KMMEFEBGIKH": "Alliance",
+                                "BAGGOAFKGJE": 1.0
+                            },
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Monster"
+                                    ]
+                                },
+                                {
+                                    "$type": "IAFNIDPIDIE",
+                                    "BDBILHFHAEH": [
+                                        4014
+                                    ]
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "Target",
+                                    "PEJCGBFFICP": "ForlornVessel_Strong_SalutePos"
+                                }
+                            ]
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 0.0,
+                            "EPDHICCGHAL": "_FORLORNVESSEL_SALUTE_",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                },
+                "ForlornVessel_Strong_SalutePos": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 1.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "IHEACBKMIDM",
+                            "EPDHICCGHAL": "_FORLORNVESSEL_SALUTE_POS_",
+                            "PGCCMJFMBOF": {
+                                "$type": "DMIMDDKPKHA"
+                            },
+                            "BACGKPCGGLD": false
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "AOBGBMLFACK",
+                    "HPDLNIPCGHB": 0.0,
+                    "EPDHICCGHAL": "_FORLORNVESSEL_SALUTE_",
+                    "BFEAMPHKKCE": 0.0,
+                    "CMLGDBNFNNO": 0.0
+                }
+            ]
+        }
+    }
+]

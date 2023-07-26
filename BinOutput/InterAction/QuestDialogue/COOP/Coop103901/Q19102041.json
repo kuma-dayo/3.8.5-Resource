@@ -1,0 +1,324 @@
+{
+    "KIFBODLPPFD": "",
+    "MGEFDCACAPN": true,
+    "JCGAJJBMJOD": 1.0,
+    "PJGMNDDIHNP": "",
+    "DGHHFJIIOPJ": {
+        "_startFadeInDuration": 0.20000000298023224,
+        "_startFadeOutDuration": 0.20000000298023224
+    },
+    "LAGHAJAKDAC": {
+        "_startFadeOutDuration": 0.0
+    },
+    "FMDEAMMJCMK": [
+        {
+            "_alias": "Avatar",
+            "_visible": true,
+            "_bornPointName": "",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 502,
+            "_alias": "502",
+            "_visible": true,
+            "_bornPointName": "COOP103901Diona05_02",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 10803,
+            "_alias": "10803",
+            "_visible": true,
+            "_bornPointName": "COOP103901Diona05_01",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        }
+    ],
+    "MICABCIDFCD": [
+        [
+            {
+                "$type": "MoleMole.Config.ConfigLookAtInterAction",
+                "_type": "LOOK_AT",
+                "_delayTime": 0.30000001192092896,
+                "_aliasList": [
+                    "502"
+                ],
+                "_enableAbsolute": true,
+                "_targetOffset": {
+                    "_x": 2347.527099609375,
+                    "_y": 261.25201416015625,
+                    "_z": -699.9879760742188
+                },
+                "_targetPosition": {
+                    "_x": 2020.490966796875,
+                    "_y": 261.9219970703125,
+                    "_z": -359.2409973144531
+                },
+                "_headTurnTime": 0.30000001192092896,
+                "_targetNpcAlias": "",
+                "_lookAtTargetType": "NONE",
+                "_targetNpcLookAtPoint": "",
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigEmotionTemplateAction",
+                "_type": "EMOTION_TEMPLATE",
+                "_delayTime": 0.30000001192092896,
+                "_aliasList": [
+                    "502"
+                ],
+                "_emoTemplateID": 10100
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBodyLangInterAction",
+                "_type": "BODY_LANG",
+                "_delayTime": 0.30000001192092896,
+                "_aliasList": [
+                    "10803"
+                ],
+                "_isContinue": true,
+                "_forceDoFreeStyle": true,
+                "_eventPatternSuiteKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigVisibleInterAction",
+                "_type": "VISIBLE",
+                "_delayTime": 0.30000001192092896,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_extraParam": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraDOFAction",
+                "_type": "CAMERA_DOF",
+                "_delayTime": 0.30000001192092896,
+                "_focusDistance": 6.0,
+                "_focusRange": 6.0,
+                "_quality": 3
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_delayTime": 0.30000001192092896,
+                "_cameraPosType": "RELATIVE_TO_TARGET_ENTITY",
+                "_camTargetType": "RELATIVE_TO_TARGET_ENTITY",
+                "_camFov": 30.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_openCameraDither": false,
+                "_targetNpcAlias": "10803",
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_delayTime": 0.30000001192092896,
+                "_duration": 2.0
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigEmotionTemplateAction",
+                "_type": "EMOTION_TEMPLATE",
+                "_aliasList": [
+                    "502"
+                ],
+                "_emoTemplateID": 10701
+            },
+            {
+                "$type": "MoleMole.Config.ConfigEmoSyncInterAction",
+                "_type": "EMO_SYNC",
+                "_aliasList": [
+                    "502"
+                ],
+                "_dataPath": "Cs_Emo_Avatar_Simple_Common_Set/Cs_Emo_Avatar_Talk/Cs_Emo_Coop_Common/Cs_Emo_Coop_Diona_01/Cs_Emo_1910204101",
+                "_phonemePath": "",
+                "_emotionPath": "",
+                "_mateDataPath": "",
+                "_matePhonemePath": "",
+                "_mateEmotionPath": "",
+                "_dataPathHashList": [
+                    12939046330213255890,
+                    1329166775855854749,
+                    12445195244808369587,
+                    2633073113107999407
+                ]
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_duration": 1.0,
+                "_cameraPosType": "RELATIVE_TO_TARGET_ENTITY",
+                "_camTargetType": "RELATIVE_TO_TARGET_ENTITY",
+                "_camFov": 30.0,
+                "_lerpPattern": 6,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_openCameraDither": false,
+                "_targetNpcAlias": "502",
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "502"
+                ],
+                "_dialogID": 1910204101,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigEmotionTemplateAction",
+                "_type": "EMOTION_TEMPLATE",
+                "_aliasList": [
+                    "502"
+                ],
+                "_emoTemplateID": 10100
+            },
+            {
+                "$type": "MoleMole.Config.ConfigEmoSyncInterAction",
+                "_type": "EMO_SYNC",
+                "_aliasList": [
+                    "502"
+                ],
+                "_dataPath": "Cs_Emo_Avatar_Simple_Common_Set/Cs_Emo_Avatar_Talk/Cs_Emo_Coop_Common/Cs_Emo_Coop_Diona_01/Cs_Emo_1910204102",
+                "_phonemePath": "",
+                "_emotionPath": "",
+                "_mateDataPath": "",
+                "_matePhonemePath": "",
+                "_mateEmotionPath": "",
+                "_dataPathHashList": [
+                    5340834970007542268,
+                    7455067636579395797,
+                    8313706371731512579,
+                    17725120194001915056
+                ]
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "502"
+                ],
+                "_dialogID": 1910204102,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigEmoSyncInterAction",
+                "_type": "EMO_SYNC",
+                "_aliasList": [
+                    "502"
+                ],
+                "_dataPath": "Cs_Emo_Avatar_Simple_Common_Set/Cs_Emo_Avatar_Talk/Cs_Emo_Coop_Common/Cs_Emo_Coop_Diona_01/Cs_Emo_1910204103",
+                "_phonemePath": "",
+                "_emotionPath": "",
+                "_mateDataPath": "",
+                "_matePhonemePath": "",
+                "_mateEmotionPath": "",
+                "_dataPathHashList": [
+                    500391454103234810,
+                    5144068789563120577,
+                    14448466858049134640,
+                    16535907810088461207
+                ]
+            },
+            {
+                "$type": "MoleMole.Config.ConfigEmotionTemplateAction",
+                "_type": "EMOTION_TEMPLATE",
+                "_aliasList": [
+                    "502"
+                ],
+                "_emoTemplateID": 10101
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "502"
+                ],
+                "_dialogID": 1910204103,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigEmoSyncInterAction",
+                "_type": "EMO_SYNC",
+                "_aliasList": [
+                    "502"
+                ],
+                "_dataPath": "Cs_Emo_Avatar_Simple_Common_Set/Cs_Emo_Avatar_Talk/Cs_Emo_Coop_Common/Cs_Emo_Coop_Diona_01/Cs_Emo_1910204104",
+                "_phonemePath": "",
+                "_emotionPath": "",
+                "_mateDataPath": "",
+                "_matePhonemePath": "",
+                "_mateEmotionPath": "",
+                "_dataPathHashList": [
+                    359508535849146533,
+                    3477797009459483561,
+                    2269432810062668843,
+                    670947589380176418
+                ]
+            },
+            {
+                "$type": "MoleMole.Config.ConfigEmotionTemplateAction",
+                "_type": "EMOTION_TEMPLATE",
+                "_aliasList": [
+                    "502"
+                ],
+                "_emoTemplateID": 10100
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "502"
+                ],
+                "_dialogID": 1910204104,
+                "_protectTime": 0.5
+            }
+        ]
+    ],
+    "JCFGGIACLFH": [
+        {
+            "_grpId": 956486819,
+            "_nextGrpId": 956486820
+        },
+        {
+            "_index": 1,
+            "_grpId": 956486820,
+            "_nextGrpId": 956486821
+        },
+        {
+            "_index": 2,
+            "_grpId": 956486821,
+            "_nextGrpId": 956486822
+        },
+        {
+            "_index": 3,
+            "_grpId": 956486822,
+            "_nextGrpId": 956486823
+        },
+        {
+            "_index": 4,
+            "_grpId": 956486823,
+            "_nextGrpId": 956486824
+        }
+    ],
+    "KMHJFCOCNNG": {
+        "502": [
+            10100,
+            10701,
+            10101
+        ]
+    }
+}

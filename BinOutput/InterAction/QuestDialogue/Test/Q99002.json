@@ -1,0 +1,248 @@
+{
+    "KIFBODLPPFD": "",
+    "PJGMNDDIHNP": "",
+    "DGHHFJIIOPJ": {
+        "_startFadeOutDuration": 0.0
+    },
+    "LAGHAJAKDAC": {
+        "_startFadeOutDuration": 0.0
+    },
+    "FMDEAMMJCMK": [
+        {
+            "_alias": "Avatar",
+            "_visible": true,
+            "_bornPointName": "TalkTestPlayer1",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 1007,
+            "_alias": "1007",
+            "_visible": true,
+            "_bornPointName": "TalkTestNPC2",
+            "_removeActorType": "REMOVE",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 1005,
+            "_alias": "1005",
+            "_visible": true,
+            "_bornPointName": "TalkTestNPC1",
+            "_removeActorType": "REMOVE_WITH_DISAPPEAR",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        }
+    ],
+    "MICABCIDFCD": [
+        [
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_FOCUS",
+                "_duration": 0.10000000149011612,
+                "_targetNpcAlias": "",
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 9900202
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigLookAtEyeCtrlInterAction",
+                "_type": "LOOK_AT_EYECTRL",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_targetNpcAlias": "1005",
+                "_targetPoint": "Face"
+            },
+            {
+                "$type": "MoleMole.Config.ConfigLookAtEyeCtrlInterAction",
+                "_type": "LOOK_AT_EYECTRL",
+                "_aliasList": [
+                    "1007"
+                ],
+                "_targetNpcAlias": "1005",
+                "_targetPoint": "Face"
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 9900203
+            },
+            {
+                "$type": "MoleMole.Config.ConfigMoveToAction",
+                "_type": "MOVE_TO",
+                "_duration": 5.0,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_moveType": "RUN",
+                "_routeList": [
+                    {
+                        "_x": 2781.80859375,
+                        "_y": 195.92494201660156,
+                        "_z": -1763.5889892578125
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 9900204
+            },
+            {
+                "$type": "MoleMole.Config.ConfigMoveToAction",
+                "_type": "MOVE_TO",
+                "_duration": 5.0,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_moveType": "RUN",
+                "_routeList": [
+                    {
+                        "_x": 2785.66357421875,
+                        "_y": 196.08187866210938,
+                        "_z": -1761.0352783203125
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 9900205
+            },
+            {
+                "$type": "MoleMole.Config.ConfigMoveToAction",
+                "_type": "MOVE_TO",
+                "_duration": 5.0,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_moveType": "RUN",
+                "_routeList": [
+                    {
+                        "_x": 2783.42041015625,
+                        "_y": 196.09010314941406,
+                        "_z": -1763.852783203125
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 9900206
+            },
+            {
+                "$type": "MoleMole.Config.ConfigMoveToAction",
+                "_type": "MOVE_TO",
+                "_duration": 5.0,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_moveType": "WALK",
+                "_routeList": [
+                    {
+                        "_x": 2783.2470703125,
+                        "_y": 196.08187866210938,
+                        "_z": -1764.442138671875
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 1.0
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_dialogID": 9900207
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_duration": 1.0,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_useAngle": true,
+                "_steerAngle": -70.0,
+                "_useSteerAnim": true,
+                "_targetNpcAlias": "",
+                "_bindMovingTargetKey": ""
+            }
+        ]
+    ],
+    "JCFGGIACLFH": [
+        {
+            "_grpId": 794625480,
+            "_nextGrpId": 794625481
+        },
+        {
+            "_index": 1,
+            "_grpId": 794625481,
+            "_nextGrpId": 794625482
+        },
+        {
+            "_index": 2,
+            "_grpId": 794625482,
+            "_nextGrpId": 794625483
+        },
+        {
+            "_index": 3,
+            "_grpId": 794625483,
+            "_nextGrpId": 794625484
+        },
+        {
+            "_index": 4,
+            "_grpId": 794625484,
+            "_nextGrpId": 794625485
+        },
+        {
+            "_index": 5,
+            "_grpId": 794625485,
+            "_nextGrpId": 794625486
+        },
+        {
+            "_index": 6,
+            "_grpId": 794625486,
+            "_nextGrpId": 794625487
+        }
+    ],
+    "KMHJFCOCNNG": {
+        "1007": []
+    }
+}

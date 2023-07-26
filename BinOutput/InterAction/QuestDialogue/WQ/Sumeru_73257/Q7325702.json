@@ -1,0 +1,1299 @@
+{
+    "KIFBODLPPFD": "",
+    "JCGAJJBMJOD": 0.5,
+    "PJGMNDDIHNP": "",
+    "JJLBLMNJHEP": true,
+    "KKLCDNHOEKM": true,
+    "NONFBMAANPP": true,
+    "MBFOLAIBIFD": true,
+    "FHEMNHGMOLD": 5,
+    "DGHHFJIIOPJ": {
+        "_startFadeInDuration": 0.5,
+        "_startFadeOutDuration": 0.5
+    },
+    "LAGHAJAKDAC": {
+        "_startFadeOutDuration": 0.0
+    },
+    "FMDEAMMJCMK": [
+        {
+            "_alias": "Avatar",
+            "_visible": true,
+            "_bornPointName": "[3_4535:390.447,312.914,5703.516,0.000,316.086,0.000]",
+            "_relativePosType": "AVATAR_NEW",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_alias": "AvatarNpc",
+            "_visible": true,
+            "_bornPointName": "[3_4535:390.447,312.914,5703.516,0.000,316.086,0.000]",
+            "_removeActorType": "NEW_REMOVE",
+            "_relativePosType": "AVATAR_NEW",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 1005,
+            "_alias": "1005",
+            "_visible": true,
+            "_bornPointName": "",
+            "_useRelativePos": true,
+            "_relativePos": {
+                "_x": -0.6000000238418579,
+                "_z": 0.10000000149011612
+            },
+            "_removeActorType": "NEW_REMOVE_WITH_DISAPPEAR",
+            "_relativePosType": "AVATAR_NEW",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 20883,
+            "_alias": "20883",
+            "_visible": true,
+            "_bornPointName": "",
+            "_useRelativePos": true,
+            "_relativePos": {
+                "_x": 0.699999988079071
+            },
+            "_removeActorType": "NEW_REMOVE_WITH_DISAPPEAR",
+            "_relativePosType": "AVATAR_NEW",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        },
+        {
+            "_configID": 4284,
+            "_alias": "4284",
+            "_visible": true,
+            "_bornPointName": "",
+            "_relativePosType": "AVATAR_NEW",
+            "_relativePosNpcAlias": "",
+            "_bindMovingTargetKey": ""
+        }
+    ],
+    "MICABCIDFCD": [
+        [
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 1.0,
+                "_actionId": 104
+            },
+            {
+                "$type": "MoleMole.Config.ConfigBlackScreenAction",
+                "_type": "BLACK_SCREEN",
+                "_duration": 1.0,
+                "_actionId": 214,
+                "_blackScreenType": "KEEP_BLACK",
+                "_durationToBlack": 0.5,
+                "_durationKeepBlack": 1.0,
+                "_durationFromBlack": 0.5,
+                "_inteePos": "",
+                "_textMapID": "",
+                "_useTextFade": true
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSitOrStandAction",
+                "_type": "SIT_OR_STAND",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_actionId": 222,
+                "_banResetFreestyle": true
+            },
+            {
+                "$type": "MoleMole.Config.ConfigVisibleInterAction",
+                "_type": "VISIBLE",
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_actionId": 233,
+                "_extraParam": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigPlayerNPCEnergyTypeAction",
+                "_type": "SET_PLAYER_NPC_ENERGY_TYPE",
+                "_aliasList": [
+                    "AvatarNpc"
+                ],
+                "_actionId": 223,
+                "_setHeroEngergyType": true
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_duration": 1.0,
+                "_aliasList": [
+                    "AvatarNpc"
+                ],
+                "_actionId": 224,
+                "_steerType": "RETURN",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "",
+                "_ignoreY": true,
+                "_fixInterNull": true,
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_duration": 1.0,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_actionId": 226,
+                "_steerType": "RETURN",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "",
+                "_ignoreY": true,
+                "_fixInterNull": true,
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_duration": 1.0,
+                "_aliasList": [
+                    "20883"
+                ],
+                "_actionId": 228,
+                "_steerType": "RETURN",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "",
+                "_ignoreY": true,
+                "_fixInterNull": true,
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_duration": 1.0,
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 230,
+                "_steerType": "RETURN",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "",
+                "_ignoreY": true,
+                "_fixInterNull": true,
+                "_bindMovingTargetKey": ""
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigBlackScreenAction",
+                "_type": "BLACK_SCREEN",
+                "_duration": 0.5,
+                "_actionId": 215,
+                "_blackScreenType": "FROM_BLACK",
+                "_durationToBlack": 0.5,
+                "_durationKeepBlack": 0.5,
+                "_durationFromBlack": 0.5,
+                "_inteePos": "",
+                "_textMapID": "",
+                "_useTextFade": true
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_actionId": 107,
+                "_dialogID": 732570201,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 109,
+                "_dialogID": 732570202,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 111,
+                "_dialogID": 732570203,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogSelectAction",
+                "_type": "DIALOG_SELECT",
+                "_delayTime": 0.4000000059604645,
+                "_aliasList": [
+                    "AvatarNpc"
+                ],
+                "_actionId": 217,
+                "_dialogIDList": [
+                    732570204,
+                    732570205
+                ],
+                "_grpIDList": [
+                    3122218411,
+                    3122218411
+                ],
+                "_useGrpId": true,
+                "_countDownGrpId": 3122218406
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 114,
+                "_dialogID": 732570206,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 116,
+                "_dialogID": 732570207,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_actionId": 118,
+                "_dialogID": 732570208,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 120,
+                "_dialogID": 732570209,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogSelectAction",
+                "_type": "DIALOG_SELECT",
+                "_delayTime": 0.4000000059604645,
+                "_aliasList": [
+                    "AvatarNpc"
+                ],
+                "_actionId": 218,
+                "_dialogIDList": [
+                    732570210,
+                    732570212
+                ],
+                "_grpIDList": [
+                    3122218415,
+                    2299490153
+                ],
+                "_useGrpId": true,
+                "_countDownGrpId": 3122218406
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 123,
+                "_dialogID": 732570211,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 125,
+                "_dialogID": 732570213,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigSimpleBlackScreenAction",
+                "_type": "SIMPLE_BLACK_SCREEN",
+                "_actionId": 127,
+                "_durationToBlack": 0.5,
+                "_durationKeepBlack": 3.0,
+                "_durationFromBlack": 0.5,
+                "_textMapID": "",
+                "_useTextFade": true,
+                "_dialogID": 732570214
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG_CLEAR",
+                "_actionId": 128
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 130,
+                "_dialogID": 732570215,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 132,
+                "_dialogID": 732570216,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_actionId": 134,
+                "_dialogID": 732570217,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 136,
+                "_dialogID": 732570218,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 138,
+                "_dialogID": 732570219,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 140,
+                "_dialogID": 732570220,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 142,
+                "_dialogID": 732570221,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 144,
+                "_dialogID": 732570222,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 146,
+                "_dialogID": 732570223,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 148,
+                "_dialogID": 732570224,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 150,
+                "_dialogID": 732570225,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_actionId": 152,
+                "_dialogID": 732570226,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogSelectAction",
+                "_type": "DIALOG_SELECT",
+                "_delayTime": 0.4000000059604645,
+                "_aliasList": [
+                    "AvatarNpc"
+                ],
+                "_actionId": 219,
+                "_dialogIDList": [
+                    732570227
+                ],
+                "_grpIDList": [
+                    2299490188
+                ],
+                "_useGrpId": true,
+                "_countDownGrpId": 3122218406
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 155,
+                "_dialogID": 732570228,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 157,
+                "_dialogID": 732570229,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 159,
+                "_dialogID": 732570230,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 161,
+                "_dialogID": 732570231,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_actionId": 163,
+                "_dialogID": 732570232,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogSelectAction",
+                "_type": "DIALOG_SELECT",
+                "_delayTime": 0.4000000059604645,
+                "_aliasList": [
+                    "AvatarNpc"
+                ],
+                "_actionId": 220,
+                "_dialogIDList": [
+                    732570233
+                ],
+                "_grpIDList": [
+                    2299490193
+                ],
+                "_useGrpId": true,
+                "_countDownGrpId": 3122218406
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "20883"
+                ],
+                "_actionId": 166,
+                "_dialogID": 732570234,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 168,
+                "_dialogID": 732570235,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 170,
+                "_dialogID": 732570236,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 172,
+                "_dialogID": 732570237,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "20883"
+                ],
+                "_actionId": 174,
+                "_dialogID": 732570238,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 176,
+                "_dialogID": 732570239,
+                "_protectTime": 0.5
+            },
+            {
+                "$type": "MoleMole.Config.ConfigDialogSelectAction",
+                "_type": "DIALOG_SELECT",
+                "_delayTime": 0.4000000059604645,
+                "_aliasList": [
+                    "AvatarNpc"
+                ],
+                "_actionId": 221,
+                "_dialogIDList": [
+                    732570240
+                ],
+                "_grpIDList": [
+                    2299490220
+                ],
+                "_useGrpId": true,
+                "_countDownGrpId": 3122218406
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_actionId": 179,
+                "_dialogID": 732570241,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 181,
+                "_dialogID": 732570242,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 183,
+                "_dialogID": 732570243,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 185,
+                "_dialogID": 732570244,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 187,
+                "_dialogID": 732570245,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 189,
+                "_dialogID": 732570246,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "1005"
+                ],
+                "_actionId": 191,
+                "_dialogID": 732570247,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 193,
+                "_dialogID": 732570248,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 195,
+                "_dialogID": 732570249,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 197,
+                "_dialogID": 732570250,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 199,
+                "_dialogID": 732570251,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 201,
+                "_dialogID": 732570252,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 203,
+                "_dialogID": 732570253,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 205,
+                "_dialogID": 732570254,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "20883"
+                ],
+                "_actionId": 207,
+                "_dialogID": 732570255,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 209,
+                "_dialogID": 732570256,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigDialogInterAction",
+                "_type": "DIALOG",
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 211,
+                "_dialogID": 732570257,
+                "_protectTime": 0.5
+            }
+        ],
+        [
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 0.10000000149011612,
+                "_actionId": 105
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSimpleBlackScreenAction",
+                "_type": "SIMPLE_BLACK_SCREEN",
+                "_actionId": 212,
+                "_durationToBlack": 0.5,
+                "_durationKeepBlack": 1.5,
+                "_durationFromBlack": 0.5,
+                "_textMapID": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigTimeProtectAction",
+                "_type": "TIME_PROTECT",
+                "_duration": 0.699999988079071,
+                "_actionId": 213
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_duration": 1.0,
+                "_aliasList": [
+                    "AvatarNpc"
+                ],
+                "_actionId": 225,
+                "_steerType": "RETURN",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "",
+                "_ignoreY": true,
+                "_fixInterNull": true,
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_duration": 1.0,
+                "_aliasList": [
+                    "1005"
+                ],
+                "_actionId": 227,
+                "_steerType": "RETURN",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "",
+                "_ignoreY": true,
+                "_fixInterNull": true,
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_duration": 1.0,
+                "_aliasList": [
+                    "20883"
+                ],
+                "_actionId": 229,
+                "_steerType": "RETURN",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "",
+                "_ignoreY": true,
+                "_fixInterNull": true,
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigSteerInterAction",
+                "_type": "STEER_TO",
+                "_duration": 1.0,
+                "_aliasList": [
+                    "4284"
+                ],
+                "_actionId": 231,
+                "_steerType": "RETURN",
+                "_useSteerAnim": true,
+                "_interruptFreestyle": true,
+                "_forceSteer": true,
+                "_targetNpcAlias": "",
+                "_ignoreY": true,
+                "_fixInterNull": true,
+                "_bindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigCameraMoveInterAction",
+                "_type": "CAMERA_MOVE",
+                "_delayTime": 0.5,
+                "_duration": 0.10000000149011612,
+                "_actionId": 216,
+                "_cameraPosType": "EXIT",
+                "_camForwardTargetOffset": {
+                    "_z": 1.0
+                },
+                "_camFov": 30.0,
+                "_lerpPattern": 5,
+                "_cameraBlendType": "EaseInOutCubic",
+                "_cutFrameTrans": {},
+                "_openCameraDither": false,
+                "_targetNpcAlias": "",
+                "_closeTreeLeafDither": true,
+                "_posBindMovingTargetKey": "",
+                "_targetBindMovingTargetKey": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigVisibleInterAction",
+                "_type": "VISIBLE",
+                "_delayTime": 0.6000000238418579,
+                "_aliasList": [
+                    "Avatar"
+                ],
+                "_actionId": 232,
+                "_isVisible": true,
+                "_extraParam": ""
+            },
+            {
+                "$type": "MoleMole.Config.ConfigVisibleInterAction",
+                "_type": "VISIBLE",
+                "_delayTime": 0.6000000238418579,
+                "_aliasList": [
+                    "AvatarNpc"
+                ],
+                "_actionId": 234,
+                "_extraParam": ""
+            }
+        ]
+    ],
+    "JCFGGIACLFH": [
+        {
+            "_grpId": 3122218407,
+            "_nextGrpId": 3122218408
+        },
+        {
+            "_index": 1,
+            "_grpId": 3122218408,
+            "_nextGrpId": 3122218409
+        },
+        {
+            "_index": 2,
+            "_grpId": 3122218409,
+            "_nextGrpId": 3122218410
+        },
+        {
+            "_index": 3,
+            "_grpId": 3122218410,
+            "_nextGrpId": 3122218411
+        },
+        {
+            "_index": 4,
+            "_grpId": 3122218411,
+            "_nextGrpId": 3122218412
+        },
+        {
+            "_index": 5,
+            "_grpId": 3122218412,
+            "_nextGrpId": 3122218413
+        },
+        {
+            "_index": 6,
+            "_grpId": 3122218413,
+            "_nextGrpId": 3122218414
+        },
+        {
+            "_index": 7,
+            "_grpId": 3122218414,
+            "_nextGrpId": 3122218415
+        },
+        {
+            "_index": 8,
+            "_grpId": 3122218415,
+            "_nextGrpId": 2299490154
+        },
+        {
+            "_index": 9,
+            "_grpId": 2299490153,
+            "_nextGrpId": 2299490154
+        },
+        {
+            "_index": 10,
+            "_grpId": 2299490154,
+            "_nextGrpId": 2299490155
+        },
+        {
+            "_index": 11,
+            "_grpId": 2299490155,
+            "_nextGrpId": 2299490156
+        },
+        {
+            "_index": 12,
+            "_grpId": 2299490156,
+            "_nextGrpId": 2299490157
+        },
+        {
+            "_index": 13,
+            "_grpId": 2299490157,
+            "_nextGrpId": 2299490158
+        },
+        {
+            "_index": 14,
+            "_grpId": 2299490158,
+            "_nextGrpId": 2299490159
+        },
+        {
+            "_index": 15,
+            "_grpId": 2299490159,
+            "_nextGrpId": 2299490160
+        },
+        {
+            "_index": 16,
+            "_grpId": 2299490160,
+            "_nextGrpId": 2299490161
+        },
+        {
+            "_index": 17,
+            "_grpId": 2299490161,
+            "_nextGrpId": 2299490162
+        },
+        {
+            "_index": 18,
+            "_grpId": 2299490162,
+            "_nextGrpId": 2299490184
+        },
+        {
+            "_index": 19,
+            "_grpId": 2299490184,
+            "_nextGrpId": 2299490185
+        },
+        {
+            "_index": 20,
+            "_grpId": 2299490185,
+            "_nextGrpId": 2299490186
+        },
+        {
+            "_index": 21,
+            "_grpId": 2299490186,
+            "_nextGrpId": 2299490187
+        },
+        {
+            "_index": 22,
+            "_grpId": 2299490187,
+            "_nextGrpId": 2299490188
+        },
+        {
+            "_index": 23,
+            "_grpId": 2299490188,
+            "_nextGrpId": 2299490189
+        },
+        {
+            "_index": 24,
+            "_grpId": 2299490189,
+            "_nextGrpId": 2299490190
+        },
+        {
+            "_index": 25,
+            "_grpId": 2299490190,
+            "_nextGrpId": 2299490191
+        },
+        {
+            "_index": 26,
+            "_grpId": 2299490191,
+            "_nextGrpId": 2299490192
+        },
+        {
+            "_index": 27,
+            "_grpId": 2299490192,
+            "_nextGrpId": 2299490193
+        },
+        {
+            "_index": 28,
+            "_grpId": 2299490193,
+            "_nextGrpId": 2299490215
+        },
+        {
+            "_index": 29,
+            "_grpId": 2299490215,
+            "_nextGrpId": 2299490216
+        },
+        {
+            "_index": 30,
+            "_grpId": 2299490216,
+            "_nextGrpId": 2299490217
+        },
+        {
+            "_index": 31,
+            "_grpId": 2299490217,
+            "_nextGrpId": 2299490218
+        },
+        {
+            "_index": 32,
+            "_grpId": 2299490218,
+            "_nextGrpId": 2299490219
+        },
+        {
+            "_index": 33,
+            "_grpId": 2299490219,
+            "_nextGrpId": 2299490220
+        },
+        {
+            "_index": 34,
+            "_grpId": 2299490220,
+            "_nextGrpId": 2299490221
+        },
+        {
+            "_index": 35,
+            "_grpId": 2299490221,
+            "_nextGrpId": 2299490222
+        },
+        {
+            "_index": 36,
+            "_grpId": 2299490222,
+            "_nextGrpId": 2299490223
+        },
+        {
+            "_index": 37,
+            "_grpId": 2299490223,
+            "_nextGrpId": 2299490224
+        },
+        {
+            "_index": 38,
+            "_grpId": 2299490224,
+            "_nextGrpId": 2299490246
+        },
+        {
+            "_index": 39,
+            "_grpId": 2299490246,
+            "_nextGrpId": 2299490247
+        },
+        {
+            "_index": 40,
+            "_grpId": 2299490247,
+            "_nextGrpId": 2299490248
+        },
+        {
+            "_index": 41,
+            "_grpId": 2299490248,
+            "_nextGrpId": 2299490249
+        },
+        {
+            "_index": 42,
+            "_grpId": 2299490249,
+            "_nextGrpId": 2299490250
+        },
+        {
+            "_index": 43,
+            "_grpId": 2299490250,
+            "_nextGrpId": 2299490251
+        },
+        {
+            "_index": 44,
+            "_grpId": 2299490251,
+            "_nextGrpId": 2299490252
+        },
+        {
+            "_index": 45,
+            "_grpId": 2299490252,
+            "_nextGrpId": 2299490253
+        },
+        {
+            "_index": 46,
+            "_grpId": 2299490253,
+            "_nextGrpId": 2299490254
+        },
+        {
+            "_index": 47,
+            "_grpId": 2299490254,
+            "_nextGrpId": 2299490255
+        },
+        {
+            "_index": 48,
+            "_grpId": 2299490255,
+            "_nextGrpId": 2299490277
+        },
+        {
+            "_index": 49,
+            "_grpId": 2299490277,
+            "_nextGrpId": 2299490278
+        },
+        {
+            "_index": 50,
+            "_grpId": 2299490278,
+            "_nextGrpId": 2299490279
+        },
+        {
+            "_index": 51,
+            "_grpId": 2299490279,
+            "_nextGrpId": 2299490280
+        }
+    ],
+    "KMHJFCOCNNG": {
+        "1025": [],
+        "1026": [],
+        "20883": [],
+        "4284": []
+    }
+}

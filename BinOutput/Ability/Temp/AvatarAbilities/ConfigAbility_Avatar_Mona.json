@@ -1,0 +1,4174 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Liquid_TriggerAbility",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "EFPIJGAOELN",
+                    "MAJPPKBABEP": 10413,
+                    "FMCFEGHEDKE": "NextLoopTrigger",
+                    "NEFIGMNMCEN": "EndHoldTrigger",
+                    "NDPGGLPHPEB": [
+                        "LiquidStrike_BS"
+                    ],
+                    "GPLNHHKHPOE": [
+                        "LiquidStrike_BS1",
+                        "LiquidStrike_Move",
+                        "LiquidStrike_MoveStandby"
+                    ],
+                    "PIGFKEELFOD": [
+                        0.009999999776482582,
+                        60.0
+                    ]
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_Move"
+                    ],
+                    "PEJCGBFFICP": "LiquidStrike_SetAnimatorTrigger"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "StaminaStartCost": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "LiquidStrike_SetAnimatorTrigger": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "GAKJAFJMAHP",
+                                    "FJJKDHKEGEF": "LesserOrEqual",
+                                    "DKBDFAFJEFB": 1.0
+                                }
+                            ],
+                            "EGPFMEPFOPG": "EndHoldTrigger"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "NKKNGELFJNJ",
+                    "MAJPPKBABEP": 10413,
+                    "KMEPPEJEDFP": 1.0,
+                    "LIEOPDIDDEI": "StaminaStartCost"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_LiquidStrike",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "CGNGGHAEALM",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_BS_0",
+                        "LiquidStrike_BS",
+                        "LiquidStrike_BS1",
+                        "LiquidStrike_Move",
+                        "LiquidStrike_MoveStandby"
+                    ]
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_BS1",
+                        "LiquidStrike_Move",
+                        "LiquidStrike_FatalMove"
+                    ],
+                    "PEJCGBFFICP": "MoveLoop"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_BS",
+                        "LiquidStrike_BS1",
+                        "LiquidStrike_Move",
+                        "LiquidStrike_MoveStandby"
+                    ],
+                    "PEJCGBFFICP": "MoveLoop_SetVisible"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_MoveStandby"
+                    ],
+                    "PEJCGBFFICP": "MoveStandby_CostStamina"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_AS",
+                        "LiquidStrike_AS_OnWater"
+                    ],
+                    "PEJCGBFFICP": "Water_Bloom"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_AS",
+                        "LiquidStrike_AS_OnWater"
+                    ],
+                    "PEJCGBFFICP": "SetAnimatorFloat"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_Move",
+                        "LiquidStrike_FatalMove"
+                    ],
+                    "PEJCGBFFICP": "Move_Eff"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_MoveStandby",
+                        "LiquidStrike_FatalStandby"
+                    ],
+                    "PEJCGBFFICP": "MoveStandby_Eff"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_Move",
+                        "LiquidStrike_MoveStandby",
+                        "LiquidStrike_FatalMove",
+                        "LiquidStrike_FatalStandby"
+                    ],
+                    "PEJCGBFFICP": "LiquidStrike_CloseCollider"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "LiquidStrike_MoveSpeedRatio": 0.0,
+                "Water_Bloom_Radius": 2.0,
+                "StaminaCost": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "MoveLoop": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "BHOBCAMDJJA",
+                            "AKCKFPJGGPH": "StaminaCost",
+                            "OBAOKOALADH": [
+                                {
+                                    "$type": "BMDJIKAKJBA",
+                                    "EGPFMEPFOPG": "EndHoldTrigger"
+                                }
+                            ]
+                        },
+                        {
+                            "$type": "FEHLJMDEOEJ"
+                        }
+                    ]
+                },
+                "MoveStandby_CostStamina": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "BHOBCAMDJJA",
+                            "AKCKFPJGGPH": 0.10000000149011612,
+                            "OBAOKOALADH": [
+                                {
+                                    "$type": "BMDJIKAKJBA",
+                                    "EGPFMEPFOPG": "EndHoldTrigger"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "MoveLoop_SetVisible": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "IGJKFBBMDGI",
+                            "EIFHKAKNIBJ": true
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "IGJKFBBMDGI",
+                            "EIFHKAKNIBJ": true,
+                            "NLKCEFJEEEP": true
+                        }
+                    ]
+                },
+                "Move_Eff": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Animator_MoveSpeedRatio": "LiquidStrike_MoveSpeedRatio"
+                    },
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_LiquidStrike_Spray",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "JGIEEEJENCK": true
+                },
+                "MoveStandby_Eff": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_LiquidStrike_Idle",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "Water_Bloom": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "HEPODMKCFLI",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA",
+                                        "KFHPDJBPILF": {
+                                            "GCAICJCAEGC": 0.0,
+                                            "OHEABNAJGMK": 0.0,
+                                            "GCFAGHEGMOK": 0.10000000149011612
+                                        }
+                                    },
+                                    "LAGKLBKPJOD": "Water_Bloom_Radius"
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "",
+                                    "FBHEHNEKCEC": "Mona_LiquidStrike",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": 0.0,
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Water",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "OOCKJPLEGJK": 0.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "",
+                                        "IMPBPALEIPI": "LV2",
+                                        "MGAHMIHLGPO": 0.009999999776482582
+                                    },
+                                    "EJGFDAAGMMB": {}
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "DCHBNFCPPAP": {
+                                "$type": "PDJJFHICINN",
+                                "DOODOCCOFPO": [
+                                    "equip01",
+                                    "sheathPoint"
+                                ]
+                            },
+                            "PEJCGBFFICP": "WaterModifier"
+                        }
+                    ]
+                },
+                "WaterModifier": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 4.0,
+                    "JPNOHJMPEGF": "Water",
+                    "DJHMCMJNDJL": 25.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Monster"
+                                    ]
+                                }
+                            ],
+                            "CGLDJGDLIHP": "Eff_Barbara_WetShield_Collision_Self",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "SetAnimatorFloat": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.10000000149011612,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "GHBFKENKHAK",
+                            "OLABGELNNJI": "@FallToGroundRun",
+                            "HPDLNIPCGHB": 1.0
+                        }
+                    ]
+                },
+                "LiquidStrike_CloseCollider": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "FFJNCBCBPJN",
+                            "JDHDGONGNNK": true
+                        },
+                        {
+                            "$type": "IKOLALMCGPM",
+                            "HBOOGLCLDIF": "Default"
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "FFJNCBCBPJN",
+                            "EIFHKAKNIBJ": true
+                        },
+                        {
+                            "$type": "IKOLALMCGPM",
+                            "PFBHFLMLIJP": true,
+                            "KEEJFLJBFKM": true,
+                            "HBOOGLCLDIF": "Default"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "FFJNCBCBPJN",
+                    "EIFHKAKNIBJ": true,
+                    "PFBHFLMLIJP": true
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_EndLiquidStrike",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BMDJIKAKJBA",
+                    "EGPFMEPFOPG": "NextSkillTrigger"
+                },
+                {
+                    "$type": "DFHFEMNGANP",
+                    "CMOCNBDEJGD": "SkillID",
+                    "HPDLNIPCGHB": 0.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_ExtraAttack",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "OHEBLFGEJKK",
+                    "MAJPPKBABEP": 10411,
+                    "GCNNMGBCAHB": 0.10000000149011612,
+                    "BIIGLLHCGKK": 0.10000000149011612,
+                    "HPCLJDPGLCD": [
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NDEANBBEFPN",
+                                    "FJJKDHKEGEF": "Equal",
+                                    "HPDLNIPCGHB": 0,
+                                    "KMJJNGEHKOD": "ComboCount"
+                                }
+                            ],
+                            "EGPFMEPFOPG": "DoSkill"
+                        },
+                        {
+                            "$type": "DFHFEMNGANP",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NDEANBBEFPN",
+                                    "FJJKDHKEGEF": "Equal",
+                                    "HPDLNIPCGHB": 0,
+                                    "KMJJNGEHKOD": "ComboCount"
+                                }
+                            ],
+                            "CMOCNBDEJGD": "SkillID",
+                            "HPDLNIPCGHB": 99.0
+                        },
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "IsCharging"
+                        }
+                    ],
+                    "BJCJNKMLANA": [
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "EGPFMEPFOPG": "DoSkill"
+                        },
+                        {
+                            "$type": "DFHFEMNGANP",
+                            "CMOCNBDEJGD": "SkillID",
+                            "HPDLNIPCGHB": 1.0
+                        }
+                    ],
+                    "IPDKMPHBOLP": [
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "IsCharging",
+                            "HPDLNIPCGHB": true
+                        }
+                    ],
+                    "KNNBBPFKCNK": [
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "IsCharging"
+                        },
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "EGPFMEPFOPG": "DoSkill"
+                        },
+                        {
+                            "$type": "DFHFEMNGANP",
+                            "CMOCNBDEJGD": "SkillID",
+                            "HPDLNIPCGHB": 1.0
+                        }
+                    ],
+                    "APDLPOGMECC": [
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "EGPFMEPFOPG": "DoSkill"
+                        },
+                        {
+                            "$type": "DFHFEMNGANP",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "GAKJAFJMAHP",
+                                    "FJJKDHKEGEF": "GreaterOrEqual",
+                                    "DKBDFAFJEFB": [
+                                        "ExtraAttack_Catalyst_Stamina_Cost",
+                                        "Mona_ExtraAttack_StaminaCost",
+                                        "MUL",
+                                        "Flexible_Stamina",
+                                        "ADD"
+                                    ]
+                                }
+                            ],
+                            "CMOCNBDEJGD": "SkillID",
+                            "HPDLNIPCGHB": 6.0
+                        },
+                        {
+                            "$type": "DFHFEMNGANP",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "GAKJAFJMAHP",
+                                    "FJJKDHKEGEF": "Lesser",
+                                    "DKBDFAFJEFB": [
+                                        "ExtraAttack_Catalyst_Stamina_Cost",
+                                        "Mona_ExtraAttack_StaminaCost",
+                                        "MUL",
+                                        "Flexible_Stamina",
+                                        "ADD"
+                                    ]
+                                }
+                            ],
+                            "CMOCNBDEJGD": "SkillID",
+                            "HPDLNIPCGHB": 1.0
+                        },
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "IsCharging"
+                        }
+                    ],
+                    "PEBPEAOMNBK": [
+                        "Attack01",
+                        "Attack02",
+                        "Attack03",
+                        "ExtraAttack_BS",
+                        "ExtraAttack_Charge",
+                        "ExtraAttack",
+                        "ExtraAttack_AS"
+                    ]
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "ExtraAttack_Charge"
+                    ],
+                    "PEJCGBFFICP": "ExtraAttack_StaminaCost"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "Mona_ExtraAttack_StaminaCost": 1.0,
+                "ExtraAttack_Catalyst_Stamina_Cost": 0.0,
+                "Flexible_Stamina": -2.0
+            },
+            "OJEBMMAGKOF": {
+                "ExtraAttack_StaminaCost": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "NKKNGELFJNJ",
+                            "MAJPPKBABEP": 10003,
+                            "KMEPPEJEDFP": 1.0,
+                            "LIEOPDIDDEI": [
+                                "Mona_ExtraAttack_StaminaCost",
+                                "ExtraAttack_Catalyst_Stamina_Cost",
+                                "MUL"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_ExtraAttack_FX",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "ExtraAttack_Charge",
+                        "ExtraAttack"
+                    ],
+                    "PEJCGBFFICP": "ExtraAttack_FX"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "ExtraAttack_FX": {
+                    "BOKEOPPFJJC": "Multiple",
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 5.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "IHEACBKMIDM",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "IKDEONFGFAF",
+                                    "KHPFBKFKIMJ": [
+                                        {
+                                            "$type": "AEHMGIGMOLO"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "EPDHICCGHAL": "_ABILITY_MONA_EXTRAATTACK_POS",
+                            "PGCCMJFMBOF": {
+                                "$type": "DMIMDDKPKHA",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 0.0,
+                                    "GCFAGHEGMOK": 5.0
+                                },
+                                "DAODHDFFELL": true
+                            },
+                            "BACGKPCGGLD": false
+                        },
+                        {
+                            "$type": "IHEACBKMIDM",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "AEHMGIGMOLO"
+                                }
+                            ],
+                            "EPDHICCGHAL": "_ABILITY_MONA_EXTRAATTACK_POS",
+                            "BACGKPCGGLD": false
+                        },
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_ExtraAttack_Pre",
+                            "PGCCMJFMBOF": {
+                                "$type": "NMIOKIDAKJJ",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 1.0,
+                                    "GCFAGHEGMOK": 0.0
+                                },
+                                "DAODHDFFELL": true,
+                                "FFFKFDAPFMB": "_ABILITY_MONA_EXTRAATTACK_POS",
+                                "LELFJGLBOGO": ""
+                            },
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_ExtraAttack_Damage",
+            "ABGJNGNECKP": {
+                "AS_Mona_ExtraAttack_Damge": 0.0,
+                "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp": 0.0
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "ALLDMMABLIM",
+                    "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_ExtraAttack",
+                    "PGCCMJFMBOF": {
+                        "$type": "NMIOKIDAKJJ",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 1.0,
+                            "GCFAGHEGMOK": 0.0
+                        },
+                        "DAODHDFFELL": true,
+                        "FFFKFDAPFMB": "_ABILITY_MONA_EXTRAATTACK_POS",
+                        "LELFJGLBOGO": ""
+                    },
+                    "LMEAGKCCLON": -1.0
+                },
+                {
+                    "$type": "FMHCKOKPEPO",
+                    "PMMKLHAOKCG": "Caster",
+                    "AMOOLHDIAIH": "Mona_Talent_LiquidStrike_Move_ExtraAttackDamageUp",
+                    "KFHDNIDDHID": "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp"
+                },
+                {
+                    "$type": "BMHCHONNBKK",
+                    "PMMKLHAOKCG": "Caster",
+                    "EPDHICCGHAL": "Mona_Talent_LiquidStrike_Move_ExtraAttackDamageUp"
+                },
+                {
+                    "$type": "EONOAKNDNMO",
+                    "PMMKLHAOKCG": "Caster",
+                    "PEJCGBFFICP": "UNIQUE_Talent_LiquidStrike_Move_ExtraAttackDamageUp_Duration"
+                },
+                {
+                    "$type": "HNMEPMFMCEP",
+                    "PMMKLHAOKCG": "Caster",
+                    "EEBDJIHOMKG": {
+                        "MNACMFPGGJM": {
+                            "$type": "BHDHGOPPAPF",
+                            "KIALPPECALL": "TriggerNoRepeat",
+                            "PGCCMJFMBOF": {
+                                "$type": "NMIOKIDAKJJ",
+                                "FFFKFDAPFMB": "_ABILITY_MONA_EXTRAATTACK_POS",
+                                "LELFJGLBOGO": ""
+                            },
+                            "LAGKLBKPJOD": 3.0
+                        },
+                        "MKDNKDGFHOB": {
+                            "NCHHOHMMGLO": "ExtraAttack",
+                            "FBHEHNEKCEC": "",
+                            "JJDHKGHLAPG": "default",
+                            "ECAAIDPICHF": {
+                                "BHIHBFJCJMF": "AS_Mona_ExtraAttack_Damge",
+                                "MPFFDBKNGKK": "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp",
+                                "JPNOHJMPEGF": "Water",
+                                "DJHMCMJNDJL": 25.0,
+                                "GIDLGFOGCPI": "Default",
+                                "OOCKJPLEGJK": 26.145000457763672
+                            },
+                            "NBOPNJKHONH": {
+                                "EFMEOMPPGGB": "Eff_Avatar_Girl_Catalyst_Mona_ExtraAttack_Hit",
+                                "IMPBPALEIPI": "LV3",
+                                "MGAHMIHLGPO": 0.05000000074505806
+                            },
+                            "EPCGKKCGCAG": true,
+                            "EJGFDAAGMMB": {
+                                "NMOJMMOFAFI": "CustomVector",
+                                "BGKHGAABBML": 0.11999999731779099,
+                                "NNMNPIKPKIA": 0.36000001430511475,
+                                "MMOENDKOMCP": 30.0,
+                                "MLGICLMHNFB": {
+                                    "_y": -1.0
+                                },
+                                "NKMFPPHEILP": {
+                                    "BLBBHMBGBKE": 0.7200000286102295,
+                                    "HOFMPPAAJGN": 0.0,
+                                    "LNOJLHBAKFC": 0.30000001192092896
+                                }
+                            }
+                        }
+                    },
+                    "HDHMLBLHGPD": "Enemy"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_NormalAttack_01",
+            "ABGJNGNECKP": {
+                "AS_Mona_NormalAttack_01": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Mona_NormalAttack": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.30000001192092896,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "PMMKLHAOKCG": "Caster",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "BHDHGOPPAPF",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "LAMNGOHKHHL",
+                                        "ABMNEGGKEIC": "RootNode",
+                                        "PLOMBNHGAHG": "Self"
+                                    },
+                                    "LAGKLBKPJOD": 1.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "NormalAttack_01",
+                                    "FBHEHNEKCEC": "Mona_Water_Damage",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": "AS_Mona_NormalAttack_01",
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Water",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 7.650000095367432
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "Eff_Avatar_Girl_Catalyst_Mona_NormalAttack_01_Hit",
+                                        "IMPBPALEIPI": "LV1",
+                                        "MGAHMIHLGPO": 0.05000000074505806
+                                    }
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PMMKLHAOKCG": "SelfAttackTarget",
+                    "PEJCGBFFICP": "Mona_NormalAttack"
+                },
+                {
+                    "$type": "ALLDMMABLIM",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "IKDEONFGFAF",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "AEHMGIGMOLO"
+                                }
+                            ]
+                        }
+                    ],
+                    "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_NormalAttack_01_Hit",
+                    "PGCCMJFMBOF": {
+                        "$type": "PNNEAJJGDMO",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 1.0,
+                            "GCFAGHEGMOK": 5.0
+                        }
+                    },
+                    "LMEAGKCCLON": -1.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_NormalAttack_02",
+            "ABGJNGNECKP": {
+                "AS_Mona_NormalAttack_02": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Mona_NormalAttack": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.30000001192092896,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "PMMKLHAOKCG": "Caster",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "BHDHGOPPAPF",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "LAMNGOHKHHL",
+                                        "ABMNEGGKEIC": "RootNode",
+                                        "PLOMBNHGAHG": "Self"
+                                    },
+                                    "LAGKLBKPJOD": 1.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "NormalAttack_02",
+                                    "FBHEHNEKCEC": "Mona_Water_Damage",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": "AS_Mona_NormalAttack_02",
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Water",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 7.349999904632568
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "Eff_Avatar_Girl_Catalyst_Mona_NormalAttack_02_Hit",
+                                        "IMPBPALEIPI": "LV1",
+                                        "MGAHMIHLGPO": 0.05000000074505806
+                                    }
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PMMKLHAOKCG": "SelfAttackTarget",
+                    "PEJCGBFFICP": "Mona_NormalAttack"
+                },
+                {
+                    "$type": "ALLDMMABLIM",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "IKDEONFGFAF",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "AEHMGIGMOLO"
+                                }
+                            ]
+                        }
+                    ],
+                    "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_NormalAttack_02_Hit",
+                    "PGCCMJFMBOF": {
+                        "$type": "PNNEAJJGDMO",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 1.0,
+                            "GCFAGHEGMOK": 5.0
+                        }
+                    },
+                    "LMEAGKCCLON": -1.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_NormalAttack_03_BS",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "HJKKPJOLGPE",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "IKDEONFGFAF",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "AEHMGIGMOLO"
+                                }
+                            ]
+                        }
+                    ],
+                    "LBCPMFOBIBI": "Is_NormalAttack_Blink_Back",
+                    "HPDLNIPCGHB": true
+                },
+                {
+                    "$type": "HGKGGEKHOBB",
+                    "DCHBNFCPPAP": {
+                        "$type": "LBLIPELFECO",
+                        "CBJJIKKCCKD": 1,
+                        "HODFEAPMHID": "Nearest",
+                        "DEMBLENCNFF": "CircleR15",
+                        "KMMEFEBGIKH": "Enemy",
+                        "BAGGOAFKGJE": 1.0
+                    },
+                    "PILMKPPOHPN": [
+                        {
+                            "$type": "MPDDDDJICAK",
+                            "FJJKDHKEGEF": "GreaterOrEqual",
+                            "HPDLNIPCGHB": 7.5
+                        }
+                    ],
+                    "BDJHNHMPGDB": [
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "Is_NormalAttack_Blink_Back"
+                        }
+                    ],
+                    "BLCNENOAPBF": [
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "Is_NormalAttack_Blink_Back",
+                            "HPDLNIPCGHB": true
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_NormalAttack_03_Blink",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Attack03_Forward",
+                        "Attack03_Back"
+                    ],
+                    "PEJCGBFFICP": "Blink"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Blink": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.2199999988079071,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Attack_HideSpark",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "IGJKFBBMDGI"
+                        },
+                        {
+                            "$type": "FFJNCBCBPJN",
+                            "EIFHKAKNIBJ": true,
+                            "JDHDGONGNNK": true
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "NBDDIEABDAC",
+                            "NGLAEHDDFEO": "OnlyTarget"
+                        },
+                        {
+                            "$type": "IGJKFBBMDGI",
+                            "EIFHKAKNIBJ": true,
+                            "NLKCEFJEEEP": true
+                        },
+                        {
+                            "$type": "FFJNCBCBPJN",
+                            "EIFHKAKNIBJ": true,
+                            "PFBHFLMLIJP": true
+                        },
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Attack_ShowSpark",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "DCHBNFCPPAP": {
+                                "$type": "PDJJFHICINN",
+                                "DOODOCCOFPO": [
+                                    "equip02"
+                                ]
+                            },
+                            "EGPFMEPFOPG": "Attack"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_NormalAttack_03",
+            "ABGJNGNECKP": {
+                "AS_Mona_NormalAttack_03": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Mona_NormalAttack": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.30000001192092896,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "PMMKLHAOKCG": "Caster",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "BHDHGOPPAPF",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "LAMNGOHKHHL",
+                                        "ABMNEGGKEIC": "RootNode",
+                                        "PLOMBNHGAHG": "Self"
+                                    },
+                                    "LAGKLBKPJOD": 1.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "NormalAttack_03",
+                                    "FBHEHNEKCEC": "Mona_Water_Damage",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": "AS_Mona_NormalAttack_03",
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Water",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 9.149999618530273
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "Eff_Avatar_Girl_Catalyst_Mona_NormalAttack_03_Hit",
+                                        "IMPBPALEIPI": "LV1"
+                                    }
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PMMKLHAOKCG": "SelfAttackTarget",
+                    "PEJCGBFFICP": "Mona_NormalAttack"
+                },
+                {
+                    "$type": "ALLDMMABLIM",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "IKDEONFGFAF",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "AEHMGIGMOLO"
+                                }
+                            ]
+                        }
+                    ],
+                    "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_NormalAttack_03_Hit",
+                    "PGCCMJFMBOF": {
+                        "$type": "PNNEAJJGDMO",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 1.0,
+                            "GCFAGHEGMOK": 5.0
+                        }
+                    },
+                    "LMEAGKCCLON": -1.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_NormalAttack_04",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "PMMKLHAOKCG": "SelfAttackTarget",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "AEHMGIGMOLO"
+                        }
+                    ],
+                    "PGCCMJFMBOF": {
+                        "$type": "PEPDHDKCMAM",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 1.0,
+                            "GCFAGHEGMOK": 0.0
+                        }
+                    },
+                    "JHKKFFKBNCH": 41041004,
+                    "BGHDJPBKDEB": 1001,
+                    "KMMEFEBGIKH": "Enemy"
+                },
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "IKDEONFGFAF",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "AEHMGIGMOLO"
+                                }
+                            ]
+                        }
+                    ],
+                    "PGCCMJFMBOF": {
+                        "$type": "PNNEAJJGDMO",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 1.2000000476837158,
+                            "GCFAGHEGMOK": 5.0
+                        },
+                        "DAODHDFFELL": true
+                    },
+                    "JHKKFFKBNCH": 41041004,
+                    "BGHDJPBKDEB": 1001,
+                    "KMMEFEBGIKH": "Enemy"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_NormalAttack_04_Hit",
+            "ABGJNGNECKP": {
+                "Radius": 2.0,
+                "AS_Mona_NormalAttack_04": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Attack04_Timer": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.41999998688697815,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "PMMKLHAOKCG": "OriginOwner",
+                            "EIFHKAKNIBJ": true,
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "BHDHGOPPAPF",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA",
+                                        "KFHPDJBPILF": {
+                                            "GCAICJCAEGC": 0.0,
+                                            "OHEABNAJGMK": 0.0,
+                                            "GCFAGHEGMOK": 0.0
+                                        }
+                                    },
+                                    "LAGKLBKPJOD": "Radius"
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "NormalAttack_04",
+                                    "FBHEHNEKCEC": "Mona_Water_Damage",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": "AS_Mona_NormalAttack_04",
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Water",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 11.850000381469727
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "default",
+                                        "IMPBPALEIPI": "LV2",
+                                        "MGAHMIHLGPO": 0.05000000074505806
+                                    },
+                                    "EJGFDAAGMMB": {
+                                        "BGKHGAABBML": 0.23999999463558197,
+                                        "NNMNPIKPKIA": 0.18000000715255737,
+                                        "MMOENDKOMCP": 30.0
+                                    }
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Attack04_Timer"
+                },
+                {
+                    "$type": "ALLDMMABLIM",
+                    "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_NormalAttack_04_Hit",
+                    "LMEAGKCCLON": -1.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Phantom_BS",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BMHCHONNBKK",
+                    "EPDHICCGHAL": "_MONA_PHANTOM_IS_BLINK"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Phantom_Blink_BS",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": 1.0,
+                    "EPDHICCGHAL": "_MONA_PHANTOM_IS_BLINK",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 1.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Phantom",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "EFPIJGAOELN",
+                    "MAJPPKBABEP": 10412,
+                    "FMCFEGHEDKE": "NextLoopTrigger",
+                    "NEFIGMNMCEN": "EndHoldTrigger",
+                    "NDPGGLPHPEB": [
+                        "Mona_Phantom_CheckIsBlink"
+                    ],
+                    "GPLNHHKHPOE": [
+                        "Mona_Phantom_BS",
+                        "Mona_Phantom_Blink_BS"
+                    ],
+                    "PIGFKEELFOD": [
+                        0.30000001192092896
+                    ]
+                }
+            ],
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "KLKICJMDJGA",
+                    "ADHBOLFNKJB": {
+                        "ODGMMOKFFMI": 41041005
+                    }
+                },
+                {
+                    "$type": "NKKNGELFJNJ",
+                    "MAJPPKBABEP": 10412,
+                    "KMEPPEJEDFP": 1.0,
+                    "LIEOPDIDDEI": 1.0
+                },
+                {
+                    "$type": "IHEACBKMIDM",
+                    "PMMKLHAOKCG": "SelfAttackTarget",
+                    "EPDHICCGHAL": "_ABILITY_MONA_PHANTOM_POS",
+                    "BACGKPCGGLD": false
+                },
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "AEHMGIGMOLO"
+                        }
+                    ],
+                    "PGCCMJFMBOF": {
+                        "$type": "NMIOKIDAKJJ",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": -0.800000011920929
+                        },
+                        "DAODHDFFELL": true,
+                        "HBCDGKBFJKD": {
+                            "$type": "KIFGLLNNMFF"
+                        },
+                        "FFFKFDAPFMB": "_ABILITY_MONA_PHANTOM_POS",
+                        "LELFJGLBOGO": ""
+                    },
+                    "JHKKFFKBNCH": 41041005,
+                    "BGHDJPBKDEB": 1001,
+                    "KMMEFEBGIKH": "Enemy"
+                },
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "IKDEONFGFAF",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "AEHMGIGMOLO"
+                                }
+                            ]
+                        }
+                    ],
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 5.0
+                        },
+                        "DAODHDFFELL": true,
+                        "HBCDGKBFJKD": {
+                            "$type": "BGADJEACCPC"
+                        }
+                    },
+                    "JHKKFFKBNCH": 41041005,
+                    "BGHDJPBKDEB": 1001,
+                    "KMMEFEBGIKH": "Enemy"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Phantom_Blink",
+            "OJEBMMAGKOF": {
+                "Invincible": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.25,
+                    "DJHMCMJNDJL": 100.0,
+                    "JBABKKGDEKL": "Invincible"
+                },
+                "Blink_End": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.25,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_Rush_Show",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_Rush_Show_Door",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "DCHBNFCPPAP": {
+                                "$type": "PDJJFHICINN",
+                                "DOODOCCOFPO": [
+                                    "equip02"
+                                ]
+                            },
+                            "EGPFMEPFOPG": "Attack"
+                        },
+                        {
+                            "$type": "OKPNJIGBCKE",
+                            "PGCCMJFMBOF": {
+                                "$type": "NMIOKIDAKJJ",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 0.0,
+                                    "GCFAGHEGMOK": 0.0
+                                },
+                                "DAODHDFFELL": true,
+                                "HBCDGKBFJKD": {
+                                    "$type": "KIFGLLNNMFF"
+                                },
+                                "FFFKFDAPFMB": "_ABILITY_MONA_PHANTOM_POS",
+                                "LELFJGLBOGO": ""
+                            },
+                            "JHKKFFKBNCH": 41041005,
+                            "BGHDJPBKDEB": 1001,
+                            "KMMEFEBGIKH": "Enemy"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "KLKICJMDJGA",
+                    "ADHBOLFNKJB": {
+                        "ODGMMOKFFMI": 41041005
+                    }
+                },
+                {
+                    "$type": "NKKNGELFJNJ",
+                    "MAJPPKBABEP": 10412,
+                    "KMEPPEJEDFP": 1.0,
+                    "LIEOPDIDDEI": 1.0
+                },
+                {
+                    "$type": "ALLDMMABLIM",
+                    "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_Rush_Hide",
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        },
+                        "HBCDGKBFJKD": {
+                            "$type": "BGADJEACCPC"
+                        }
+                    },
+                    "LMEAGKCCLON": -1.0
+                },
+                {
+                    "$type": "IHEACBKMIDM",
+                    "EPDHICCGHAL": "_ABILITY_MONA_PHANTOM_POS",
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        },
+                        "HBCDGKBFJKD": {
+                            "$type": "BGADJEACCPC"
+                        }
+                    },
+                    "BACGKPCGGLD": false
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Blink_End"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Invincible"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Phantom_Blink_SetVisible",
+            "OJEBMMAGKOF": {
+                "SetVisible_End": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.3400000035762787,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "FFJNCBCBPJN",
+                            "EIFHKAKNIBJ": true,
+                            "PFBHFLMLIJP": true
+                        },
+                        {
+                            "$type": "IGJKFBBMDGI",
+                            "EIFHKAKNIBJ": true,
+                            "NLKCEFJEEEP": true
+                        },
+                        {
+                            "$type": "IKOLALMCGPM",
+                            "PFBHFLMLIJP": true,
+                            "KEEJFLJBFKM": true,
+                            "HBOOGLCLDIF": "Default"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "FFJNCBCBPJN",
+                    "EIFHKAKNIBJ": true,
+                    "JDHDGONGNNK": true
+                },
+                {
+                    "$type": "IKOLALMCGPM",
+                    "HBOOGLCLDIF": "Default"
+                },
+                {
+                    "$type": "IGJKFBBMDGI"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "SetVisible_End"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Phantom_AS_HideWeapon",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Mona_Phantom_Blink_BS",
+                        "Mona_Phantom_Blink",
+                        "Mona_Phantom_BS",
+                        "Mona_Phantom"
+                    ],
+                    "PEJCGBFFICP": "Mona_Phantom_HideWeapon"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Mona_Phantom_HideWeapon": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "NKJOEEGJAFG",
+                            "BJILKLHAOPJ": [
+                                "equip01",
+                                "equip02",
+                                "sheathPoint"
+                            ]
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "NKJOEEGJAFG",
+                            "NLKCEFJEEEP": true,
+                            "BJILKLHAOPJ": [
+                                "equip01",
+                                "equip02",
+                                "sheathPoint"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_MonaGadgetSkill_Phantom",
+            "ABGJNGNECKP": {
+                "AS_Mona_Phantom_ThinkDamageRate": 0.0,
+                "AS_Mona_Phantom_LastDamageRate": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "ShowEffect_Phantom_Area": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 5.21999979019165,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "Phantom_Attack"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "Phantom"
+                        }
+                    ]
+                },
+                "Phantom": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 5.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_MaxHPDelta": 999999.0,
+                        "Actor_DefenceDelta": 999999.0
+                    },
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_Area",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_Disappear",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "GHKGCICKBBP"
+                        }
+                    ],
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_SkillObj_BeHit",
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 1.399999976158142,
+                                    "GCFAGHEGMOK": 0.44999998807907104
+                                }
+                            },
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "Phantom_Attack": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 5.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 1.0,
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_MONA_PHANTOM_THINK_TIMES",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 5.0,
+                            "CMLGDBNFNNO": 1.0
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_MONA_PHANTOM_THINK_TIMES",
+                                    "HPDLNIPCGHB": 4.0,
+                                    "PLODBKBOPMP": true,
+                                    "NECALNHGCCP": "LessAndEqual"
+                                }
+                            ],
+                            "PEJCGBFFICP": "Phantom_Attack_Think"
+                        }
+                    ]
+                },
+                "Phantom_Attack_Think": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.10000000149011612,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_ThinkAttack",
+                            "PGCCMJFMBOF": {
+                                "$type": "NMIOKIDAKJJ",
+                                "FFFKFDAPFMB": "GadgetPos",
+                                "LELFJGLBOGO": ""
+                            },
+                            "PGPDHMAPLJH": 0.699999988079071,
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "BHDHGOPPAPF",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "NMIOKIDAKJJ",
+                                        "FFFKFDAPFMB": "GadgetPos",
+                                        "LELFJGLBOGO": ""
+                                    },
+                                    "LAGKLBKPJOD": 5.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "Elemental_Art",
+                                    "FBHEHNEKCEC": "Elemental_Art",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": "AS_Mona_Phantom_ThinkDamageRate",
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Water",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 40.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "",
+                                        "IMPBPALEIPI": "LV2",
+                                        "MGAHMIHLGPO": 0.05000000074505806
+                                    },
+                                    "EJGFDAAGMMB": {},
+                                    "IFCBCJIMIEB": "OriginOwner"
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                },
+                "Taunt_SelectTarget_01": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 0.5,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "Taunt_SelectTarget_02"
+                        }
+                    ],
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "Taunt_SelectTarget_02"
+                        }
+                    ]
+                },
+                "Taunt_SelectTarget_02": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.10000000149011612,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "EHMHJGMPJIM",
+                            "DCHBNFCPPAP": {
+                                "$type": "LBLIPELFECO",
+                                "DEMBLENCNFF": "CircleR5",
+                                "KMMEFEBGIKH": "Enemy",
+                                "BAGGOAFKGJE": 1.0
+                            },
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Monster"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "DCHBNFCPPAP": {
+                                "$type": "LBLIPELFECO",
+                                "DEMBLENCNFF": "CircleR5",
+                                "KMMEFEBGIKH": "Enemy",
+                                "BAGGOAFKGJE": 1.0
+                            },
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Monster"
+                                    ]
+                                },
+                                {
+                                    "$type": "IKDEONFGFAF",
+                                    "KHPFBKFKIMJ": [
+                                        {
+                                            "$type": "NKNPMENBGGC",
+                                            "IEAMBBJIHNB": "MuteTaunt"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "PEJCGBFFICP": "Taunted"
+                        }
+                    ]
+                },
+                "Taunted": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 8.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Ambor_Dummy_Taunted",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "IPFFJPIILKO": [
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "Taunted"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": 1.0,
+                    "EPDHICCGHAL": "_MONA_PHANTOM",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 1.0
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Taunt_SelectTarget_01"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "ShowEffect_Phantom_Area"
+                },
+                {
+                    "$type": "IHEACBKMIDM",
+                    "EPDHICCGHAL": "GadgetPos",
+                    "PGCCMJFMBOF": {
+                        "$type": "PNNEAJJGDMO",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        },
+                        "HBCDGKBFJKD": {
+                            "$type": "BGADJEACCPC"
+                        }
+                    }
+                }
+            ],
+            "IPFFJPIILKO": [
+                {
+                    "$type": "PMBLFEECDEC",
+                    "PEJCGBFFICP": "Phantom"
+                },
+                {
+                    "$type": "ALLDMMABLIM",
+                    "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_Burst",
+                    "PGCCMJFMBOF": {
+                        "$type": "NMIOKIDAKJJ",
+                        "FFFKFDAPFMB": "GadgetPos",
+                        "LELFJGLBOGO": ""
+                    },
+                    "PGPDHMAPLJH": 0.75,
+                    "LMEAGKCCLON": -1.0
+                },
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "PGCCMJFMBOF": {
+                        "$type": "PNNEAJJGDMO",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        }
+                    },
+                    "JHKKFFKBNCH": 41041007,
+                    "BGHDJPBKDEB": 1001,
+                    "KMMEFEBGIKH": "Enemy"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_MonaGadgetSkill_PhantomLastAttack",
+            "ABGJNGNECKP": {
+                "AS_Mona_Phantom_LastDamageRate": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "DummyElementBall": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "CPLBCHCGEJC": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Target",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NHOPIJDIGFH",
+                                    "KEPDIEGMBGI": [
+                                        "Elemental_Art"
+                                    ]
+                                },
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Monster"
+                                    ]
+                                },
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_ANIMAL_ENTITY_TYPE",
+                                    "HPDLNIPCGHB": 0.0,
+                                    "NECALNHGCCP": "NoneOrEqual"
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PEJCGBFFICP": "Ball"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Ball": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 1.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "JIHBAFKANND",
+                            "ODGMMOKFFMI": 2018,
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 0.0,
+                                    "GCFAGHEGMOK": 0.0
+                                }
+                            },
+                            "JBKMOEELKDO": 1.0,
+                            "GNAHOIKAKBK": 9.0
+                        },
+                        {
+                            "$type": "FIJEAICEHCO",
+                            "BACLCCIENNE": 0.33000001311302185,
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "JIHBAFKANND",
+                                    "ODGMMOKFFMI": 2018,
+                                    "PGCCMJFMBOF": {
+                                        "$type": "PNNEAJJGDMO",
+                                        "KFHPDJBPILF": {
+                                            "GCAICJCAEGC": 0.0,
+                                            "OHEABNAJGMK": 0.0,
+                                            "GCFAGHEGMOK": 0.0
+                                        }
+                                    },
+                                    "JBKMOEELKDO": 1.0,
+                                    "GNAHOIKAKBK": 3.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "HNMEPMFMCEP",
+                    "EEBDJIHOMKG": {
+                        "MNACMFPGGJM": {
+                            "$type": "BHDHGOPPAPF",
+                            "KIALPPECALL": "TriggerNoRepeat",
+                            "PGCCMJFMBOF": {
+                                "$type": "NMIOKIDAKJJ",
+                                "FFFKFDAPFMB": "GadgetPos",
+                                "LELFJGLBOGO": ""
+                            },
+                            "LAGKLBKPJOD": 5.0
+                        },
+                        "MKDNKDGFHOB": {
+                            "NCHHOHMMGLO": "Elemental_Art",
+                            "FBHEHNEKCEC": "",
+                            "JJDHKGHLAPG": "default",
+                            "ECAAIDPICHF": {
+                                "BHIHBFJCJMF": "AS_Mona_Phantom_LastDamageRate",
+                                "MPFFDBKNGKK": 0.0,
+                                "JPNOHJMPEGF": "Water",
+                                "DJHMCMJNDJL": 25.0,
+                                "GIDLGFOGCPI": "Default",
+                                "OOCKJPLEGJK": 150.0
+                            },
+                            "NBOPNJKHONH": {
+                                "EFMEOMPPGGB": "default",
+                                "IMPBPALEIPI": "LV3",
+                                "MGAHMIHLGPO": 0.05000000074505806
+                            },
+                            "IFCBCJIMIEB": "OriginOwner"
+                        }
+                    },
+                    "HDHMLBLHGPD": "Enemy"
+                },
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "DummyElementBall"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_StarChart_Camera",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Mona_StarChart",
+                        "Mona_StarChart_AS"
+                    ],
+                    "PEJCGBFFICP": "Tornado_Eff"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Mona_StarChart"
+                    ],
+                    "PEJCGBFFICP": "isGhost"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Mona_StarChart"
+                    ],
+                    "PEJCGBFFICP": "Mona_StarChart_HideWeapon"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Mona_StarChart"
+                    ],
+                    "PEJCGBFFICP": "invincible"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Mona_StarChart",
+                        "Mona_StarChart_AS"
+                    ],
+                    "PEJCGBFFICP": "camera"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Mona_StarChart"
+                    ],
+                    "PEJCGBFFICP": "camera_extra"
+                },
+                {
+                    "$type": "AIEGDOBDLMA",
+                    "NFMLJKBBILH": "Mona_StarChart",
+                    "PEJCGBFFICP": "SetEmission",
+                    "KBJPBEFMGLM": 0.1599999964237213,
+                    "EFKCCJHFCMF": 0.949999988079071
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "isGhost": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "GBHKMHKMICK",
+                            "IDMHIGEBMAL": 11002
+                        }
+                    ]
+                },
+                "invincible": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "JBABKKGDEKL": "Invincible"
+                },
+                "Tornado_Eff": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GPCDNJBJGNE",
+                            "DEMBLENCNFF": "CircleR2",
+                            "EOJBEHMJIKI": -2.0,
+                            "NPILDLPGAIG": 0.0,
+                            "LKLEBDMCCNJ": 0.0,
+                            "HDHMLBLHGPD": "All",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "ILACDDIJHAH",
+                                    "FJJKDHKEGEF": "LesserOrEqual",
+                                    "GKOBDDJFPIN": 100.0
+                                },
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Avatar"
+                                    ],
+                                    "AELHIGPCBLD": true
+                                }
+                            ],
+                            "PEJCGBFFICP": ""
+                        }
+                    ],
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "ANADHJOIBNK",
+                                    "MNACMFPGGJM": {
+                                        "$type": "HEPODMKCFLI",
+                                        "KIALPPECALL": "TriggerNoRepeat",
+                                        "PGCCMJFMBOF": {
+                                            "$type": "DMIMDDKPKHA",
+                                            "KFHPDJBPILF": {
+                                                "GCAICJCAEGC": 0.0,
+                                                "OHEABNAJGMK": 0.5,
+                                                "GCFAGHEGMOK": 0.0
+                                            }
+                                        },
+                                        "BJFNPGBKPHH": 2.0,
+                                        "LAGKLBKPJOD": 1.0
+                                    },
+                                    "IDLKAJANIFE": true
+                                },
+                                {
+                                    "$type": "ANADHJOIBNK",
+                                    "MNACMFPGGJM": {
+                                        "$type": "CPJLLDBEKAL",
+                                        "KIALPPECALL": "TriggerNoRepeat",
+                                        "PGCCMJFMBOF": {
+                                            "$type": "DMIMDDKPKHA",
+                                            "KFHPDJBPILF": {
+                                                "GCAICJCAEGC": -5.730000019073486,
+                                                "OHEABNAJGMK": 8.8100004196167,
+                                                "GCFAGHEGMOK": -5.260000228881836
+                                            },
+                                            "HBCDGKBFJKD": {
+                                                "$type": "BGADJEACCPC",
+                                                "ACMDABCGKAO": {
+                                                    "GCAICJCAEGC": -50.0,
+                                                    "OHEABNAJGMK": 20.299999237060547,
+                                                    "GCFAGHEGMOK": 0.0
+                                                }
+                                            }
+                                        },
+                                        "KDKNEEKBHOC": {
+                                            "GCAICJCAEGC": 5.0,
+                                            "OHEABNAJGMK": 20.200000762939453,
+                                            "GCFAGHEGMOK": 5.0
+                                        }
+                                    },
+                                    "IDLKAJANIFE": true
+                                },
+                                {
+                                    "$type": "EOEEMLKDDBP",
+                                    "NECALNHGCCP": "LessAndEqual",
+                                    "ICPPHBKJECK": 0.5
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "PIIPMJLIHPC",
+                                    "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_StarChart_Self_BS",
+                                    "LMEAGKCCLON": -1.0
+                                }
+                            ],
+                            "BLCNENOAPBF": [
+                                {
+                                    "$type": "PIIPMJLIHPC",
+                                    "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_StarChart_Self_BS_Thirdparty",
+                                    "LMEAGKCCLON": -1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "camera": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "KHNLJFCNPFP",
+                            "OMNDEBJIOCP": "Skill",
+                            "NBAJGDMMAKC": "Weather_Mona_StarChart",
+                            "PDHJEONBNOG": 0.6000000238418579,
+                            "KNBINPKEGGM": 2.5
+                        }
+                    ],
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "GNFDILJPEIK",
+                            "NEPOGLPNBDE": false,
+                            "BGOAOPDGKCL": false,
+                            "CEJJPEGBLKA": false
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "PDMBGKKGIJO",
+                            "OILCGLBADOC": "Weapon",
+                            "DLLBGDKBMIL": -1.0,
+                            "KNBINPKEGGM": 0.30000001192092896
+                        },
+                        {
+                            "$type": "GNFDILJPEIK",
+                            "EIFHKAKNIBJ": true
+                        },
+                        {
+                            "$type": "HNIJANAHGAJ"
+                        }
+                    ],
+                    "PJIMOFENEAN": [
+                        {
+                            "$type": "PDMBGKKGIJO",
+                            "OILCGLBADOC": "Weapon",
+                            "DLLBGDKBMIL": -1.0,
+                            "KNBINPKEGGM": 0.30000001192092896
+                        },
+                        {
+                            "$type": "OABKFPHMBOO",
+                            "BDOGJNILCHP": {
+                                "BMNDCKOJEKF": 4.300000190734863
+                            }
+                        },
+                        {
+                            "$type": "GNFDILJPEIK",
+                            "EIFHKAKNIBJ": true
+                        },
+                        {
+                            "$type": "HNIJANAHGAJ",
+                            "EIFHKAKNIBJ": true
+                        }
+                    ]
+                },
+                "camera_extra": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "OABKFPHMBOO",
+                            "BDOGJNILCHP": {
+                                "BMNDCKOJEKF": 4.300000190734863,
+                                "EGIKEHIKCJO": true
+                            }
+                        }
+                    ]
+                },
+                "SetEmission": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PDMBGKKGIJO",
+                            "OILCGLBADOC": "Weapon",
+                            "DLLBGDKBMIL": 15.0,
+                            "KNBINPKEGGM": 0.30000001192092896
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "PDMBGKKGIJO",
+                            "OILCGLBADOC": "Weapon",
+                            "DLLBGDKBMIL": -1.0,
+                            "KNBINPKEGGM": 0.6000000238418579
+                        }
+                    ]
+                },
+                "Mona_StarChart_HideWeapon": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "NKJOEEGJAFG",
+                            "BJILKLHAOPJ": [
+                                "equip01",
+                                "equip02",
+                                "sheathPoint"
+                            ]
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "NKJOEEGJAFG",
+                            "NLKCEFJEEEP": true,
+                            "BJILKLHAOPJ": [
+                                "equip01",
+                                "equip02",
+                                "sheathPoint"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "HNIJANAHGAJ"
+                },
+                {
+                    "$type": "JHMJECPNACE",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "ANADHJOIBNK",
+                            "MNACMFPGGJM": {
+                                "$type": "HEPODMKCFLI",
+                                "KIALPPECALL": "TriggerNoRepeat",
+                                "PGCCMJFMBOF": {
+                                    "$type": "DMIMDDKPKHA",
+                                    "KFHPDJBPILF": {
+                                        "GCAICJCAEGC": 0.0,
+                                        "OHEABNAJGMK": 1.2000000476837158,
+                                        "GCFAGHEGMOK": 0.0
+                                    }
+                                },
+                                "BJFNPGBKPHH": 0.20000000298023224,
+                                "LLIPPHBHGPD": 30.0,
+                                "LAGKLBKPJOD": 0.800000011920929
+                            }
+                        }
+                    ],
+                    "AMPJHPNCLOG": "Camera_Mona_StarChart"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_StarChart",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Mona_StarChart",
+                        "Mona_StarChart_AS"
+                    ],
+                    "PEJCGBFFICP": "Invincible"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "AS_Mona_StarChart_Bubble_Duration": 0.0,
+                "AS_Mona_StarChart_Bubble_RemovedDamage": 0.0,
+                "AS_Mona_StarChart_RemovedDamage_HurtUp_DamageRate": -1.0,
+                "AS_Mona_StarChart_HurtUp_DamageRate": 0.0,
+                "AS_Mona_StarChart_HurtUp_Duration": 0.0,
+                "AS_Mona_Talent_ElementReactionUp_Electric": 0.0,
+                "AS_Mona_Talent_ElementReactionUp_Steam": 0.0,
+                "AS_Mona_Talent_ElementReactionUp_SwirlWater": 0.0,
+                "AS_Mona_Talent_ElementReactionUp_Freeze": 0.0,
+                "AS_Mona_Talent_ElementReactionUp_Time": 0.0,
+                "AS_Mona_Talent_AntiCritical": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "StarChart_Area_Delay": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 1.7000000476837158,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "EIFHKAKNIBJ": true,
+                            "PEJCGBFFICP": "TriggerAttack_Event"
+                        }
+                    ]
+                },
+                "Invincible": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 2.5,
+                    "DJHMCMJNDJL": 100.0,
+                    "JBABKKGDEKL": "Invincible"
+                },
+                "TriggerAttack_Event": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 1.5,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EIFHKAKNIBJ": true,
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "BHDHGOPPAPF",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA"
+                                    },
+                                    "LAGKLBKPJOD": 10.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "",
+                                    "FBHEHNEKCEC": "Elemental_Burst",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": 0.0,
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Water",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 50.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "default",
+                                        "IMPBPALEIPI": "LV1",
+                                        "MGAHMIHLGPO": 0.009999999776482582
+                                    },
+                                    "EJGFDAAGMMB": {},
+                                    "IFCBCJIMIEB": "OriginOwner"
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        },
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EIFHKAKNIBJ": true,
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "BHDHGOPPAPF",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA"
+                                    },
+                                    "LAGKLBKPJOD": 10.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "Elemental_Burst_Trigger",
+                                    "FBHEHNEKCEC": "",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": 0.0,
+                                        "MPFFDBKNGKK": 0.0,
+                                        "DJHMCMJNDJL": 0.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 0.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "default",
+                                        "IMPBPALEIPI": "LV0",
+                                        "MGAHMIHLGPO": 0.009999999776482582
+                                    },
+                                    "EJGFDAAGMMB": {},
+                                    "IFCBCJIMIEB": "OriginOwner"
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ],
+                    "CPLBCHCGEJC": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Target",
+                            "EIFHKAKNIBJ": true,
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NHOPIJDIGFH",
+                                    "KEPDIEGMBGI": [
+                                        "Elemental_Burst_Trigger"
+                                    ]
+                                },
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Avatar",
+                                        "Monster"
+                                    ]
+                                },
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_ANIMAL_ENTITY_TYPE",
+                                    "HPDLNIPCGHB": 0.0,
+                                    "NECALNHGCCP": "NoneOrEqual"
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "HGKGGEKHOBB",
+                                    "PMMKLHAOKCG": "Target",
+                                    "EIFHKAKNIBJ": true,
+                                    "PILMKPPOHPN": [
+                                        {
+                                            "$type": "ILACDDIJHAH",
+                                            "FJJKDHKEGEF": "LesserOrEqual",
+                                            "GKOBDDJFPIN": 100.0
+                                        }
+                                    ],
+                                    "BDJHNHMPGDB": [
+                                        {
+                                            "$type": "BFIMNGHHDEN",
+                                            "PMMKLHAOKCG": "Target",
+                                            "EIFHKAKNIBJ": true,
+                                            "PEJCGBFFICP": "Debuff_Bubble_Struggle"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "Target",
+                                    "EIFHKAKNIBJ": true,
+                                    "PEJCGBFFICP": "UNIQUE_Debuff_Bubble_RemoveDamage"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Debuff_Bubble_Struggle": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": "AS_Mona_StarChart_Bubble_Duration",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_AddGravityScale": -2.0
+                    },
+                    "JBABKKGDEKL": "Struggle"
+                },
+                "UNIQUE_Debuff_Bubble_RemoveDamage": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": "AS_Mona_StarChart_Bubble_Duration",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_SubHurtDelta": "AS_Mona_StarChart_HurtUp_DamageRate",
+                        "Actor_AntiCriticalDelta": "AS_Mona_Talent_AntiCritical"
+                    },
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PEJCGBFFICP": "UNIQUE_Debuff_HurtUp"
+                        },
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_StarChart_Bubble",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "Debuff_Bubble_Struggle"
+                        },
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_StarChart_Bubble_AS",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "EBCKDAAKHEF",
+                            "PMMKLHAOKCG": "Target",
+                            "EIFHKAKNIBJ": true,
+                            "PGCCMJFMBOF": {
+                                "$type": "LAMNGOHKHHL",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 0.30000001192092896,
+                                    "GCFAGHEGMOK": 0.0
+                                },
+                                "ABMNEGGKEIC": "Fx_ChestNode"
+                            },
+                            "MKDNKDGFHOB": {
+                                "NCHHOHMMGLO": "Elemental_Burst",
+                                "FBHEHNEKCEC": "Elemental_Burst",
+                                "JJDHKGHLAPG": "default",
+                                "ECAAIDPICHF": {
+                                    "BHIHBFJCJMF": "AS_Mona_StarChart_Bubble_RemovedDamage",
+                                    "MPFFDBKNGKK": 0.0,
+                                    "JPNOHJMPEGF": "Water",
+                                    "DJHMCMJNDJL": 50.0,
+                                    "GIDLGFOGCPI": "Default",
+                                    "OOCKJPLEGJK": 200.0,
+                                    "BGPOMBNALJI": 0.0
+                                },
+                                "NBOPNJKHONH": {
+                                    "EFMEOMPPGGB": "default",
+                                    "IMPBPALEIPI": "LV1",
+                                    "MGAHMIHLGPO": 0.009999999776482582
+                                }
+                            }
+                        },
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PEJCGBFFICP": "UNIQUE_Debuff_HurtUp"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "UNIQUE_Debuff_HurtUp"
+                        }
+                    ],
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "LEGKAFMOAAM",
+                                    "PHCPPBHBEAH": 0.0
+                                }
+                            ],
+                            "PEJCGBFFICP": "UNIQUE_Debuff_Bubble_RemoveDamage"
+                        }
+                    ],
+                    "IPFFJPIILKO": [
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PEJCGBFFICP": "UNIQUE_Debuff_Bubble_RemoveDamage"
+                        }
+                    ],
+                    "JGIEEEJENCK": true
+                },
+                "UNIQUE_Debuff_HurtUp": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": [
+                        "AS_Mona_StarChart_HurtUp_Duration",
+                        0.20000000298023224,
+                        "ADD"
+                    ],
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_SubHurtDelta": "AS_Mona_StarChart_HurtUp_DamageRate",
+                        "Actor_AntiCriticalDelta": "AS_Mona_Talent_AntiCritical"
+                    },
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PMMKLHAOKCG": "Caster",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "HFIGNCGDKNO",
+                                    "KBJMJHPICCG": "Avatar_Mona_Talent_Talent_StarChart_ElementReactionUp"
+                                }
+                            ],
+                            "PEJCGBFFICP": "Talent_ElementReactionUp_AttackLandedEvent_01"
+                        },
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_StarChart_HurtUp",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "Is_Mona_StarChart_HurtUp",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 1.0,
+                            "CMLGDBNFNNO": 1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_StarChart_HurtUp_AS",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "BMHCHONNBKK",
+                            "EPDHICCGHAL": "Is_Mona_StarChart_HurtUp"
+                        }
+                    ],
+                    "JGIEEEJENCK": true
+                },
+                "Talent_ElementReactionUp_AttackLandedEvent_01": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": [
+                        "AS_Mona_StarChart_HurtUp_Duration",
+                        0.05000000074505806,
+                        "ADD"
+                    ],
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PMMKLHAOKCG": "Team",
+                            "EIFHKAKNIBJ": true,
+                            "PEJCGBFFICP": "UNIQUE_Debuff_Talent_ElementReactionUp_AttackLandedEvent_TeamHandle"
+                        }
+                    ]
+                },
+                "UNIQUE_Debuff_Talent_ElementReactionUp_AttackLandedEvent_TeamHandle": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": [
+                        "AS_Mona_StarChart_HurtUp_Duration",
+                        0.05000000074505806,
+                        "ADD"
+                    ],
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GIEJODLHOMB",
+                            "PEJCGBFFICP": "UNIQUE_Debuff_Talent_ElementReactionUp_AttackLandedEvent"
+                        }
+                    ]
+                },
+                "UNIQUE_Debuff_Talent_ElementReactionUp_AttackLandedEvent": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": [
+                        "AS_Mona_StarChart_HurtUp_Duration",
+                        0.05000000074505806,
+                        "ADD"
+                    ],
+                    "DJHMCMJNDJL": 100.0,
+                    "CPLBCHCGEJC": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Other",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "Is_Mona_StarChart_HurtUp",
+                                    "HPDLNIPCGHB": 1.0
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "Team",
+                                    "PEJCGBFFICP": "UNIQUE_Avatar_Mona_StarChart_Talent_ElementReactionUp_TeamHandle"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "UNIQUE_Avatar_Mona_StarChart_Talent_ElementReactionUp_TeamHandle": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": "AS_Mona_Talent_ElementReactionUp_Time",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GIEJODLHOMB",
+                            "PEJCGBFFICP": "UNIQUE_Talent_ElementAddHurt"
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PMMKLHAOKCG": "CurLocalAvatar",
+                            "PEJCGBFFICP": "UNIQUE_Talent_ElementAddHurt"
+                        },
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PMMKLHAOKCG": "CurLocalAvatar",
+                            "PEJCGBFFICP": "UNIQUE_Debuff_Talent_ElementReactionUp_AttackLandedEvent_TeamHandle"
+                        }
+                    ]
+                },
+                "UNIQUE_Talent_ElementAddHurt": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": [
+                        "AS_Mona_Talent_ElementReactionUp_Time",
+                        "AS_Mona_StarChart_HurtUp_Duration",
+                        "ADD",
+                        "AS_Mona_StarChart_Bubble_Duration",
+                        "ADD"
+                    ],
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_ElemReactElectricDelta": "AS_Mona_Talent_ElementReactionUp_Electric",
+                        "Actor_ElemReactSteamDelta": "AS_Mona_Talent_ElementReactionUp_Steam",
+                        "Actor_ElemReactSwirlWaterDelta": "AS_Mona_Talent_ElementReactionUp_SwirlWater",
+                        "Actor_ElemReactFreezeDelta": "AS_Mona_Talent_ElementReactionUp_Freeze"
+                    },
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_StarChart_Talent_ReactionUp",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_StarChart_Talent_ReactionUp_AS",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "NKKNGELFJNJ",
+                    "MAJPPKBABEP": 10415,
+                    "KMEPPEJEDFP": 1.0,
+                    "LIEOPDIDDEI": 1.0
+                },
+                {
+                    "$type": "PMBLFEECDEC",
+                    "PEJCGBFFICP": "TriggerAttack_Event"
+                },
+                {
+                    "$type": "EONOAKNDNMO",
+                    "DCHBNFCPPAP": {
+                        "$type": "LBLIPELFECO",
+                        "DEMBLENCNFF": "CircleR11",
+                        "KMMEFEBGIKH": "Enemy",
+                        "BAGGOAFKGJE": 1.0
+                    },
+                    "PEJCGBFFICP": "UNIQUE_Debuff_Bubble_RemoveDamage"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Invincible"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "StarChart_Area_Delay"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Talent_LiquidStriket_Phantom",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_BS_0",
+                        "LiquidStrike_BS",
+                        "LiquidStrike_BS1",
+                        "LiquidStrike_Move",
+                        "LiquidStrike_MoveStandby"
+                    ],
+                    "PEJCGBFFICP": "MoveLoop_Talent_Phantom"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "AS_Mona_Talent_LiquidStrike_LiquidPhantom_Timer": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "MoveLoop_Talent_Phantom": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": "AS_Mona_Talent_LiquidStrike_LiquidPhantom_Timer",
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "DCHBNFCPPAP": {
+                                "$type": "LBLIPELFECO",
+                                "CBJJIKKCCKD": 1,
+                                "AEJGOFLGNPF": [
+                                    "Monster",
+                                    "Gadget"
+                                ],
+                                "HODFEAPMHID": "HigherScore",
+                                "DEMBLENCNFF": "CircleR15",
+                                "KMMEFEBGIKH": "Enemy",
+                                "BAGGOAFKGJE": 1.0
+                            },
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "HLNFCJDJIHA"
+                                }
+                            ],
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Gadget",
+                                        "Monster"
+                                    ]
+                                },
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_ANIMAL_ENTITY_TYPE",
+                                    "HPDLNIPCGHB": 0.0,
+                                    "NECALNHGCCP": "NoneOrEqual"
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "Caster",
+                                    "PEJCGBFFICP": "LiquidPhantom"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "LiquidPhantom": {
+                    "BOKEOPPFJJC": "Multiple",
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.10000000149011612,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "OKPNJIGBCKE",
+                            "PGCCMJFMBOF": {
+                                "$type": "DMIMDDKPKHA",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 0.0,
+                                    "GCFAGHEGMOK": 0.0
+                                },
+                                "DAODHDFFELL": true,
+                                "HBCDGKBFJKD": {
+                                    "$type": "BGADJEACCPC"
+                                }
+                            },
+                            "JHKKFFKBNCH": 41041006,
+                            "BGHDJPBKDEB": 1001,
+                            "KMMEFEBGIKH": "Enemy"
+                        }
+                    ]
+                }
+            },
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Talent_MonaGadgetSkill_LiquidPhantom",
+            "ABGJNGNECKP": {
+                "AS_Mona_Talent_LiquidStrike_LiquidPhantom_Duration": 0.0,
+                "AS_Mona_Talent_LiquidStrike_LiquidPhantom_DamageRate": 0.0,
+                "AS_Mona_Phantom_LastDamageRate": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Phantom": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": "AS_Mona_Talent_LiquidStrike_LiquidPhantom_Duration",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_MaxHPDelta": 999999.0,
+                        "Actor_DefenceDelta": 999999.0
+                    },
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_LiquidStrike_Phantom",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_Disappear",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_Burst",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "BHDHGOPPAPF",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA"
+                                    },
+                                    "LAGKLBKPJOD": 5.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "Elemental_Art_Extra",
+                                    "FBHEHNEKCEC": "",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": [
+                                            "AS_Mona_Phantom_LastDamageRate",
+                                            "AS_Mona_Talent_LiquidStrike_LiquidPhantom_DamageRate",
+                                            "MUL"
+                                        ],
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Water",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 150.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "default",
+                                        "IMPBPALEIPI": "LV3",
+                                        "MGAHMIHLGPO": 0.05000000074505806
+                                    },
+                                    "IFCBCJIMIEB": "OriginOwner"
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        },
+                        {
+                            "$type": "GHKGCICKBBP"
+                        }
+                    ],
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Phantom_SkillObj_BeHit",
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 1.399999976158142,
+                                    "GCFAGHEGMOK": 0.44999998807907104
+                                }
+                            },
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "Taunting": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 0.5,
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "EHMHJGMPJIM",
+                            "DCHBNFCPPAP": {
+                                "$type": "LBLIPELFECO",
+                                "DEMBLENCNFF": "CircleR6",
+                                "KMMEFEBGIKH": "Enemy",
+                                "BAGGOAFKGJE": 1.0
+                            },
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Monster"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "DCHBNFCPPAP": {
+                                "$type": "LBLIPELFECO",
+                                "DEMBLENCNFF": "CircleR5",
+                                "KMMEFEBGIKH": "Enemy",
+                                "BAGGOAFKGJE": 1.0
+                            },
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Monster"
+                                    ]
+                                },
+                                {
+                                    "$type": "IKDEONFGFAF",
+                                    "KHPFBKFKIMJ": [
+                                        {
+                                            "$type": "NKNPMENBGGC",
+                                            "IEAMBBJIHNB": "MuteTaunt"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "PEJCGBFFICP": "Taunted_FX"
+                        }
+                    ]
+                },
+                "Taunted_FX": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 8.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Ambor_Dummy_Taunted",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "IPFFJPIILKO": [
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "Taunted_FX"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": 1.0,
+                    "EPDHICCGHAL": "_MONA_PHANTOM",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 1.0
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Taunting"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Phantom"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Talent_ChargeEfficiencyToWaterAddHurt",
+            "ABGJNGNECKP": {
+                "AS_Mona_Talent_WaterHurtAddRate": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "ChargeEfficiencyToWaterAddHurt": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 1.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Caster",
+                            "EIFHKAKNIBJ": true,
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "IKDEONFGFAF",
+                                    "KHPFBKFKIMJ": [
+                                        {
+                                            "$type": "BEDEFFCBNIG",
+                                            "EPDHICCGHAL": "Mona_Talent_ChargeEfficiencyToWaterAddHurt_Efficiency",
+                                            "HPDLNIPCGHB": "FIGHT_PROP_NONEXTRA_CHARGE_EFFICIENCY"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "CHPEJGKPFCH",
+                                    "EIFHKAKNIBJ": true,
+                                    "HPDLNIPCGHB": "FIGHT_PROP_NONEXTRA_CHARGE_EFFICIENCY",
+                                    "EPDHICCGHAL": "Mona_Talent_ChargeEfficiencyToWaterAddHurt_Efficiency",
+                                    "ECNPJNGBKAC": true,
+                                    "BFEAMPHKKCE": "FIGHT_PROP_NONEXTRA_CHARGE_EFFICIENCY",
+                                    "CMLGDBNFNNO": "FIGHT_PROP_NONEXTRA_CHARGE_EFFICIENCY"
+                                },
+                                {
+                                    "$type": "EONOAKNDNMO",
+                                    "EIFHKAKNIBJ": true,
+                                    "PEJCGBFFICP": "UNIQUE_ChargeEfficiencyToWaterAddHurt_AddValue"
+                                },
+                                {
+                                    "$type": "ELEIPIAKELP",
+                                    "EIFHKAKNIBJ": true,
+                                    "PEJCGBFFICP": "UNIQUE_ChargeEfficiencyToWaterAddHurt_AddValue"
+                                }
+                            ]
+                        }
+                    ],
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Caster",
+                            "EIFHKAKNIBJ": true,
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "IKDEONFGFAF",
+                                    "KHPFBKFKIMJ": [
+                                        {
+                                            "$type": "BEDEFFCBNIG",
+                                            "EPDHICCGHAL": "Mona_Talent_ChargeEfficiencyToWaterAddHurt_Efficiency",
+                                            "HPDLNIPCGHB": "FIGHT_PROP_NONEXTRA_CHARGE_EFFICIENCY"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "CHPEJGKPFCH",
+                                    "EIFHKAKNIBJ": true,
+                                    "HPDLNIPCGHB": "FIGHT_PROP_NONEXTRA_CHARGE_EFFICIENCY",
+                                    "EPDHICCGHAL": "Mona_Talent_ChargeEfficiencyToWaterAddHurt_Efficiency",
+                                    "ECNPJNGBKAC": true,
+                                    "BFEAMPHKKCE": "FIGHT_PROP_NONEXTRA_CHARGE_EFFICIENCY",
+                                    "CMLGDBNFNNO": "FIGHT_PROP_NONEXTRA_CHARGE_EFFICIENCY"
+                                },
+                                {
+                                    "$type": "EONOAKNDNMO",
+                                    "EIFHKAKNIBJ": true,
+                                    "PEJCGBFFICP": "UNIQUE_ChargeEfficiencyToWaterAddHurt_AddValue"
+                                },
+                                {
+                                    "$type": "ELEIPIAKELP",
+                                    "EIFHKAKNIBJ": true,
+                                    "PEJCGBFFICP": "UNIQUE_ChargeEfficiencyToWaterAddHurt_AddValue"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "UNIQUE_ChargeEfficiencyToWaterAddHurt_AddValue": {
+                    "BOKEOPPFJJC": "Overlap",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_WaterAddHurtExtraDelta": [
+                            "FIGHT_PROP_NONEXTRA_CHARGE_EFFICIENCY",
+                            "AS_Mona_Talent_WaterHurtAddRate",
+                            "MUL"
+                        ]
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "EIFHKAKNIBJ": true,
+                    "PEJCGBFFICP": "ChargeEfficiencyToWaterAddHurt"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Talent_LiquidStrike_ExtraAttakDamageUp",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "LiquidStrike_BS_0",
+                        "LiquidStrike_BS",
+                        "LiquidStrike_BS1",
+                        "LiquidStrike_Move",
+                        "LiquidStrike_MoveStandby"
+                    ],
+                    "PEJCGBFFICP": "MoveLoop_Talent_ExtraAttakDamageUp"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp_ThinkTime": 0.0,
+                "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp_ThinkValue": 0.0,
+                "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp_MaxValue": 0.0,
+                "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp_Time": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "MoveLoop_Talent_ExtraAttakDamageUp": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp_ThinkTime",
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": 0.0,
+                            "EPDHICCGHAL": "Mona_Talent_LiquidStrike_Move_ExtraAttackDamageUp",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp_MaxValue",
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ],
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp_ThinkValue",
+                            "EPDHICCGHAL": "Mona_Talent_LiquidStrike_Move_ExtraAttackDamageUp",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp_MaxValue",
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "UNIQUE_Talent_LiquidStrike_Move_ExtraAttackDamageUp_Duration"
+                        }
+                    ]
+                },
+                "UNIQUE_Talent_LiquidStrike_Move_ExtraAttackDamageUp_Duration": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp_Time",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Talent_LiquidStrike_Move_ExtraAttackDamageUp",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BMHCHONNBKK",
+                            "EPDHICCGHAL": "Mona_Talent_LiquidStrike_Move_ExtraAttackDamageUp"
+                        }
+                    ],
+                    "FHBHKBOLMDB": 10007
+                }
+            },
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_Talent_AutoExtraAttack",
+            "ABGJNGNECKP": {
+                "AS_Mona_ExtraAttack_Damge": 0.0,
+                "AS_Mona_Talent_AutoExtraAttack_Rate": 0.0,
+                "AS_Mona_Talent_AutoExtraAttack_DamageRate": 0.0,
+                "AS_Mona_Talent_AutoExtraAttack_CD": 0.0,
+                "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "NormalAttack_Handler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "CPLBCHCGEJC": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Target",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NHOPIJDIGFH",
+                                    "KEPDIEGMBGI": [
+                                        "NormalAttack_01",
+                                        "NormalAttack_02",
+                                        "NormalAttack_03",
+                                        "NormalAttack_04",
+                                        "NormalAttack_05",
+                                        "NormalAttack_06"
+                                    ]
+                                },
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Monster"
+                                    ]
+                                },
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_ANIMAL_ENTITY_TYPE",
+                                    "HPDLNIPCGHB": 0.0,
+                                    "NECALNHGCCP": "NoneOrEqual"
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "FIJEAICEHCO",
+                                    "BACLCCIENNE": "AS_Mona_Talent_AutoExtraAttack_Rate",
+                                    "BDJHNHMPGDB": [
+                                        {
+                                            "$type": "BFIMNGHHDEN",
+                                            "PEJCGBFFICP": "Talent_AutoExtraAttack_Handle"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Talent_AutoExtraAttack_Handle": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": "AS_Mona_Talent_AutoExtraAttack_CD",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "EIFHKAKNIBJ": true,
+                            "PEJCGBFFICP": "Talent_AutoExtraAttack_DoAttack"
+                        },
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_Talent_AutoExtraAttack",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "Talent_AutoExtraAttack_DoAttack": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.699999988079071,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_ExtraAttack_Pre",
+                            "PGCCMJFMBOF": {
+                                "$type": "DMIMDDKPKHA",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 1.0,
+                                    "GCFAGHEGMOK": 0.0
+                                },
+                                "DAODHDFFELL": true
+                            },
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Girl_Catalyst_Mona_ExtraAttack",
+                            "PGCCMJFMBOF": {
+                                "$type": "DMIMDDKPKHA",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 1.0,
+                                    "GCFAGHEGMOK": 0.0
+                                },
+                                "DAODHDFFELL": true
+                            },
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "FMHCKOKPEPO",
+                            "PMMKLHAOKCG": "Caster",
+                            "AMOOLHDIAIH": "Mona_Talent_LiquidStrike_Move_ExtraAttackDamageUp",
+                            "KFHDNIDDHID": "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp"
+                        },
+                        {
+                            "$type": "BMHCHONNBKK",
+                            "PMMKLHAOKCG": "Caster",
+                            "EPDHICCGHAL": "Mona_Talent_LiquidStrike_Move_ExtraAttackDamageUp"
+                        },
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PMMKLHAOKCG": "Caster",
+                            "PEJCGBFFICP": "UNIQUE_Talent_LiquidStrike_Move_ExtraAttackDamageUp_Duration"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "EIFHKAKNIBJ": true,
+                            "PEJCGBFFICP": "Talent_AutoExtraAttack_Damage"
+                        }
+                    ]
+                },
+                "Talent_AutoExtraAttack_Damage": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.30000001192092896,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "PMMKLHAOKCG": "Caster",
+                            "EIFHKAKNIBJ": true,
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "BHDHGOPPAPF",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA"
+                                    },
+                                    "LAGKLBKPJOD": 3.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "ExtraAttack",
+                                    "FBHEHNEKCEC": "",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": [
+                                            "AS_Mona_ExtraAttack_Damge",
+                                            "AS_Mona_Talent_AutoExtraAttack_DamageRate",
+                                            "MUL"
+                                        ],
+                                        "MPFFDBKNGKK": "AS_Mona_Talent_LiquidStrike_ExtraAttackDamageUp",
+                                        "JPNOHJMPEGF": "Water",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 26.145000457763672
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "Eff_Avatar_Girl_Catalyst_Mona_ExtraAttack_Hit",
+                                        "IMPBPALEIPI": "LV3",
+                                        "MGAHMIHLGPO": 0.05000000074505806
+                                    },
+                                    "EPCGKKCGCAG": true,
+                                    "EJGFDAAGMMB": {
+                                        "NMOJMMOFAFI": "CustomVector",
+                                        "BGKHGAABBML": 0.11999999731779099,
+                                        "NNMNPIKPKIA": 0.36000001430511475,
+                                        "MMOENDKOMCP": 30.0,
+                                        "MLGICLMHNFB": {
+                                            "_y": -1.0
+                                        },
+                                        "NKMFPPHEILP": {
+                                            "BLBBHMBGBKE": 0.7200000286102295,
+                                            "HOFMPPAAJGN": 0.0,
+                                            "LNOJLHBAKFC": 0.30000001192092896
+                                        }
+                                    },
+                                    "IFCBCJIMIEB": "OriginOwner"
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "EIFHKAKNIBJ": true,
+                    "PEJCGBFFICP": "NormalAttack_Handler"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Avatar_Mona_FallingAnthem",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "DNHEJGDIKPP",
+                    "EEDOJJGGJKP": 5041010,
+                    "HAPNIJPIGMH": 5041010
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS"
+                    ],
+                    "PEJCGBFFICP": "FallingAnthem_BS_Material"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS_2",
+                        "FallingAnthem_Loop",
+                        "FallingAnthem_Loop_Low"
+                    ],
+                    "PEJCGBFFICP": "FallingAnthem_LoopDamage"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS"
+                    ],
+                    "PEJCGBFFICP": "FallingAnthem_BS_VelocityForce_Initialize"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS",
+                        "FallingAnthem_Loop",
+                        "FallingAnthem_AS_1",
+                        "FallingAnthem_AS_2"
+                    ],
+                    "PEJCGBFFICP": "FallingAnthem_Height_Detect"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS",
+                        "FallingAnthem_Loop",
+                        "FallingAnthem_AS_1",
+                        "FallingAnthem_AS_2"
+                    ],
+                    "PEJCGBFFICP": "FallingAnthem_FallingDamageImmune_01"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS",
+                        "FallingAnthem_Loop"
+                    ],
+                    "PEJCGBFFICP": "Inertia"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS",
+                        "FallingAnthem_Loop",
+                        "FallingAnthem_AS_1",
+                        "FallingAnthem_AS_2"
+                    ],
+                    "PEJCGBFFICP": "FallingAnthem_OverHead_Camera"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS"
+                    ],
+                    "PEJCGBFFICP": "FallingAnthem_ClearVelocityForce"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS_2",
+                        "FallingAnthem_Loop",
+                        "FallingAnthem_Loop_Low",
+                        "FallingAnthem_AS_1"
+                    ],
+                    "PEJCGBFFICP": "FallingAnthem_Attach_SelfEffect"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_AS_1"
+                    ],
+                    "PEJCGBFFICP": "FallingAnthem_Remove_SelfEffect"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS_2",
+                        "FallingAnthem_Loop"
+                    ],
+                    "PEJCGBFFICP": "FallingAnthem_SetVisible"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "FallingAnthem_BS",
+                        "FallingAnthem_Loop",
+                        "FallingAnthem_AS_1"
+                    ],
+                    "PEJCGBFFICP": "HideWeapon"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "FallingAnthem_Normal_Loop_Damage": 0.0,
+                "FallingAnthem_Normal_Rank_1_Damage": 0.0,
+                "FallingAnthem_Normal_Rank_2_Damage": 0.0,
+                "FallingAnthem_Altitude_Lv0": 20.0,
+                "FallingAnthem_Altitude_Lv1": 40.0,
+                "FallingAnthem_Altitude_Lv2": 60.0,
+                "FallingAnthem_Altitude_Lv3": 100.0,
+                "FallingAnthem_Altitude_Lv4": 200.0,
+                "FallingAnthem_FallingDamageRatio_Lv0": -1.0,
+                "FallingAnthem_FallingDamageRatio_Lv1": -1.0,
+                "FallingAnthem_FallingDamageRatio_Lv2": -0.8999999761581421,
+                "FallingAnthem_FallingDamageRatio_Lv3": -0.800000011920929,
+                "FallingAnthem_FallingDamageRatio_Lv4": -0.6000000238418579,
+                "FallingAnthem_FallingDamageRatio": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "HideWeapon": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "NKJOEEGJAFG",
+                            "BJILKLHAOPJ": [
+                                "equip01",
+                                "equip02",
+                                "sheathPoint"
+                            ]
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "NKJOEEGJAFG",
+                            "NLKCEFJEEEP": true,
+                            "BJILKLHAOPJ": [
+                                "equip01",
+                                "equip02",
+                                "sheathPoint"
+                            ]
+                        }
+                    ]
+                },
+                "FallingAnthem_SetVisible": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "IGJKFBBMDGI",
+                            "EIFHKAKNIBJ": true
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "IGJKFBBMDGI",
+                            "EIFHKAKNIBJ": true,
+                            "NLKCEFJEEEP": true
+                        }
+                    ]
+                },
+                "FallingAnthem_BS_Material": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Avatar_Catalyst_FallAnthem_BS_Water",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "FallingAnthem_BSCameraRadialBlur"
+                        }
+                    ]
+                },
+                "FallingAnthem_BS_VelocityForce_Initialize": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_AddGravityScale": -2.0
+                    },
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "LCPLENNDIPN",
+                            "GNAKHIKCKMA": [
+                                "RushMoveType"
+                            ]
+                        }
+                    ]
+                },
+                "FallingAnthem_LoopDamage": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 0.30000001192092896,
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "BHDHGOPPAPF",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA",
+                                        "KFHPDJBPILF": {
+                                            "GCAICJCAEGC": 0.0,
+                                            "OHEABNAJGMK": 0.0,
+                                            "GCFAGHEGMOK": 0.0
+                                        }
+                                    },
+                                    "LAGKLBKPJOD": 1.5
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "FallingAttack",
+                                    "FBHEHNEKCEC": "",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": "FallingAnthem_Normal_Loop_Damage",
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Water",
+                                        "DJHMCMJNDJL": 0.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 5.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "default",
+                                        "IMPBPALEIPI": "LV2",
+                                        "MGAHMIHLGPO": 0.019999999552965164
+                                    }
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                },
+                "FallingAnthem_FallingDamageImmune_01": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BMHCHONNBKK",
+                            "EPDHICCGHAL": "_ABILITY_FallingAttack_Altitude"
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "FJJKDHKEGEF": "LesserOrEqual",
+                                    "HPDLNIPCGHB": "FallingAnthem_Altitude_Lv0"
+                                }
+                            ],
+                            "HPDLNIPCGHB": "FallingAnthem_FallingDamageRatio_Lv0",
+                            "EPDHICCGHAL": "_ABILITY_FallingAttack_Altitude",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": "FallingAnthem_FallingDamageRatio_Lv0",
+                            "CMLGDBNFNNO": "FallingAnthem_FallingDamageRatio_Lv0"
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "FJJKDHKEGEF": "LesserOrEqual",
+                                    "HPDLNIPCGHB": "FallingAnthem_Altitude_Lv1"
+                                },
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "HPDLNIPCGHB": "FallingAnthem_Altitude_Lv0"
+                                }
+                            ],
+                            "HPDLNIPCGHB": "FallingAnthem_FallingDamageRatio_Lv1",
+                            "EPDHICCGHAL": "_ABILITY_FallingAttack_Altitude",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": "FallingAnthem_FallingDamageRatio_Lv1",
+                            "CMLGDBNFNNO": "FallingAnthem_FallingDamageRatio_Lv1"
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "FJJKDHKEGEF": "LesserOrEqual",
+                                    "HPDLNIPCGHB": "FallingAnthem_Altitude_Lv2"
+                                },
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "HPDLNIPCGHB": "FallingAnthem_Altitude_Lv1"
+                                }
+                            ],
+                            "HPDLNIPCGHB": "FallingAnthem_FallingDamageRatio_Lv2",
+                            "EPDHICCGHAL": "_ABILITY_FallingAttack_Altitude",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": "FallingAnthem_FallingDamageRatio_Lv2",
+                            "CMLGDBNFNNO": "FallingAnthem_FallingDamageRatio_Lv2"
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "FJJKDHKEGEF": "LesserOrEqual",
+                                    "HPDLNIPCGHB": "FallingAnthem_Altitude_Lv3"
+                                },
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "HPDLNIPCGHB": "FallingAnthem_Altitude_Lv2"
+                                }
+                            ],
+                            "HPDLNIPCGHB": "FallingAnthem_FallingDamageRatio_Lv3",
+                            "EPDHICCGHAL": "_ABILITY_FallingAttack_Altitude",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": "FallingAnthem_FallingDamageRatio_Lv3",
+                            "CMLGDBNFNNO": "FallingAnthem_FallingDamageRatio_Lv3"
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "HPDLNIPCGHB": "FallingAnthem_Altitude_Lv3"
+                                }
+                            ],
+                            "HPDLNIPCGHB": "FallingAnthem_FallingDamageRatio_Lv4",
+                            "EPDHICCGHAL": "_ABILITY_FallingAttack_Altitude",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": "FallingAnthem_FallingDamageRatio_Lv4",
+                            "CMLGDBNFNNO": "FallingAnthem_FallingDamageRatio_Lv4"
+                        },
+                        {
+                            "$type": "ELEIPIAKELP",
+                            "PEJCGBFFICP": "FallingAnthem_FallingDamageImmune_02"
+                        }
+                    ]
+                },
+                "FallingAnthem_FallingDamageImmune_02": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "FMHCKOKPEPO",
+                            "AMOOLHDIAIH": "_ABILITY_FallingAttack_Altitude",
+                            "KFHDNIDDHID": "FallingAnthem_FallingDamageRatio"
+                        },
+                        {
+                            "$type": "ELEIPIAKELP",
+                            "PEJCGBFFICP": "FallingAnthem_FallingDamageImmune_03"
+                        }
+                    ]
+                },
+                "FallingAnthem_FallingDamageImmune_03": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_FallingDamageRatio": "FallingAnthem_FallingDamageRatio"
+                    }
+                },
+                "Inertia": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "PPCAKEAGFAD",
+                            "EHNGMDMAFPA": false,
+                            "JCCNJIKNGBP": false
+                        }
+                    ]
+                },
+                "FallingAnthem_Height_Detect": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "FJJKDHKEGEF": "LesserOrEqual",
+                                    "HPDLNIPCGHB": 2.4000000953674316
+                                }
+                            ],
+                            "HPDLNIPCGHB": 0.0,
+                            "EPDHICCGHAL": "_ABILITY_FallingAnthem_UseCamera",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "HPDLNIPCGHB": 2.4000000953674316
+                                }
+                            ],
+                            "HPDLNIPCGHB": 5.0,
+                            "EPDHICCGHAL": "_ABILITY_FallingAnthem_UseCamera",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 1.0,
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "GHBFKENKHAK",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "FJJKDHKEGEF": "LesserOrEqual",
+                                    "HPDLNIPCGHB": 2.4000000953674316
+                                }
+                            ],
+                            "OLABGELNNJI": "FallingAnthem_UseCamera",
+                            "HPDLNIPCGHB": 0.0
+                        },
+                        {
+                            "$type": "GHBFKENKHAK",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NPFJHPOKAHJ",
+                                    "HPDLNIPCGHB": 2.4000000953674316
+                                }
+                            ],
+                            "OLABGELNNJI": "FallingAnthem_UseCamera",
+                            "HPDLNIPCGHB": 1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "GHBFKENKHAK",
+                            "OLABGELNNJI": "FallingAnthem_UseCamera",
+                            "HPDLNIPCGHB": 0.0
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": 0.0,
+                            "EPDHICCGHAL": "_ABILITY_FallingAnthem_UseCamera",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                },
+                "FallingAnthem_OverHead_Camera": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "OABKFPHMBOO",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "AKKOINKEAED",
+                                    "FJJKDHKEGEF": "Equal",
+                                    "HPDLNIPCGHB": 1.0,
+                                    "KMJJNGEHKOD": "FallingAnthem_UseCamera"
+                                }
+                            ],
+                            "BDOGJNILCHP": {
+                                "BMNDCKOJEKF": 4.5,
+                                "JLGOBLNGLKF": 0.20000000298023224,
+                                "EGIKEHIKCJO": true
+                            }
+                        }
+                    ]
+                },
+                "FallingAnthem_OverHead_Camera_Remover": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HNIJANAHGAJ",
+                            "EIFHKAKNIBJ": true
+                        }
+                    ]
+                },
+                "FallingAnthem_Landed_Camera": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "OABKFPHMBOO",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "AKKOINKEAED",
+                                    "FJJKDHKEGEF": "Equal",
+                                    "HPDLNIPCGHB": 1.0,
+                                    "KMJJNGEHKOD": "FallingAnthem_UseCamera"
+                                }
+                            ],
+                            "BDOGJNILCHP": {
+                                "BMNDCKOJEKF": 6.0,
+                                "JLGOBLNGLKF": 0.10000000149011612,
+                                "EGIKEHIKCJO": true
+                            }
+                        }
+                    ]
+                },
+                "FallingAnthem_ClearVelocityForce": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "LCPLENNDIPN",
+                            "GNAKHIKCKMA": [
+                                "RushMoveType",
+                                "InertiaType"
+                            ]
+                        }
+                    ]
+                },
+                "FallingAnthem_Attach_SelfEffect": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Avatar_Catalyst_FallAnthem_Self_Water",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "FallingAnthem_Remove_SelfEffect": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.10000000149011612,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "FallingAnthem_Attach_SelfEffect"
+                        }
+                    ]
+                },
+                "FallingAnthem_BSCameraRadialBlur": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.30000001192092896,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "DMMMBEEBONJ",
+                            "EBNPNCEAKNE": {
+                                "CHFMLLGHEBG": 0.30000001192092896,
+                                "EIDCLKJIFHM": 0.15000000596046448
+                            }
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "HNMEPMFMCEP",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_ABILITY_FallingAnthem_UseCamera",
+                            "HPDLNIPCGHB": 0.0,
+                            "PLODBKBOPMP": true,
+                            "NECALNHGCCP": "NoneOrEqual"
+                        }
+                    ],
+                    "EEBDJIHOMKG": {
+                        "MNACMFPGGJM": {
+                            "$type": "HEPODMKCFLI",
+                            "KIALPPECALL": "TriggerNoRepeat",
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": -0.5,
+                                    "GCFAGHEGMOK": 0.0
+                                }
+                            },
+                            "BJFNPGBKPHH": 2.0,
+                            "LAGKLBKPJOD": 3.0
+                        },
+                        "MKDNKDGFHOB": {
+                            "NCHHOHMMGLO": "FallingAttack",
+                            "FBHEHNEKCEC": "",
+                            "JJDHKGHLAPG": "default",
+                            "ECAAIDPICHF": {
+                                "BHIHBFJCJMF": "FallingAnthem_Normal_Rank_1_Damage",
+                                "MPFFDBKNGKK": 0.0,
+                                "JPNOHJMPEGF": "Water",
+                                "DJHMCMJNDJL": 25.0,
+                                "GIDLGFOGCPI": "Default",
+                                "OOCKJPLEGJK": 50.0
+                            },
+                            "NBOPNJKHONH": {
+                                "EFMEOMPPGGB": "none",
+                                "IMPBPALEIPI": "LV3",
+                                "MGAHMIHLGPO": 0.10000000149011612
+                            },
+                            "EPCGKKCGCAG": true,
+                            "EJGFDAAGMMB": {
+                                "NMOJMMOFAFI": "CustomVector",
+                                "BGKHGAABBML": 0.23999999463558197,
+                                "NNMNPIKPKIA": 0.11999999731779099,
+                                "MMOENDKOMCP": 30.0,
+                                "MLGICLMHNFB": {
+                                    "_y": 1.0
+                                },
+                                "NKMFPPHEILP": {
+                                    "BLBBHMBGBKE": 0.23999999463558197,
+                                    "HOFMPPAAJGN": 0.0,
+                                    "LNOJLHBAKFC": 0.30000001192092896
+                                }
+                            }
+                        }
+                    },
+                    "HDHMLBLHGPD": "Enemy"
+                },
+                {
+                    "$type": "HNMEPMFMCEP",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_ABILITY_FallingAnthem_UseCamera",
+                            "HPDLNIPCGHB": 1.0,
+                            "PLODBKBOPMP": true
+                        }
+                    ],
+                    "EEBDJIHOMKG": {
+                        "MNACMFPGGJM": {
+                            "$type": "HEPODMKCFLI",
+                            "KIALPPECALL": "TriggerNoRepeat",
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": -0.5,
+                                    "GCFAGHEGMOK": 0.0
+                                }
+                            },
+                            "BJFNPGBKPHH": 2.0,
+                            "LAGKLBKPJOD": 3.5
+                        },
+                        "MKDNKDGFHOB": {
+                            "NCHHOHMMGLO": "FallingAttack",
+                            "FBHEHNEKCEC": "",
+                            "JJDHKGHLAPG": "default",
+                            "ECAAIDPICHF": {
+                                "BHIHBFJCJMF": "FallingAnthem_Normal_Rank_2_Damage",
+                                "MPFFDBKNGKK": 0.0,
+                                "JPNOHJMPEGF": "Water",
+                                "DJHMCMJNDJL": 25.0,
+                                "GIDLGFOGCPI": "Default",
+                                "OOCKJPLEGJK": 100.0
+                            },
+                            "NBOPNJKHONH": {
+                                "EFMEOMPPGGB": "none",
+                                "IMPBPALEIPI": "LV4",
+                                "MGAHMIHLGPO": 0.10000000149011612
+                            },
+                            "EPCGKKCGCAG": true,
+                            "EJGFDAAGMMB": {
+                                "NMOJMMOFAFI": "CustomVector",
+                                "BGKHGAABBML": 0.5,
+                                "NNMNPIKPKIA": 0.20000000298023224,
+                                "MMOENDKOMCP": 30.0,
+                                "MLGICLMHNFB": {
+                                    "_y": 1.0,
+                                    "_z": 1.0
+                                },
+                                "NKMFPPHEILP": {
+                                    "BLBBHMBGBKE": 0.4000000059604645,
+                                    "HOFMPPAAJGN": 0.0,
+                                    "LNOJLHBAKFC": 0.30000001192092896
+                                }
+                            }
+                        }
+                    },
+                    "HDHMLBLHGPD": "Enemy"
+                },
+                {
+                    "$type": "ALLDMMABLIM",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_ABILITY_FallingAnthem_UseCamera",
+                            "HPDLNIPCGHB": 0.0,
+                            "PLODBKBOPMP": true,
+                            "NECALNHGCCP": "NoneOrEqual"
+                        }
+                    ],
+                    "CGLDJGDLIHP": "Eff_Avatar_Catalyst_FallAnthem_Strike_01_Water",
+                    "LMEAGKCCLON": -1.0
+                },
+                {
+                    "$type": "ALLDMMABLIM",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_ABILITY_FallingAnthem_UseCamera",
+                            "HPDLNIPCGHB": 1.0,
+                            "PLODBKBOPMP": true
+                        }
+                    ],
+                    "CGLDJGDLIHP": "Eff_Avatar_Catalyst_FallAnthem_Strike_02_Water",
+                    "LMEAGKCCLON": -1.0
+                }
+            ]
+        }
+    }
+]

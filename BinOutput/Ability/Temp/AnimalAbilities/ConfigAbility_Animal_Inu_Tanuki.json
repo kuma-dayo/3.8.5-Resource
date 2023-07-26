@@ -1,0 +1,438 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Inu_Tanuki_IgnoreControlState",
+            "OJEBMMAGKOF": {
+                "Animal_Inu_Tanuki_IgnoreControlState": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "GBHKMHKMICK",
+                            "IDMHIGEBMAL": 15001
+                        },
+                        {
+                            "$type": "GBHKMHKMICK",
+                            "IDMHIGEBMAL": 15002
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Animal_Inu_Tanuki_IgnoreControlState"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Inu_Tanuki_BlinkState",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Blink_BS",
+                        "End_BS"
+                    ],
+                    "PEJCGBFFICP": "Blink_State"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Blink_State": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PEJCGBFFICP": "UNIQUE_Inu_Tanuki_Blink_Actions"
+                        }
+                    ]
+                },
+                "UNIQUE_Inu_Tanuki_Blink_Actions": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "IGJKFBBMDGI"
+                        },
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider"
+                            ]
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "IGJKFBBMDGI",
+                            "NLKCEFJEEEP": true
+                        },
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider"
+                            ],
+                            "AGGNLAHGDPC": true
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "UNIQUE_Inu_Tanuki_Blink_Actions"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Inu_Tanuki_FindNextPathPoint",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "LAPAAOJOAPL",
+                    "CBDEIEIFLEG": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "PEJCGBFFICP": "InitializeModifier"
+                },
+                {
+                    "$type": "LAPAAOJOAPL",
+                    "CBDEIEIFLEG": [
+                        100
+                    ],
+                    "PEJCGBFFICP": "FindingNextPoint"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "NextPathPointFlag": 1.0
+            },
+            "OJEBMMAGKOF": {
+                "InitializeModifier": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_TANUKI_NEXTPATHPOINTFLAG_",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "OBBCDAOOJJH",
+                            "CMOCNBDEJGD": "NextPointType"
+                        },
+                        {
+                            "$type": "PEIOKCJEEEF",
+                            "HPDLNIPCGHB": 1.0,
+                            "KFHDNIDDHID": "NextPathPointFlag"
+                        }
+                    ]
+                },
+                "FindingNextPoint": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 0.20000000298023224,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "DCHBNFCPPAP": {
+                                "$type": "LLKLOGAMNLA",
+                                "JPOIGIBNCBJ": "XOR",
+                                "BMDEPGNHMIH": "NextPathPointFlag"
+                            },
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_TANUKI_PATHPOINT_END_",
+                                    "HPDLNIPCGHB": 1.0
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "OBBCDAOOJJH",
+                                    "CMOCNBDEJGD": "NextPointType",
+                                    "DLLBGDKBMIL": 2
+                                },
+                                {
+                                    "$type": "JLEJLKPOJCD",
+                                    "PMMKLHAOKCG": "Target",
+                                    "EOJEMDCPHMK": 360.0
+                                }
+                            ],
+                            "BLCNENOAPBF": [
+                                {
+                                    "$type": "HGKGGEKHOBB",
+                                    "DCHBNFCPPAP": {
+                                        "$type": "LLKLOGAMNLA",
+                                        "JPOIGIBNCBJ": "XOR",
+                                        "BMDEPGNHMIH": "NextPathPointFlag"
+                                    },
+                                    "PILMKPPOHPN": [
+                                        {
+                                            "$type": "BEDEFFCBNIG",
+                                            "EPDHICCGHAL": "_TANUKI_PATHPOINT_BLINK_",
+                                            "HPDLNIPCGHB": 1.0
+                                        }
+                                    ],
+                                    "BDJHNHMPGDB": [
+                                        {
+                                            "$type": "OBBCDAOOJJH",
+                                            "CMOCNBDEJGD": "NextPointType",
+                                            "DLLBGDKBMIL": 1
+                                        },
+                                        {
+                                            "$type": "JLEJLKPOJCD",
+                                            "PMMKLHAOKCG": "Target",
+                                            "EOJEMDCPHMK": 360.0
+                                        }
+                                    ],
+                                    "BLCNENOAPBF": [
+                                        {
+                                            "$type": "OBBCDAOOJJH",
+                                            "CMOCNBDEJGD": "NextPointType",
+                                            "DLLBGDKBMIL": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "DCHBNFCPPAP": {
+                                "$type": "LLKLOGAMNLA",
+                                "JPOIGIBNCBJ": "XOR",
+                                "BMDEPGNHMIH": "NextPathPointFlag"
+                            },
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_TANUKI_PATHPOINT_END_",
+                                    "HPDLNIPCGHB": 1.0
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "OBBCDAOOJJH",
+                                    "CMOCNBDEJGD": "NextPointType",
+                                    "DLLBGDKBMIL": 2
+                                },
+                                {
+                                    "$type": "JLEJLKPOJCD",
+                                    "PMMKLHAOKCG": "Target",
+                                    "EOJEMDCPHMK": 360.0
+                                }
+                            ],
+                            "BLCNENOAPBF": [
+                                {
+                                    "$type": "HGKGGEKHOBB",
+                                    "DCHBNFCPPAP": {
+                                        "$type": "LLKLOGAMNLA",
+                                        "JPOIGIBNCBJ": "XOR",
+                                        "BMDEPGNHMIH": "NextPathPointFlag"
+                                    },
+                                    "PILMKPPOHPN": [
+                                        {
+                                            "$type": "BEDEFFCBNIG",
+                                            "EPDHICCGHAL": "_TANUKI_PATHPOINT_BLINK_",
+                                            "HPDLNIPCGHB": 1.0
+                                        }
+                                    ],
+                                    "BDJHNHMPGDB": [
+                                        {
+                                            "$type": "OBBCDAOOJJH",
+                                            "CMOCNBDEJGD": "NextPointType",
+                                            "DLLBGDKBMIL": 1
+                                        },
+                                        {
+                                            "$type": "JLEJLKPOJCD",
+                                            "PMMKLHAOKCG": "Target",
+                                            "EOJEMDCPHMK": 360.0
+                                        }
+                                    ],
+                                    "BLCNENOAPBF": [
+                                        {
+                                            "$type": "OBBCDAOOJJH",
+                                            "CMOCNBDEJGD": "NextPointType",
+                                            "DLLBGDKBMIL": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "AOBGBMLFACK",
+                    "HPDLNIPCGHB": 1.0,
+                    "EPDHICCGHAL": "_TANUKI_NEXTPATHPOINTFLAG_",
+                    "BFEAMPHKKCE": 0.0,
+                    "CMLGDBNFNNO": 0.0
+                }
+            ],
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "FixedMove"
+                },
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": 1.0,
+                    "EPDHICCGHAL": "_TANUKI_NEXTPATHPOINTFLAG_",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 99.0,
+                    "CMLGDBNFNNO": 1.0
+                },
+                {
+                    "$type": "FMHCKOKPEPO",
+                    "AMOOLHDIAIH": "_TANUKI_NEXTPATHPOINTFLAG_",
+                    "KFHDNIDDHID": "NextPathPointFlag"
+                },
+                {
+                    "$type": "OBBCDAOOJJH",
+                    "CMOCNBDEJGD": "NextPointType"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Inu_Tanuki_DoBlink",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "OMFELNOHPMJ"
+                },
+                {
+                    "$type": "EANLMKIJOJK",
+                    "EIIJMGGKJME": "Animal_Inu_Tanuki_FindNextPathPoint"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Inu_Tanuki_Attraction",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Alert",
+                        "Alert_AS",
+                        "Attraction",
+                        "Attraction_AS"
+                    ],
+                    "PEJCGBFFICP": "Inu_Tanuki_AttractionEffect"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Alert",
+                        "Alert_AS"
+                    ],
+                    "PEJCGBFFICP": "Inu_Tanuki_AlertBehitModifier"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Inu_Tanuki_AttractionEffect": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Animal_Inu_Tanuki_Attraction",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "Inu_Tanuki_AlertBehitModifier": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "EGPFMEPFOPG": "AlertHitTrigger"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Inu_Tanuki_KillSelf",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "GHKGCICKBBP"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Inu_Tanuki_KillSelf_Escape",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "GHKGCICKBBP",
+                    "FNEAFDJCKOM": true,
+                    "JGFBFBLFDLN": true,
+                    "NCFHGBFGGNC": "Disappear"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Inu_Tanuki_Steer",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "Blink_BS"
+                    ],
+                    "IAEOHPAMKIL": 0.5,
+                    "MPFOAOKIGCA": 540.0,
+                    "GCECEIPILLB": "",
+                    "FJGPMJJBMAB": 2.0
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "End"
+                    ],
+                    "IAEOHPAMKIL": 0.5,
+                    "MPFOAOKIGCA": 540.0,
+                    "GCECEIPILLB": "",
+                    "FJGPMJJBMAB": 2.0
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "Alert"
+                    ],
+                    "IAEOHPAMKIL": 0.30000001192092896,
+                    "MPFOAOKIGCA": 540.0,
+                    "GCECEIPILLB": "",
+                    "FJGPMJJBMAB": 2.0
+                }
+            ]
+        }
+    }
+]

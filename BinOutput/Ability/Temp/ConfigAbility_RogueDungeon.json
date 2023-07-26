@@ -1,0 +1,699 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "DynamicAbility_RogueDungeon_Level",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "CEOHDCHIEGA",
+                    "AMOOLHDIAIH": "SGV_ROGUE_BOMBREJECT",
+                    "EALHNKBPCIN": [
+                        0.5,
+                        1.5
+                    ],
+                    "GCHODBPEJKH": [
+                        "BombRejectHandler"
+                    ]
+                },
+                {
+                    "$type": "CEOHDCHIEGA",
+                    "AMOOLHDIAIH": "SGV_ROGUECURSE_MONSTERBUFF",
+                    "EALHNKBPCIN": [
+                        0.5,
+                        1.5
+                    ],
+                    "GCHODBPEJKH": [
+                        "MonsterGetBuff"
+                    ]
+                },
+                {
+                    "$type": "CEOHDCHIEGA",
+                    "AMOOLHDIAIH": "SGV_ROGUECURSE_BOMBDAMAGE",
+                    "EALHNKBPCIN": [
+                        0.5,
+                        1.5
+                    ],
+                    "GCHODBPEJKH": [
+                        "BombExtraDamage"
+                    ]
+                }
+            ],
+            "ABGJNGNECKP": {
+                "attackbylevelentity_LV": 0.0,
+                "masterybygear_LV": 0.0,
+                "reviveroombuff_LV": 0.0,
+                "battleroombuff_LV": 0.0,
+                "chargebylevelentity_LV": 0.0,
+                "mutehurtbylevelentity_LV": 0.0,
+                "defencebylevelentity_LV": 0.0,
+                "MAX_attackbylevelentity_LV": 20.0,
+                "MAX_mutehurtbylevelentity_LV": 10.0,
+                "MAX_defencebylevelentity_LV": 10.0,
+                "MAX_chargebylevelentity_LV": 10.0,
+                "MAX_masterybygear_LV": 20.0,
+                "MAX_reviveroombuff_LV": 2.0,
+                "MAX_battleroombuff_LV": 6.0,
+                "PER_attackbylevelentity": 0.012000000104308128,
+                "PER_chargebylevelentity": 0.019999999552965164,
+                "PER_mutehurtbylevelentity": 0.009999999776482582,
+                "PER_defencebylevelentity": 0.019999999552965164,
+                "PER_masterybygear": 1.0,
+                "PER_reviveroombuff": 0.11999999731779099,
+                "PER_battleroombuff": 0.03999999910593033
+            },
+            "OJEBMMAGKOF": {
+                "MonsterGetBuff": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0
+                },
+                "UNIQUE_MonsterGetBuff_Effect": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "EIFHKAKNIBJ": true,
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "GV_ROGUE_CURSEEFF",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "EIFHKAKNIBJ": true,
+                            "HPDLNIPCGHB": -1.0,
+                            "EPDHICCGHAL": "GV_ROGUE_CURSEEFF",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                },
+                "BombExtraDamage": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "DAOLDDHCBAJ",
+                            "PEJCGBFFICP": "UNIQUE_BombExtraDamage_Effect"
+                        }
+                    ]
+                },
+                "UNIQUE_BombExtraDamage_Effect": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "EIFHKAKNIBJ": true,
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "GV_ROGUE_CURSEEFF",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "EIFHKAKNIBJ": true,
+                            "HPDLNIPCGHB": -1.0,
+                            "EPDHICCGHAL": "GV_ROGUE_CURSEEFF",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                },
+                "AttackByLevelEntityHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GPGFEDBKPPC",
+                            "AMOOLHDIAIH": "SGV_ROGUE_ATTACKBYLEVELENTITY",
+                            "OEPEJHJBNDG": [
+                                {
+                                    "$type": "FMHCKOKPEPO",
+                                    "AMOOLHDIAIH": "SGV_ROGUE_ATTACKBYLEVELENTITY",
+                                    "KFHDNIDDHID": "attackbylevelentity_LV"
+                                },
+                                {
+                                    "$type": "PMBLFEECDEC",
+                                    "PEJCGBFFICP": "AttackByLevelEntity_Manager"
+                                },
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PEJCGBFFICP": "AttackByLevelEntity_Manager"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "AttackByLevelEntity_Manager": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "DAOLDDHCBAJ",
+                            "PEJCGBFFICP": "UNIQUE_AttackByLevelEntity_Avatar"
+                        }
+                    ]
+                },
+                "UNIQUE_AttackByLevelEntity_Avatar": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_AddHurtDelta": [
+                            "PER_attackbylevelentity",
+                            "attackbylevelentity_LV",
+                            "MUL"
+                        ]
+                    }
+                },
+                "ChargeSpeedByLevelEntityHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GPGFEDBKPPC",
+                            "AMOOLHDIAIH": "SGV_ROGUE_CHARGEBYLEVELENTITY",
+                            "OEPEJHJBNDG": [
+                                {
+                                    "$type": "FMHCKOKPEPO",
+                                    "AMOOLHDIAIH": "SGV_ROGUE_CHARGEBYLEVELENTITY",
+                                    "KFHDNIDDHID": "chargebylevelentity_LV"
+                                },
+                                {
+                                    "$type": "PMBLFEECDEC",
+                                    "PEJCGBFFICP": "ChargeByLevelEntity_Manager"
+                                },
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PEJCGBFFICP": "ChargeByLevelEntity_Manager"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "ChargeByLevelEntity_Manager": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "DAOLDDHCBAJ",
+                            "PEJCGBFFICP": "UNIQUE_ChargeByLevelEntity_Avatar"
+                        }
+                    ]
+                },
+                "UNIQUE_ChargeByLevelEntity_Avatar": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_ChargeEfficiencyDelta": [
+                            "PER_chargebylevelentity",
+                            "chargebylevelentity_LV",
+                            "MUL"
+                        ]
+                    }
+                },
+                "MuteHurtByLevelEntityHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GPGFEDBKPPC",
+                            "AMOOLHDIAIH": "SGV_ROGUE_MUTEHURTBYLEVELENTITY",
+                            "OEPEJHJBNDG": [
+                                {
+                                    "$type": "HGKGGEKHOBB",
+                                    "PILMKPPOHPN": [
+                                        {
+                                            "$type": "BEDEFFCBNIG",
+                                            "PMMKLHAOKCG": "Team",
+                                            "EPDHICCGHAL": "SGV_ROGUE_MUTEHURTBYLEVELENTITY",
+                                            "HPDLNIPCGHB": "MAX_mutehurtbylevelentity_LV",
+                                            "NECALNHGCCP": "LessAndEqual"
+                                        }
+                                    ],
+                                    "BDJHNHMPGDB": [
+                                        {
+                                            "$type": "FMHCKOKPEPO",
+                                            "AMOOLHDIAIH": "SGV_ROGUE_MUTEHURTBYLEVELENTITY",
+                                            "KFHDNIDDHID": "mutehurtbylevelentity_LV"
+                                        },
+                                        {
+                                            "$type": "PMBLFEECDEC",
+                                            "PEJCGBFFICP": "MuteHurtByLevelEntity_Manager"
+                                        },
+                                        {
+                                            "$type": "BFIMNGHHDEN",
+                                            "PEJCGBFFICP": "MuteHurtByLevelEntity_Manager"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "MuteHurtByLevelEntity_Manager": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "DAOLDDHCBAJ",
+                            "PEJCGBFFICP": "UNIQUE_MuteHurtByLevelEntity_Avatar"
+                        }
+                    ]
+                },
+                "UNIQUE_MuteHurtByLevelEntity_Avatar": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_PhysicalSubHurtDelta": [
+                            "PER_mutehurtbylevelentity",
+                            "mutehurtbylevelentity_LV",
+                            "MUL"
+                        ],
+                        "Actor_FireSubHurtDelta": [
+                            "PER_mutehurtbylevelentity",
+                            "mutehurtbylevelentity_LV",
+                            "MUL"
+                        ],
+                        "Actor_ElecSubHurtDelta": [
+                            "PER_mutehurtbylevelentity",
+                            "mutehurtbylevelentity_LV",
+                            "MUL"
+                        ],
+                        "Actor_WaterSubHurtDelta": [
+                            "PER_mutehurtbylevelentity",
+                            "mutehurtbylevelentity_LV",
+                            "MUL"
+                        ],
+                        "Actor_GrassSubHurtDelta": [
+                            "PER_mutehurtbylevelentity",
+                            "mutehurtbylevelentity_LV",
+                            "MUL"
+                        ],
+                        "Actor_WindSubHurtDelta": [
+                            "PER_mutehurtbylevelentity",
+                            "mutehurtbylevelentity_LV",
+                            "MUL"
+                        ],
+                        "Actor_IceSubHurtDelta": [
+                            "PER_mutehurtbylevelentity",
+                            "mutehurtbylevelentity_LV",
+                            "MUL"
+                        ],
+                        "Actor_RockSubHurtDelta": [
+                            "PER_mutehurtbylevelentity",
+                            "mutehurtbylevelentity_LV",
+                            "MUL"
+                        ]
+                    }
+                },
+                "DefenceByLevelEntityHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GPGFEDBKPPC",
+                            "AMOOLHDIAIH": "SGV_ROGUE_DEFENCEBYLEVELENTITY",
+                            "OEPEJHJBNDG": [
+                                {
+                                    "$type": "FMHCKOKPEPO",
+                                    "AMOOLHDIAIH": "SGV_ROGUE_DEFENCEBYLEVELENTITY",
+                                    "KFHDNIDDHID": "defencebylevelentity_LV"
+                                },
+                                {
+                                    "$type": "PMBLFEECDEC",
+                                    "PEJCGBFFICP": "DefenceByLevelEntity_Manager"
+                                },
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PEJCGBFFICP": "DefenceByLevelEntity_Manager"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "DefenceByLevelEntity_Manager": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "DAOLDDHCBAJ",
+                            "PEJCGBFFICP": "UNIQUE_DefenceByLevelEntity_Avatar"
+                        }
+                    ]
+                },
+                "UNIQUE_DefenceByLevelEntity_Avatar": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_DefenceRatio": [
+                            "PER_defencebylevelentity",
+                            "defencebylevelentity_LV",
+                            "MUL"
+                        ]
+                    }
+                },
+                "BombRejectHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "DAOLDDHCBAJ",
+                            "PEJCGBFFICP": "UNIQUE_BombReject_Avatar"
+                        }
+                    ]
+                },
+                "UNIQUE_BombReject_Avatar": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "ECJDAEOMMJE",
+                            "NCHHOHMMGLO": "Rogue_BombAttack"
+                        }
+                    ]
+                },
+                "MasteryByGearHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GPGFEDBKPPC",
+                            "AMOOLHDIAIH": "SGV_ROGUE_MASTERYBYGEAR",
+                            "OEPEJHJBNDG": [
+                                {
+                                    "$type": "FMHCKOKPEPO",
+                                    "AMOOLHDIAIH": "SGV_ROGUE_MASTERYBYGEAR",
+                                    "KFHDNIDDHID": "masterybygear_LV"
+                                },
+                                {
+                                    "$type": "PMBLFEECDEC",
+                                    "PEJCGBFFICP": "MasteryByGear_Manager"
+                                },
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PEJCGBFFICP": "MasteryByGear_Manager"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "MasteryByGear_Manager": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "DAOLDDHCBAJ",
+                            "PEJCGBFFICP": "UNIQUE_MasteryByGear_Avatar"
+                        }
+                    ]
+                },
+                "UNIQUE_MasteryByGear_Avatar": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_ElemMasteryDelta": [
+                            10.0,
+                            "masterybygear_LV",
+                            "MUL"
+                        ]
+                    }
+                },
+                "ReviveRoomBuffHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GPGFEDBKPPC",
+                            "AMOOLHDIAIH": "SGV_ROGUE_REVIVEROOMBUFF",
+                            "OEPEJHJBNDG": [
+                                {
+                                    "$type": "HGKGGEKHOBB",
+                                    "PILMKPPOHPN": [
+                                        {
+                                            "$type": "BEDEFFCBNIG",
+                                            "PMMKLHAOKCG": "Team",
+                                            "EPDHICCGHAL": "SGV_ROGUE_REVIVEROOMBUFF",
+                                            "HPDLNIPCGHB": 0.0,
+                                            "NECALNHGCCP": "MoreThan"
+                                        }
+                                    ],
+                                    "BDJHNHMPGDB": [
+                                        {
+                                            "$type": "FMHCKOKPEPO",
+                                            "AMOOLHDIAIH": "SGV_ROGUE_REVIVEROOMBUFF",
+                                            "KFHDNIDDHID": "reviveroombuff_LV"
+                                        },
+                                        {
+                                            "$type": "PMBLFEECDEC",
+                                            "PEJCGBFFICP": "ReviveRoomBuff_Manager"
+                                        },
+                                        {
+                                            "$type": "BFIMNGHHDEN",
+                                            "PEJCGBFFICP": "ReviveRoomBuff_Manager"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "ReviveRoomBuff_Manager": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "DAOLDDHCBAJ",
+                            "PEJCGBFFICP": "UNIQUE_ReviveRoomBuff_Avatar"
+                        }
+                    ]
+                },
+                "UNIQUE_ReviveRoomBuff_Avatar": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_AddHurtDelta": [
+                            "PER_reviveroombuff",
+                            "reviveroombuff_LV",
+                            "MUL",
+                            "PER_reviveroombuff",
+                            "SUB"
+                        ]
+                    }
+                },
+                "BattleRoomBuffHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GPGFEDBKPPC",
+                            "AMOOLHDIAIH": "SGV_ROGUE_BATTLEROOMBUFF",
+                            "OEPEJHJBNDG": [
+                                {
+                                    "$type": "HGKGGEKHOBB",
+                                    "PILMKPPOHPN": [
+                                        {
+                                            "$type": "BEDEFFCBNIG",
+                                            "PMMKLHAOKCG": "Team",
+                                            "EPDHICCGHAL": "SGV_ROGUE_BATTLEROOMBUFF",
+                                            "HPDLNIPCGHB": 0.0,
+                                            "NECALNHGCCP": "MoreThan"
+                                        }
+                                    ],
+                                    "BDJHNHMPGDB": [
+                                        {
+                                            "$type": "FMHCKOKPEPO",
+                                            "AMOOLHDIAIH": "SGV_ROGUE_BATTLEROOMBUFF",
+                                            "KFHDNIDDHID": "battleroombuff_LV"
+                                        },
+                                        {
+                                            "$type": "PMBLFEECDEC",
+                                            "PEJCGBFFICP": "BattleRoomBuff_Manager"
+                                        },
+                                        {
+                                            "$type": "BFIMNGHHDEN",
+                                            "PEJCGBFFICP": "BattleRoomBuff_Manager"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "BattleRoomBuff_Manager": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "DAOLDDHCBAJ",
+                            "PEJCGBFFICP": "UNIQUE_BattleRoomBuff_Avatar"
+                        }
+                    ]
+                },
+                "UNIQUE_BattleRoomBuff_Avatar": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_AddHurtDelta": [
+                            "PER_battleroombuff",
+                            "battleroombuff_LV",
+                            "MUL",
+                            "PER_battleroombuff",
+                            "SUB"
+                        ]
+                    }
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "AttackByLevelEntityHandler"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "ChargeSpeedByLevelEntityHandler"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "MuteHurtByLevelEntityHandler"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "DefenceByLevelEntityHandler"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "MasteryByGearHandler"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "ReviveRoomBuffHandler"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "BattleRoomBuffHandler"
+                },
+                {
+                    "$type": "FMHCKOKPEPO",
+                    "AMOOLHDIAIH": "SGV_ROGUE_ATTACKBYLEVELENTITY",
+                    "KFHDNIDDHID": "attackbylevelentity_LV"
+                },
+                {
+                    "$type": "PMBLFEECDEC",
+                    "PEJCGBFFICP": "AttackByLevelEntity_Manager"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "AttackByLevelEntity_Manager"
+                },
+                {
+                    "$type": "FMHCKOKPEPO",
+                    "AMOOLHDIAIH": "SGV_ROGUE_CHARGEBYLEVELENTITY",
+                    "KFHDNIDDHID": "chargebylevelentity_LV"
+                },
+                {
+                    "$type": "PMBLFEECDEC",
+                    "PEJCGBFFICP": "ChargeByLevelEntity_Manager"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "ChargeByLevelEntity_Manager"
+                },
+                {
+                    "$type": "FMHCKOKPEPO",
+                    "AMOOLHDIAIH": "SGV_ROGUE_MUTEHURTBYLEVELENTITY",
+                    "KFHDNIDDHID": "mutehurtbylevelentity_LV"
+                },
+                {
+                    "$type": "PMBLFEECDEC",
+                    "PEJCGBFFICP": "MuteHurtByLevelEntity_Manager"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "MuteHurtByLevelEntity_Manager"
+                },
+                {
+                    "$type": "FMHCKOKPEPO",
+                    "AMOOLHDIAIH": "SGV_ROGUE_DEFENCEBYLEVELENTITY",
+                    "KFHDNIDDHID": "defencebylevelentity_LV"
+                },
+                {
+                    "$type": "PMBLFEECDEC",
+                    "PEJCGBFFICP": "DefenceByLevelEntity_Manager"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "DefenceByLevelEntity_Manager"
+                },
+                {
+                    "$type": "HGKGGEKHOBB",
+                    "PILMKPPOHPN": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "PMMKLHAOKCG": "Team",
+                            "EPDHICCGHAL": "SGV_ROGUE_REVIVEROOMBUFF",
+                            "HPDLNIPCGHB": 0.0,
+                            "NECALNHGCCP": "MoreThan"
+                        }
+                    ],
+                    "BDJHNHMPGDB": [
+                        {
+                            "$type": "FMHCKOKPEPO",
+                            "AMOOLHDIAIH": "SGV_ROGUE_REVIVEROOMBUFF",
+                            "KFHDNIDDHID": "reviveroombuff_LV"
+                        },
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "ReviveRoomBuff_Manager"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "ReviveRoomBuff_Manager"
+                        }
+                    ]
+                },
+                {
+                    "$type": "HGKGGEKHOBB",
+                    "PILMKPPOHPN": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "PMMKLHAOKCG": "Team",
+                            "EPDHICCGHAL": "SGV_ROGUE_BATTLEROOMBUFF",
+                            "HPDLNIPCGHB": 0.0,
+                            "NECALNHGCCP": "MoreThan"
+                        }
+                    ],
+                    "BDJHNHMPGDB": [
+                        {
+                            "$type": "FMHCKOKPEPO",
+                            "AMOOLHDIAIH": "SGV_ROGUE_BATTLEROOMBUFF",
+                            "KFHDNIDDHID": "battleroombuff_LV"
+                        },
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "BattleRoomBuff_Manager"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "BattleRoomBuff_Manager"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

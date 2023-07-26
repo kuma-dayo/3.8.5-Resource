@@ -1,0 +1,1140 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_WindEffect",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Born",
+                        "NormalIdle",
+                        "Turn",
+                        "NormalMove",
+                        "Warning",
+                        "RandomWalk",
+                        "HurricaneRush_Drop"
+                    ],
+                    "PEJCGBFFICP": "WindEffect"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "WindEffect": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "AKKOINKEAED",
+                                    "FJJKDHKEGEF": "Lesser",
+                                    "HPDLNIPCGHB": 200.0,
+                                    "KMJJNGEHKOD": "PoseID"
+                                }
+                            ],
+                            "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_Idle",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_FlyState",
+            "OJEBMMAGKOF": {
+                "UNIQUE_Elemental_Wind_FlyState": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_EndureDelta": 0.0
+                    },
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "OBBCDAOOJJH",
+                            "CMOCNBDEJGD": "State"
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "EGPFMEPFOPG": "WeakTrigger"
+                        },
+                        {
+                            "$type": "OBBCDAOOJJH",
+                            "CMOCNBDEJGD": "State",
+                            "DLLBGDKBMIL": 1
+                        }
+                    ],
+                    "IPFFJPIILKO": [
+                        {
+                            "$type": "EANLMKIJOJK",
+                            "EIIJMGGKJME": "Elemental_Wind_Die"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Elemental_Wind_FlyState"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_Die",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "EONOAKNDNMO",
+                    "PEJCGBFFICP": "UNIQUE_Elemental_Wind_FlyState"
+                },
+                {
+                    "$type": "PODCKPBIAPP",
+                    "EGPFMEPFOPG": "WeakTrigger"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_WeakStart",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Weak_Start"
+                    ],
+                    "PEJCGBFFICP": "WeakStart"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "WeakStart": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Entity_WeightRatio": 0.20000000298023224,
+                        "Actor_EndureDelta": 1.0
+                    },
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "OBBCDAOOJJH",
+                            "CMOCNBDEJGD": "State",
+                            "DLLBGDKBMIL": 2
+                        },
+                        {
+                            "$type": "EANLMKIJOJK",
+                            "EIIJMGGKJME": "Elemental_Wind_WeakTimer"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "PMBLFEECDEC",
+                    "PEJCGBFFICP": "WeakStart"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_WeakTimer",
+            "OJEBMMAGKOF": {
+                "WeakTimer": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 5.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Entity_WeightRatio": 0.20000000298023224,
+                        "Actor_EndureDelta": 1.0
+                    },
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "EGPFMEPFOPG": "WeakEndTrigger"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "WeakTimer"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_RandomWalk",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "RandomWalk"
+                    ],
+                    "MPFOAOKIGCA": 150.0,
+                    "GCECEIPILLB": ""
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_HurricaneRush_Drop",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "HurricaneRush_Drop",
+                        "HurricaneRush_BS",
+                        "HurricaneRush_Loop",
+                        "HurricaneRush_AS"
+                    ],
+                    "PEJCGBFFICP": "HurricaneRush_State"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "HurricaneRush_Drop"
+                    ],
+                    "PEJCGBFFICP": "HurricaneRush_Drop"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "HurricaneRush_State": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "LBCPMFOBIBI": "SkillDrop",
+                            "HPDLNIPCGHB": true
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "LBCPMFOBIBI": "SkillDrop"
+                        }
+                    ]
+                },
+                "HurricaneRush_Drop": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_AddGravityScale": -1.0
+                    }
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_HurricaneRush",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "HurricaneRush_BS"
+                    ],
+                    "MPFOAOKIGCA": 150.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "HurricaneRush_BS"
+                    ],
+                    "PEJCGBFFICP": "HurricaneRush_BS"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "HurricaneRush_Loop"
+                    ],
+                    "PEJCGBFFICP": "HurricaneRush_Loop"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "HurricaneRush_BS": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_Shock_BS",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "HurricaneRush_Loop": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_HurricaneRush_Loop",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "PODCKPBIAPP",
+                            "EGPFMEPFOPG": "AttackLanded"
+                        },
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "MPDDDDJICAK",
+                                    "FJJKDHKEGEF": "Lesser",
+                                    "HPDLNIPCGHB": 12.5
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "HJKKPJOLGPE",
+                                    "LBCPMFOBIBI": "DistanceFaraway"
+                                }
+                            ],
+                            "BLCNENOAPBF": [
+                                {
+                                    "$type": "HJKKPJOLGPE",
+                                    "LBCPMFOBIBI": "DistanceFaraway",
+                                    "HPDLNIPCGHB": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "HNMEPMFMCEP",
+                    "EEBDJIHOMKG": {
+                        "MNACMFPGGJM": {
+                            "$type": "HEPODMKCFLI",
+                            "KIALPPECALL": "TriggerNoRepeat",
+                            "PGCCMJFMBOF": {
+                                "$type": "DMIMDDKPKHA",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": -5.0,
+                                    "GCFAGHEGMOK": 0.0
+                                }
+                            },
+                            "BJFNPGBKPHH": 10.0,
+                            "LAGKLBKPJOD": 3.0
+                        },
+                        "MKDNKDGFHOB": {
+                            "NCHHOHMMGLO": "",
+                            "FBHEHNEKCEC": "",
+                            "JJDHKGHLAPG": "default",
+                            "ECAAIDPICHF": {
+                                "BHIHBFJCJMF": 1.0,
+                                "MPFFDBKNGKK": 0.0,
+                                "JPNOHJMPEGF": "Wind",
+                                "DJHMCMJNDJL": 50.0,
+                                "GIDLGFOGCPI": "Blunt",
+                                "OOCKJPLEGJK": 200.0
+                            },
+                            "NBOPNJKHONH": {
+                                "EFMEOMPPGGB": "default",
+                                "IMPBPALEIPI": "LV5",
+                                "MKEBGHGEHJI": "ByTangent",
+                                "MGAHMIHLGPO": 0.05000000074505806
+                            },
+                            "EJGFDAAGMMB": {
+                                "BGKHGAABBML": 0.1599999964237213,
+                                "NNMNPIKPKIA": 0.11999999731779099,
+                                "MMOENDKOMCP": 35.0
+                            }
+                        }
+                    },
+                    "HDHMLBLHGPD": "Enemy"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_Shock_BS",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Shock_BS"
+                    ],
+                    "PEJCGBFFICP": "Shock_BS"
+                },
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Shock_Fall"
+                    ],
+                    "PEJCGBFFICP": "Shock_Fall"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Shock_BS": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GPCDNJBJGNE",
+                            "DEMBLENCNFF": "CircleR10",
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "DAODHDFFELL": true
+                            },
+                            "EOJBEHMJIKI": 3.75,
+                            "NPILDLPGAIG": 1.0,
+                            "LKLEBDMCCNJ": 0.5,
+                            "HDHMLBLHGPD": "All",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "ILACDDIJHAH",
+                                    "FJJKDHKEGEF": "LesserOrEqual",
+                                    "GKOBDDJFPIN": 100.0
+                                }
+                            ],
+                            "PEJCGBFFICP": ""
+                        }
+                    ],
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_Shock_BS",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_Shock_BS_OnGround",
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "DAODHDFFELL": true
+                            },
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_Shock_Alert",
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "DAODHDFFELL": true
+                            },
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PEJCGBFFICP": "UNIQUE_Elemental_Wind_FlyState"
+                        }
+                    ]
+                },
+                "Shock_Fall": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_AddGravityScale": 12.0
+                    },
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider"
+                            ]
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider"
+                            ],
+                            "AGGNLAHGDPC": true
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_Shock_AS",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "Shock_Fall",
+                        "Shock_AS",
+                        "Shock_Up"
+                    ],
+                    "PEJCGBFFICP": "Shock_Drop"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Shock_Drop": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "LBCPMFOBIBI": "SkillDrop",
+                            "HPDLNIPCGHB": true
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "LBCPMFOBIBI": "SkillDrop"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "ALLDMMABLIM",
+                    "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_Shock_Wave",
+                    "PGCCMJFMBOF": {
+                        "$type": "PNNEAJJGDMO",
+                        "DAODHDFFELL": true
+                    },
+                    "LMEAGKCCLON": -1.0
+                },
+                {
+                    "$type": "HNMEPMFMCEP",
+                    "EEBDJIHOMKG": {
+                        "MNACMFPGGJM": {
+                            "$type": "HEPODMKCFLI",
+                            "KIALPPECALL": "TriggerNoRepeat",
+                            "PGCCMJFMBOF": {
+                                "$type": "DMIMDDKPKHA",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 0.0,
+                                    "GCFAGHEGMOK": 0.0
+                                }
+                            },
+                            "BJFNPGBKPHH": 2.0,
+                            "LAGKLBKPJOD": 5.0
+                        },
+                        "MKDNKDGFHOB": {
+                            "NCHHOHMMGLO": "",
+                            "FBHEHNEKCEC": "",
+                            "JJDHKGHLAPG": "default",
+                            "ECAAIDPICHF": {
+                                "BHIHBFJCJMF": 1.0,
+                                "MPFFDBKNGKK": 0.0,
+                                "JPNOHJMPEGF": "Wind",
+                                "DJHMCMJNDJL": 50.0,
+                                "GIDLGFOGCPI": "Blunt",
+                                "OOCKJPLEGJK": 100.0
+                            },
+                            "NBOPNJKHONH": {
+                                "EFMEOMPPGGB": "default",
+                                "IMPBPALEIPI": "LV5",
+                                "MGAHMIHLGPO": 0.05000000074505806
+                            },
+                            "EPCGKKCGCAG": true,
+                            "EJGFDAAGMMB": {
+                                "BGKHGAABBML": 0.1599999964237213,
+                                "NNMNPIKPKIA": 0.11999999731779099,
+                                "MMOENDKOMCP": 35.0
+                            }
+                        }
+                    },
+                    "HDHMLBLHGPD": "Enemy"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_EarthWrath_BS",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "EarthWrath_BS"
+                    ],
+                    "PEJCGBFFICP": "EarthWrath_BS"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "EarthWrath_BS": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_EarthWrath_BS",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "EarthWrath_BS_Ground"
+                        }
+                    ]
+                },
+                "EarthWrath_BS_Ground": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 0.25,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_EarthWrath_BS_01",
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "DAODHDFFELL": true
+                            },
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "HEPODMKCFLI",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA",
+                                        "KFHPDJBPILF": {
+                                            "GCAICJCAEGC": 0.0,
+                                            "OHEABNAJGMK": -9.0,
+                                            "GCFAGHEGMOK": 0.0
+                                        }
+                                    },
+                                    "BJFNPGBKPHH": 10.0,
+                                    "LAGKLBKPJOD": 1.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "",
+                                    "FBHEHNEKCEC": "Group1",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": 0.10000000149011612,
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Wind",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Pierce",
+                                        "OOCKJPLEGJK": 100.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "default",
+                                        "IMPBPALEIPI": "LV5",
+                                        "MGAHMIHLGPO": 0.05000000074505806
+                                    },
+                                    "EPCGKKCGCAG": true,
+                                    "EJGFDAAGMMB": {
+                                        "NMOJMMOFAFI": "HitVector",
+                                        "BGKHGAABBML": 0.1599999964237213,
+                                        "NNMNPIKPKIA": 0.15000000596046448,
+                                        "MMOENDKOMCP": 35.0,
+                                        "MLGICLMHNFB": {
+                                            "_y": 1.0
+                                        }
+                                    }
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                },
+                "UNIQUE_EarthWrath_Airflow": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 1.5,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "MPDDDDJICAK",
+                                    "FJJKDHKEGEF": "GreaterOrEqual",
+                                    "HPDLNIPCGHB": 7.0
+                                },
+                                {
+                                    "$type": "MPDDDDJICAK",
+                                    "FJJKDHKEGEF": "Lesser",
+                                    "HPDLNIPCGHB": 12.0
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "OKPNJIGBCKE",
+                                    "PMMKLHAOKCG": "SelfAttackTarget",
+                                    "LHOMKCJFKKI": true,
+                                    "PGCCMJFMBOF": {
+                                        "$type": "PNNEAJJGDMO",
+                                        "MPLBOHGLBEG": {
+                                            "$type": "KCMMEMCJFFC",
+                                            "MCMPOFJIENE": 0.75,
+                                            "IGCOOJPCHJB": 2.25
+                                        },
+                                        "DAODHDFFELL": true
+                                    },
+                                    "AKGCOPAEFDJ": {
+                                        "KEEJFLJBFKM": true,
+                                        "EBFEDJAKNIE": 10.0
+                                    },
+                                    "JHKKFFKBNCH": 42002001,
+                                    "BGHDJPBKDEB": 4001,
+                                    "KMMEFEBGIKH": "All"
+                                }
+                            ],
+                            "BLCNENOAPBF": [
+                                {
+                                    "$type": "HGKGGEKHOBB",
+                                    "PMMKLHAOKCG": "SelfAttackTarget",
+                                    "PILMKPPOHPN": [
+                                        {
+                                            "$type": "MPDDDDJICAK",
+                                            "FJJKDHKEGEF": "Lesser",
+                                            "HPDLNIPCGHB": 7.0
+                                        }
+                                    ],
+                                    "BDJHNHMPGDB": [
+                                        {
+                                            "$type": "OKPNJIGBCKE",
+                                            "LHOMKCJFKKI": true,
+                                            "PGCCMJFMBOF": {
+                                                "$type": "PNNEAJJGDMO",
+                                                "MPLBOHGLBEG": {
+                                                    "$type": "KCMMEMCJFFC",
+                                                    "MCMPOFJIENE": 6.0,
+                                                    "IGCOOJPCHJB": 6.0
+                                                },
+                                                "DAODHDFFELL": true
+                                            },
+                                            "AKGCOPAEFDJ": {
+                                                "KEEJFLJBFKM": true,
+                                                "EBFEDJAKNIE": 10.0
+                                            },
+                                            "JHKKFFKBNCH": 42002001,
+                                            "BGHDJPBKDEB": 4001,
+                                            "KMMEFEBGIKH": "All"
+                                        }
+                                    ],
+                                    "BLCNENOAPBF": [
+                                        {
+                                            "$type": "HGKGGEKHOBB",
+                                            "PMMKLHAOKCG": "SelfAttackTarget",
+                                            "PILMKPPOHPN": [
+                                                {
+                                                    "$type": "MPDDDDJICAK",
+                                                    "FJJKDHKEGEF": "GreaterOrEqual",
+                                                    "HPDLNIPCGHB": 12.0
+                                                }
+                                            ],
+                                            "BDJHNHMPGDB": [
+                                                {
+                                                    "$type": "OKPNJIGBCKE",
+                                                    "PMMKLHAOKCG": "SelfAttackTarget",
+                                                    "LHOMKCJFKKI": true,
+                                                    "PGCCMJFMBOF": {
+                                                        "$type": "PNNEAJJGDMO",
+                                                        "DAODHDFFELL": true
+                                                    },
+                                                    "AKGCOPAEFDJ": {
+                                                        "KEEJFLJBFKM": true,
+                                                        "EBFEDJAKNIE": 10.0
+                                                    },
+                                                    "JHKKFFKBNCH": 42002001,
+                                                    "BGHDJPBKDEB": 4001,
+                                                    "KMMEFEBGIKH": "All"
+                                                }
+                                            ],
+                                            "BLCNENOAPBF": [
+                                                {
+                                                    "$type": "OKPNJIGBCKE",
+                                                    "LHOMKCJFKKI": true,
+                                                    "PGCCMJFMBOF": {
+                                                        "$type": "PNNEAJJGDMO",
+                                                        "MPLBOHGLBEG": {
+                                                            "$type": "KCMMEMCJFFC",
+                                                            "MCMPOFJIENE": 5.0,
+                                                            "IGCOOJPCHJB": 10.0
+                                                        },
+                                                        "DAODHDFFELL": true
+                                                    },
+                                                    "AKGCOPAEFDJ": {
+                                                        "KEEJFLJBFKM": true,
+                                                        "EBFEDJAKNIE": 10.0
+                                                    },
+                                                    "JHKKFFKBNCH": 42002001,
+                                                    "BGHDJPBKDEB": 4001,
+                                                    "KMMEFEBGIKH": "All"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "OKPNJIGBCKE",
+                            "LHOMKCJFKKI": true,
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "MPLBOHGLBEG": {
+                                    "$type": "KCMMEMCJFFC",
+                                    "MCMPOFJIENE": 5.0,
+                                    "IGCOOJPCHJB": 10.0
+                                },
+                                "DAODHDFFELL": true
+                            },
+                            "AKGCOPAEFDJ": {
+                                "KEEJFLJBFKM": true,
+                                "EBFEDJAKNIE": 10.0
+                            },
+                            "JHKKFFKBNCH": 42002001,
+                            "BGHDJPBKDEB": 4001,
+                            "KMMEFEBGIKH": "All"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "LHOMKCJFKKI": true,
+                    "PGCCMJFMBOF": {
+                        "$type": "PNNEAJJGDMO",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": -10.0,
+                            "GCFAGHEGMOK": 0.0
+                        },
+                        "DAODHDFFELL": true
+                    },
+                    "JHKKFFKBNCH": 42002002,
+                    "BGHDJPBKDEB": 4001,
+                    "KMMEFEBGIKH": "All"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "EarthWrath_BS_Ground"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "UNIQUE_EarthWrath_Airflow"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_EarthWrath_Over",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "EarthWrath_BS",
+                        "EarthWrath_Burst"
+                    ],
+                    "PEJCGBFFICP": "EarthWrath_State"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "EarthWrath_State": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PEJCGBFFICP": "UNIQUE_EarthWrath_Airflow"
+                        },
+                        {
+                            "$type": "MOBGNHFHNAL",
+                            "DCHBNFCPPAP": {
+                                "$type": "ODJBHFFNHNO",
+                                "ODGMMOKFFMI": 42002002
+                            },
+                            "KMJJNGEHKOD": "EarthWrathEnd",
+                            "CCHDFMLMFPB": "",
+                            "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_EarthWrath_Area"
+                        },
+                        {
+                            "$type": "GHKGCICKBBP",
+                            "DCHBNFCPPAP": {
+                                "$type": "ODJBHFFNHNO",
+                                "ODGMMOKFFMI": 42002002
+                            },
+                            "KNBINPKEGGM": 1.5
+                        },
+                        {
+                            "$type": "GHKGCICKBBP",
+                            "DCHBNFCPPAP": {
+                                "$type": "ODJBHFFNHNO",
+                                "ODGMMOKFFMI": 42002001
+                            }
+                        }
+                    ],
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PEJCGBFFICP": "UNIQUE_Elemental_Wind_FlyState"
+                        }
+                    ],
+                    "IPFFJPIILKO": [
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "EarthWrath_State"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "EONOAKNDNMO",
+                    "PEJCGBFFICP": "UNIQUE_EarthWrath_Airflow"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_EarthWrath_Area",
+            "DNEECINBPHM": [
+                {
+                    "$type": "PIIPMJLIHPC",
+                    "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_EarthWrath_Area",
+                    "LMEAGKCCLON": -1.0
+                }
+            ],
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "HNMEPMFMCEP",
+                    "EEBDJIHOMKG": {
+                        "MNACMFPGGJM": {
+                            "$type": "BHDHGOPPAPF",
+                            "KIALPPECALL": "TriggerNoRepeat",
+                            "PGCCMJFMBOF": {
+                                "$type": "GFDKPJHPEPH",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 0.0,
+                                    "GCFAGHEGMOK": 0.5
+                                }
+                            },
+                            "LAGKLBKPJOD": 1.0
+                        },
+                        "MKDNKDGFHOB": {
+                            "NCHHOHMMGLO": "",
+                            "FBHEHNEKCEC": "",
+                            "JJDHKGHLAPG": "default",
+                            "ECAAIDPICHF": {
+                                "BHIHBFJCJMF": 0.20000000298023224,
+                                "MPFFDBKNGKK": 0.0,
+                                "JPNOHJMPEGF": "Wind",
+                                "DJHMCMJNDJL": 50.0,
+                                "GIDLGFOGCPI": "Default",
+                                "OOCKJPLEGJK": 100.0
+                            },
+                            "NBOPNJKHONH": {
+                                "EFMEOMPPGGB": "default",
+                                "IMPBPALEIPI": "LV4",
+                                "MKEBGHGEHJI": "ByHitDirection",
+                                "MGAHMIHLGPO": 0.05000000074505806
+                            },
+                            "EJGFDAAGMMB": {
+                                "NMOJMMOFAFI": "HitVector",
+                                "BGKHGAABBML": 0.1599999964237213,
+                                "NNMNPIKPKIA": 0.15000000596046448,
+                                "MMOENDKOMCP": 35.0,
+                                "MLGICLMHNFB": {
+                                    "_y": 1.0
+                                }
+                            },
+                            "IFCBCJIMIEB": "OriginOwner"
+                        }
+                    },
+                    "HDHMLBLHGPD": "Enemy"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_EarthWrath_Burst",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "EarthWrath_Burst"
+                    ],
+                    "PEJCGBFFICP": "EarthWrath_Burst_State"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "EarthWrath_Burst_State": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "EarthWrath_Burst"
+                        }
+                    ]
+                },
+                "EarthWrath_Burst": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 0.5,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Elemental_Wind_EarthWrath_Burst",
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO",
+                                "DAODHDFFELL": true
+                            },
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "HEPODMKCFLI",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA",
+                                        "KFHPDJBPILF": {
+                                            "GCAICJCAEGC": 0.0,
+                                            "OHEABNAJGMK": -9.0,
+                                            "GCFAGHEGMOK": 0.0
+                                        }
+                                    },
+                                    "BJFNPGBKPHH": 7.0,
+                                    "LAGKLBKPJOD": 15.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "",
+                                    "FBHEHNEKCEC": "Group1",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": 0.10000000149011612,
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Wind",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 1.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "default",
+                                        "IMPBPALEIPI": "LV0",
+                                        "MGAHMIHLGPO": 0.05000000074505806
+                                    }
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        },
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "HEPODMKCFLI",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA",
+                                        "KFHPDJBPILF": {
+                                            "GCAICJCAEGC": 0.0,
+                                            "OHEABNAJGMK": -9.0,
+                                            "GCFAGHEGMOK": 0.0
+                                        }
+                                    },
+                                    "BJFNPGBKPHH": 15.0,
+                                    "LAGKLBKPJOD": 3.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "",
+                                    "FBHEHNEKCEC": "",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": 0.10000000149011612,
+                                        "MPFFDBKNGKK": 0.0,
+                                        "JPNOHJMPEGF": "Wind",
+                                        "DJHMCMJNDJL": 25.0,
+                                        "GIDLGFOGCPI": "Default",
+                                        "OOCKJPLEGJK": 0.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "default",
+                                        "IMPBPALEIPI": "LV0",
+                                        "MGAHMIHLGPO": 0.05000000074505806
+                                    }
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "EarthWrath_Burst"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Elemental_Wind_AirflowField_Create",
+            "OJEBMMAGKOF": {
+                "AirflowField_Create": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 3.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "HAGHJBGCHCN",
+                            "JHKKFFKBNCH": 42002003,
+                            "KMMEFEBGIKH": "All",
+                            "PGCCMJFMBOF": {
+                                "$type": "PNNEAJJGDMO"
+                            }
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "AirflowField_Create"
+                }
+            ]
+        }
+    }
+]

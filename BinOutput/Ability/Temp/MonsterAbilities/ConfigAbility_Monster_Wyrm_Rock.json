@@ -1,0 +1,2220 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_Alert_ModeSwitch",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "MPDDDDJICAK",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "FJJKDHKEGEF": "Lesser",
+                            "HPDLNIPCGHB": 15.0
+                        }
+                    ],
+                    "LBCPMFOBIBI": "IsNear",
+                    "HPDLNIPCGHB": true
+                },
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": -1.0,
+                    "EPDHICCGHAL": "_WYRM_ROCK_CRUSHING_COUNT",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 0.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_PhaseCheck",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "MPDDDDJICAK",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "FJJKDHKEGEF": "GreaterOrEqual",
+                            "HPDLNIPCGHB": 10.0
+                        }
+                    ],
+                    "LBCPMFOBIBI": "IsNear"
+                },
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "MPDDDDJICAK",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "FJJKDHKEGEF": "Lesser",
+                            "HPDLNIPCGHB": 10.0
+                        }
+                    ],
+                    "LBCPMFOBIBI": "IsNear",
+                    "HPDLNIPCGHB": true
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_CreateFollowBullet",
+            "OJEBMMAGKOF": {
+                "UNIQUE_Wyrm_Rock_FollowHitBox": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider",
+                                "PushCollider_Tail"
+                            ]
+                        },
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider_Roll"
+                            ],
+                            "AGGNLAHGDPC": true
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "KLKICJMDJGA",
+                            "ADHBOLFNKJB": {
+                                "HODFEAPMHID": "Reversed",
+                                "ODGMMOKFFMI": 42603014
+                            }
+                        },
+                        {
+                            "$type": "KLKICJMDJGA",
+                            "ADHBOLFNKJB": {
+                                "HODFEAPMHID": "Reversed",
+                                "ODGMMOKFFMI": 42603015
+                            }
+                        },
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider",
+                                "PushCollider_Tail"
+                            ],
+                            "AGGNLAHGDPC": true
+                        },
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider_Roll"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "KMCKALAPAOH",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "NDEANBBEFPN",
+                            "FJJKDHKEGEF": "Equal",
+                            "HPDLNIPCGHB": 231,
+                            "KMJJNGEHKOD": "SkillID"
+                        }
+                    ],
+                    "LEPLLACFLJF": 42603014,
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        }
+                    },
+                    "DHGIKFECBEO": "Self",
+                    "DINIHEGOHDD": true
+                },
+                {
+                    "$type": "KMCKALAPAOH",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "NDEANBBEFPN",
+                            "FJJKDHKEGEF": "Equal",
+                            "HPDLNIPCGHB": 241,
+                            "KMJJNGEHKOD": "SkillID"
+                        }
+                    ],
+                    "LEPLLACFLJF": 42603015,
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        }
+                    },
+                    "LHOMKCJFKKI": true,
+                    "DHGIKFECBEO": "Self"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "UNIQUE_Wyrm_Rock_FollowHitBox"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_RemoveFollowBullet",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "EONOAKNDNMO",
+                    "PEJCGBFFICP": "UNIQUE_Wyrm_Rock_FollowHitBox"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_FollowHitBox_Roll",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "HNMEPMFMCEP",
+                    "EEBDJIHOMKG": {
+                        "MNACMFPGGJM": {
+                            "$type": "CPJLLDBEKAL",
+                            "KIALPPECALL": "TriggerNoRepeat",
+                            "KJAODAKALKH": true,
+                            "KAJAIANOBDP": true,
+                            "PGCCMJFMBOF": {
+                                "$type": "GFDKPJHPEPH"
+                            },
+                            "KDKNEEKBHOC": {
+                                "GCAICJCAEGC": 0.5,
+                                "OHEABNAJGMK": 0.5,
+                                "GCFAGHEGMOK": 0.5
+                            }
+                        },
+                        "MKDNKDGFHOB": {
+                            "NCHHOHMMGLO": "",
+                            "FBHEHNEKCEC": "",
+                            "JJDHKGHLAPG": "default",
+                            "ECAAIDPICHF": {
+                                "BHIHBFJCJMF": 0.3330000042915344,
+                                "MPFFDBKNGKK": 0.0,
+                                "JPNOHJMPEGF": "Rock",
+                                "DJHMCMJNDJL": 50.0,
+                                "MFHEBOLDLHO": true,
+                                "GIDLGFOGCPI": "Blunt",
+                                "GDDCEDKCPHA": "Melee"
+                            },
+                            "NBOPNJKHONH": {
+                                "EFMEOMPPGGB": "default",
+                                "IMPBPALEIPI": "LV2",
+                                "KDPBLJGJHGM": 0.05000000074505806,
+                                "MGAHMIHLGPO": 0.05000000074505806
+                            },
+                            "EJGFDAAGMMB": {
+                                "NMOJMMOFAFI": "HitVector",
+                                "BGKHGAABBML": 0.05999999865889549,
+                                "NNMNPIKPKIA": 0.11999999731779099,
+                                "MLGICLMHNFB": {
+                                    "_z": 1.0
+                                }
+                            },
+                            "IFCBCJIMIEB": "OriginOwner"
+                        }
+                    },
+                    "HDHMLBLHGPD": "Enemy"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_FollowHitBox_CrushAtk",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "HNMEPMFMCEP",
+                    "EEBDJIHOMKG": {
+                        "MNACMFPGGJM": {
+                            "$type": "CPJLLDBEKAL",
+                            "KIALPPECALL": "TriggerNoRepeat",
+                            "KJAODAKALKH": true,
+                            "KAJAIANOBDP": true,
+                            "PGCCMJFMBOF": {
+                                "$type": "GFDKPJHPEPH"
+                            },
+                            "KDKNEEKBHOC": {
+                                "GCAICJCAEGC": 0.5,
+                                "OHEABNAJGMK": 0.5,
+                                "GCFAGHEGMOK": 0.5
+                            }
+                        },
+                        "MKDNKDGFHOB": {
+                            "NCHHOHMMGLO": "",
+                            "FBHEHNEKCEC": "",
+                            "JJDHKGHLAPG": "default",
+                            "ECAAIDPICHF": {
+                                "BHIHBFJCJMF": 0.8330000042915344,
+                                "MPFFDBKNGKK": 0.0,
+                                "JPNOHJMPEGF": "Rock",
+                                "DJHMCMJNDJL": 50.0,
+                                "MFHEBOLDLHO": true,
+                                "GIDLGFOGCPI": "Blunt",
+                                "GDDCEDKCPHA": "Melee"
+                            },
+                            "NBOPNJKHONH": {
+                                "EFMEOMPPGGB": "default",
+                                "IMPBPALEIPI": "LV2",
+                                "KDPBLJGJHGM": 0.05000000074505806,
+                                "MGAHMIHLGPO": 0.05000000074505806
+                            },
+                            "EJGFDAAGMMB": {
+                                "NMOJMMOFAFI": "HitVector",
+                                "BGKHGAABBML": 0.05999999865889549,
+                                "NNMNPIKPKIA": 0.11999999731779099,
+                                "MLGICLMHNFB": {
+                                    "_z": 1.0
+                                }
+                            },
+                            "IFCBCJIMIEB": "OriginOwner"
+                        }
+                    },
+                    "HDHMLBLHGPD": "Enemy"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_NormalAtk"
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_JumpAtk",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "IsNear",
+                    "HPDLNIPCGHB": true
+                },
+                {
+                    "$type": "MLLMIEMDADE",
+                    "PMMKLHAOKCG": "SelfAttackTarget",
+                    "JCEKDCILHKG": {
+                        "$type": "PNNEAJJGDMO",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 2.0
+                        },
+                        "DAODHDFFELL": true
+                    },
+                    "MIAACIHNFHO": 8.0,
+                    "HILFAJKJOFL": 1.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_JumpAtk_Alert",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AIEGDOBDLMA",
+                    "NFMLJKBBILH": "JumpAtk",
+                    "PEJCGBFFICP": "Monster_Wyrm_Rock_JumpAtk_Collider",
+                    "KBJPBEFMGLM": 0.23000000417232513,
+                    "EFKCCJHFCMF": 0.6399999856948853
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Monster_Wyrm_Rock_JumpAtk_Collider": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider",
+                                "PushCollider_Tail"
+                            ]
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider",
+                                "PushCollider_Tail"
+                            ],
+                            "AGGNLAHGDPC": true
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "ALLDMMABLIM",
+                    "CGLDJGDLIHP": "Eff_Monster_Wyrm_Rock_JumpAtk_Land_Alert",
+                    "PGCCMJFMBOF": {
+                        "$type": "LLHFBFFEMNL",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        }
+                    },
+                    "LMEAGKCCLON": -1.0
+                },
+                {
+                    "$type": "CFIJMCCDBPL",
+                    "EJGFDAAGMMB": {
+                        "NMOJMMOFAFI": "CustomVector",
+                        "BGKHGAABBML": 0.11999999731779099,
+                        "NNMNPIKPKIA": 0.15000000596046448,
+                        "MLGICLMHNFB": {
+                            "_y": 1.0
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_RollBS",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Roll_Start",
+                        "Roll_Loop",
+                        "Roll_End"
+                    ],
+                    "PEJCGBFFICP": "Monster_Wyrm_Rock_RollState"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Monster_Wyrm_Rock_RollState": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HANCONEPJPO",
+                            "PIIBLNGOPBG": true
+                        },
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Wyrm_Rock_Roll_Dust",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "EANLMKIJOJK",
+                            "EIIJMGGKJME": "Monster_Wyrm_Rock_Roll_NextRound"
+                        },
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "LBCPMFOBIBI": "Rolling",
+                            "HPDLNIPCGHB": true
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": -1.0,
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_END",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 1.0,
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "Monster_Wyrm_Rock_Roll_HitActive"
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": -999.0,
+                            "EPDHICCGHAL": "_WYRM_NEAR_ENEMYCOUNT",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 4.0,
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "EANLMKIJOJK",
+                            "EIIJMGGKJME": "Monster_Wyrm_Rock_CreateFollowBullet"
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "HANCONEPJPO"
+                        },
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "LBCPMFOBIBI": "Rolling"
+                        },
+                        {
+                            "$type": "EANLMKIJOJK",
+                            "EIIJMGGKJME": "Monster_Wyrm_Rock_RemoveFollowBullet"
+                        },
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "DCHBNFCPPAP": {
+                                "$type": "LBLIPELFECO",
+                                "DEMBLENCNFF": "CircleR20",
+                                "KMMEFEBGIKH": "All",
+                                "BAGGOAFKGJE": 1.0
+                            },
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Avatar"
+                                    ]
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "CHPEJGKPFCH",
+                                    "HPDLNIPCGHB": 1.0,
+                                    "EPDHICCGHAL": "_WYRM_NEAR_ENEMYCOUNT",
+                                    "ECNPJNGBKAC": true,
+                                    "BFEAMPHKKCE": 4.0,
+                                    "CMLGDBNFNNO": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_WYRM_NEAR_ENEMYCOUNT",
+                                    "HPDLNIPCGHB": 0.0,
+                                    "NECALNHGCCP": "MoreThan"
+                                }
+                            ],
+                            "LBCPMFOBIBI": "IsNear",
+                            "HPDLNIPCGHB": true
+                        },
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_WYRM_NEAR_ENEMYCOUNT",
+                                    "HPDLNIPCGHB": 0.0
+                                }
+                            ],
+                            "LBCPMFOBIBI": "DigTime",
+                            "HPDLNIPCGHB": true
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": -1.0,
+                            "EPDHICCGHAL": "_MONSTER_WYRM_ROCK_DIGMODE",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 1.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ],
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Target",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Gadget",
+                                        "Bullet"
+                                    ]
+                                },
+                                {
+                                    "$type": "MPDDDDJICAK",
+                                    "PMMKLHAOKCG": "TargetOwner",
+                                    "HPDLNIPCGHB": 20.0
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "Caster",
+                                    "PEJCGBFFICP": "Monster_Wyrm_Rock_Roll_HitActive"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Monster_Wyrm_Rock_Roll_HitActive": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 3.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_GADGETHIT",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 1.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": -1.0,
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_GADGETHIT",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 1.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_Roll_FindNext",
+            "ABGJNGNECKP": {
+                "roll_times_counter": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Monster_Wyrm_Rock_Roll_FindNext_Latency": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.4000000059604645,
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 0.30000001192092896,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "Monster_Wyrm_Rock_Roll_FindNext_TriggerAbility_Latency"
+                        }
+                    ],
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "EANLMKIJOJK",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_WYRM_ROCK_ROLL_COUNT",
+                                    "HPDLNIPCGHB": 4.0,
+                                    "NECALNHGCCP": "MoreThanAndEqual"
+                                }
+                            ],
+                            "EIIJMGGKJME": "Monster_Wyrm_Rock_Roll_StateCheck"
+                        }
+                    ]
+                },
+                "Monster_Wyrm_Rock_Roll_FindNext_TriggerAbility_Latency": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.10000000149011612,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "EANLMKIJOJK",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_WYRM_ROCK_ROLL_END",
+                                    "HPDLNIPCGHB": 0.0,
+                                    "NECALNHGCCP": "NoneOrEqual"
+                                }
+                            ],
+                            "EIIJMGGKJME": "Monster_Wyrm_Rock_Roll_FindNext"
+                        },
+                        {
+                            "$type": "EAGLLGFBBCL",
+                            "MMAENINDNGC": "WYRM_ROCK_FINDNEXT_MODIFIER!!!!!!!"
+                        },
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_WYRM_ROCK_ROLL_END",
+                                    "HPDLNIPCGHB": 1.0
+                                }
+                            ],
+                            "EGPFMEPFOPG": "RollEndTrigger"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": 1.0,
+                    "EPDHICCGHAL": "_WYRM_ROCK_ROLL_COUNT",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 4.0,
+                    "CMLGDBNFNNO": 0.0
+                },
+                {
+                    "$type": "FMHCKOKPEPO",
+                    "AMOOLHDIAIH": "_WYRM_ROCK_ROLL_COUNT",
+                    "KFHDNIDDHID": "roll_times_counter"
+                },
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "DCHBNFCPPAP": {
+                        "$type": "LBLIPELFECO",
+                        "CBJJIKKCCKD": 1,
+                        "HODFEAPMHID": "Random",
+                        "DEMBLENCNFF": "CircleR20",
+                        "KMMEFEBGIKH": "All",
+                        "BAGGOAFKGJE": 1.0
+                    },
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_DESTINATION",
+                            "HPDLNIPCGHB": 1.0
+                        }
+                    ],
+                    "HPDLNIPCGHB": "roll_times_counter",
+                    "EPDHICCGHAL": "_WYRM_ROCK_ROLL_GADGET_COUNT",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 4.0,
+                    "CMLGDBNFNNO": 0.0
+                },
+                {
+                    "$type": "BDEMOFOFAEN",
+                    "DCHBNFCPPAP": {
+                        "$type": "LBLIPELFECO",
+                        "DEMBLENCNFF": "CircleR30",
+                        "KMMEFEBGIKH": "All",
+                        "BAGGOAFKGJE": 1.0
+                    },
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_GADGET_COUNT",
+                            "HPDLNIPCGHB": "roll_times_counter"
+                        },
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_DESTINATION",
+                            "HPDLNIPCGHB": 1.0
+                        }
+                    ],
+                    "MJHHACBPLCK": true
+                },
+                {
+                    "$type": "MLLMIEMDADE",
+                    "DCHBNFCPPAP": {
+                        "$type": "LBLIPELFECO",
+                        "DEMBLENCNFF": "CircleR30",
+                        "KMMEFEBGIKH": "All",
+                        "BAGGOAFKGJE": 1.0
+                    },
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_GADGET_COUNT",
+                            "HPDLNIPCGHB": "roll_times_counter"
+                        },
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_DESTINATION",
+                            "HPDLNIPCGHB": 1.0
+                        }
+                    ],
+                    "JCEKDCILHKG": {
+                        "$type": "PNNEAJJGDMO",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        },
+                        "DAODHDFFELL": true
+                    },
+                    "MIAACIHNFHO": 8.0,
+                    "HILFAJKJOFL": 0.30000001192092896
+                },
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "DCHBNFCPPAP": {
+                        "$type": "LBLIPELFECO",
+                        "DEMBLENCNFF": "CircleR30",
+                        "KMMEFEBGIKH": "All",
+                        "BAGGOAFKGJE": 1.0
+                    },
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_GADGET_COUNT",
+                            "HPDLNIPCGHB": "roll_times_counter"
+                        },
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_DESTINATION",
+                            "HPDLNIPCGHB": 1.0
+                        }
+                    ],
+                    "HPDLNIPCGHB": -1.0,
+                    "EPDHICCGHAL": "_WYRM_ROCK_ROLL_DESTINATION",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 0.0
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Monster_Wyrm_Rock_Roll_FindNext_Latency"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_Roll_NextRound",
+            "OJEBMMAGKOF": {
+                "Monster_Wyrm_Rock_Roll_FindNext_Latency": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.20000000298023224,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "EANLMKIJOJK",
+                            "EIIJMGGKJME": "Monster_Wyrm_Rock_Roll_FindNext"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": -4.0,
+                    "EPDHICCGHAL": "_WYRM_ROCK_ROLL_COUNT",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 4.0,
+                    "CMLGDBNFNNO": 0.0
+                },
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": 1.0,
+                    "EPDHICCGHAL": "_WYRM_ROCK_CRUSHING_COUNT",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 0.0
+                },
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "LHOMKCJFKKI": true,
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 5.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        },
+                        "DAODHDFFELL": true,
+                        "GJDLADJBAEP": true
+                    },
+                    "JHKKFFKBNCH": 42603011,
+                    "BGHDJPBKDEB": 4001,
+                    "KMMEFEBGIKH": "Alliance"
+                },
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "LHOMKCJFKKI": true,
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": -5.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        },
+                        "DAODHDFFELL": true,
+                        "GJDLADJBAEP": true
+                    },
+                    "JHKKFFKBNCH": 42603011,
+                    "BGHDJPBKDEB": 4001,
+                    "KMMEFEBGIKH": "Alliance"
+                },
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "LHOMKCJFKKI": true,
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 5.0
+                        },
+                        "DAODHDFFELL": true,
+                        "GJDLADJBAEP": true
+                    },
+                    "JHKKFFKBNCH": 42603011,
+                    "BGHDJPBKDEB": 4001,
+                    "KMMEFEBGIKH": "Alliance"
+                },
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "LHOMKCJFKKI": true,
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": -5.0
+                        },
+                        "DAODHDFFELL": true,
+                        "GJDLADJBAEP": true
+                    },
+                    "JHKKFFKBNCH": 42603011,
+                    "BGHDJPBKDEB": 4001,
+                    "KMMEFEBGIKH": "Alliance"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Monster_Wyrm_Rock_Roll_FindNext_Latency"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_Roll_StateCheck",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_GADGETHIT",
+                            "HPDLNIPCGHB": 0.0,
+                            "NECALNHGCCP": "NoneOrEqual"
+                        },
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_COUNT",
+                            "HPDLNIPCGHB": 4.0,
+                            "BFEAMPHKKCE": 4.0
+                        }
+                    ],
+                    "HPDLNIPCGHB": 1.0,
+                    "EPDHICCGHAL": "_WYRM_ROCK_ROLL_END",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 0.0
+                },
+                {
+                    "$type": "HGKGGEKHOBB",
+                    "DCHBNFCPPAP": {
+                        "$type": "LBLIPELFECO",
+                        "DEMBLENCNFF": "CircleR10",
+                        "KMMEFEBGIKH": "All",
+                        "BAGGOAFKGJE": 1.0
+                    },
+                    "PILMKPPOHPN": [
+                        {
+                            "$type": "NIEJOBHILBP",
+                            "ADGLEFMFMNG": [
+                                "Avatar"
+                            ]
+                        }
+                    ],
+                    "BDJHNHMPGDB": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_END",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 1.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                },
+                {
+                    "$type": "EANLMKIJOJK",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_COUNT",
+                            "HPDLNIPCGHB": 4.0,
+                            "BFEAMPHKKCE": 4.0
+                        },
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_ROLL_END",
+                            "HPDLNIPCGHB": 0.0,
+                            "NECALNHGCCP": "NoneOrEqual"
+                        }
+                    ],
+                    "EIIJMGGKJME": "Monster_Wyrm_Rock_Roll_NextRound"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_Roll_NextGadget",
+            "DNEECINBPHM": [
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": 1.0,
+                    "EPDHICCGHAL": "_WYRM_ROCK_ROLL_DESTINATION",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 0.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_TailSweep",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_CRUSHING_COUNT",
+                            "HPDLNIPCGHB": 0.0
+                        }
+                    ],
+                    "HPDLNIPCGHB": 1.0,
+                    "EPDHICCGHAL": "_MONSTER_WYRM_ROCK_DIGMODE",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 0.0
+                },
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_CRUSHING_COUNT",
+                            "HPDLNIPCGHB": 1.0
+                        }
+                    ],
+                    "HPDLNIPCGHB": -1.0,
+                    "EPDHICCGHAL": "_MONSTER_WYRM_ROCK_DIGMODE",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 0.0
+                },
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "DigTime",
+                    "HPDLNIPCGHB": true
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_CrushAtk_Reset",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "Crushing"
+                },
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": -1.0,
+                    "EPDHICCGHAL": "_WYRM_ROCK_CRUSHING_COUNT",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 0.0
+                },
+                {
+                    "$type": "HJKKPJOLGPE",
+                    "LBCPMFOBIBI": "CrushHitFlag"
+                },
+                {
+                    "$type": "HJKKPJOLGPE",
+                    "LBCPMFOBIBI": "FinalHitFlag",
+                    "HPDLNIPCGHB": true
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_CrushAtk",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "CrushAtk_NoHit"
+                    ],
+                    "PEJCGBFFICP": "Wyrm_Rock_CrushAtk_NoHit"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "CrushAtk_FailedBS"
+                    ],
+                    "PEJCGBFFICP": "Wyrm_Rock_CrushAtk_Failed"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "CrushAtk_FinalHit"
+                    ],
+                    "PEJCGBFFICP": "Wyrm_Rock_CrushAtk_FinalHit"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "UNIQUE_Wyrm_Rock_CrushAtk_HitCheck": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": 0.30000001192092896,
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 0.20000000298023224,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Applier",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "MPDDDDJICAK",
+                                    "FJJKDHKEGEF": "Lesser",
+                                    "HPDLNIPCGHB": 3.0
+                                },
+                                {
+                                    "$type": "MPDDDDJICAK",
+                                    "FJJKDHKEGEF": "Lesser",
+                                    "NECALNHGCCP": "Y",
+                                    "HPDLNIPCGHB": 3.0
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "HGKGGEKHOBB",
+                                    "PMMKLHAOKCG": "Other",
+                                    "PILMKPPOHPN": [
+                                        {
+                                            "$type": "BALAHCJHLLH",
+                                            "PMMKLHAOKCG": "Self",
+                                            "OMNDEBJIOCP": "All"
+                                        }
+                                    ],
+                                    "BDJHNHMPGDB": [
+                                        {
+                                            "$type": "BFIMNGHHDEN",
+                                            "PMMKLHAOKCG": "Caster",
+                                            "PEJCGBFFICP": "Monster_Wyrm_Rock_CrushAtk_HitOnShield"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "Caster",
+                                    "PEJCGBFFICP": "Monster_Wyrm_Rock_CrushAtk_HitResult"
+                                }
+                            ]
+                        }
+                    ],
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Applier",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "MPDDDDJICAK",
+                                    "FJJKDHKEGEF": "Lesser",
+                                    "HPDLNIPCGHB": 3.0
+                                },
+                                {
+                                    "$type": "MPDDDDJICAK",
+                                    "FJJKDHKEGEF": "Lesser",
+                                    "NECALNHGCCP": "Y",
+                                    "HPDLNIPCGHB": 3.0
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "HGKGGEKHOBB",
+                                    "PMMKLHAOKCG": "Other",
+                                    "PILMKPPOHPN": [
+                                        {
+                                            "$type": "BALAHCJHLLH",
+                                            "PMMKLHAOKCG": "Self",
+                                            "OMNDEBJIOCP": "All"
+                                        }
+                                    ],
+                                    "BDJHNHMPGDB": [
+                                        {
+                                            "$type": "BFIMNGHHDEN",
+                                            "PMMKLHAOKCG": "Caster",
+                                            "PEJCGBFFICP": "Monster_Wyrm_Rock_CrushAtk_HitOnShield"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "Caster",
+                                    "PEJCGBFFICP": "Monster_Wyrm_Rock_CrushAtk_HitResult"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Monster_Wyrm_Rock_CrushAtk_HitOnShield": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.5,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "FinalHitFlag"
+                        }
+                    ]
+                },
+                "Monster_Wyrm_Rock_CrushAtk_HitResult": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.5,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "CrushHitFlag",
+                            "HPDLNIPCGHB": true
+                        }
+                    ]
+                },
+                "Wyrm_Rock_CrushAtk_NoHit": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Monster_Wyrm_Rock_CrushAtk_Miss",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "Wyrm_Rock_CrushAtk_Failed": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Monster_Wyrm_Rock_CrushAtk_Failed",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "HEPODMKCFLI",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA",
+                                        "KFHPDJBPILF": {
+                                            "GCAICJCAEGC": 0.0,
+                                            "OHEABNAJGMK": 0.0,
+                                            "GCFAGHEGMOK": 0.0
+                                        }
+                                    },
+                                    "LLIPPHBHGPD": 270.0,
+                                    "LAGKLBKPJOD": 3.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "",
+                                    "FBHEHNEKCEC": "",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": 0.6660000085830688,
+                                        "MPFFDBKNGKK": 0.0,
+                                        "DJHMCMJNDJL": 100.0,
+                                        "GIDLGFOGCPI": "Blunt",
+                                        "OOCKJPLEGJK": 200.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "default",
+                                        "IMPBPALEIPI": "LV2"
+                                    },
+                                    "EJGFDAAGMMB": {
+                                        "NMOJMMOFAFI": "CustomVector",
+                                        "BGKHGAABBML": 0.36000001430511475,
+                                        "NNMNPIKPKIA": 0.36000001430511475,
+                                        "MMOENDKOMCP": 30.0,
+                                        "MLGICLMHNFB": {
+                                            "_y": -1.0
+                                        }
+                                    }
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                },
+                "Wyrm_Rock_CrushAtk_FinalHit": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Monster_Wyrm_Rock_CrushAtk_Hit",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "HNMEPMFMCEP",
+                            "EEBDJIHOMKG": {
+                                "MNACMFPGGJM": {
+                                    "$type": "HEPODMKCFLI",
+                                    "KIALPPECALL": "TriggerNoRepeat",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "DMIMDDKPKHA",
+                                        "KFHPDJBPILF": {
+                                            "GCAICJCAEGC": 0.0,
+                                            "OHEABNAJGMK": 0.0,
+                                            "GCFAGHEGMOK": 0.0
+                                        }
+                                    },
+                                    "LLIPPHBHGPD": 270.0,
+                                    "LAGKLBKPJOD": 3.0
+                                },
+                                "MKDNKDGFHOB": {
+                                    "NCHHOHMMGLO": "",
+                                    "FBHEHNEKCEC": "",
+                                    "JJDHKGHLAPG": "default",
+                                    "ECAAIDPICHF": {
+                                        "BHIHBFJCJMF": 0.8330000042915344,
+                                        "MPFFDBKNGKK": 0.0,
+                                        "DJHMCMJNDJL": 100.0,
+                                        "GIDLGFOGCPI": "Blunt",
+                                        "OOCKJPLEGJK": 200.0
+                                    },
+                                    "NBOPNJKHONH": {
+                                        "EFMEOMPPGGB": "default",
+                                        "IMPBPALEIPI": "LV7"
+                                    },
+                                    "EJGFDAAGMMB": {
+                                        "NMOJMMOFAFI": "CustomVector",
+                                        "BGKHGAABBML": 0.36000001430511475,
+                                        "NNMNPIKPKIA": 0.36000001430511475,
+                                        "MMOENDKOMCP": 30.0,
+                                        "MLGICLMHNFB": {
+                                            "_y": -1.0
+                                        }
+                                    }
+                                }
+                            },
+                            "HDHMLBLHGPD": "Enemy"
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PMMKLHAOKCG": "AllPlayerAvatars",
+                    "PEJCGBFFICP": "UNIQUE_Wyrm_Rock_CrushAtk_HitCheck"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_CrushAtk_FinalHit",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AIEGDOBDLMA",
+                    "NFMLJKBBILH": "CrushAtk_FinalHit",
+                    "PEJCGBFFICP": "Monster_Wyrm_Rock_CrushAtk_FinalHit_LineEffect",
+                    "EFKCCJHFCMF": 0.4000000059604645
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Monster_Wyrm_Rock_CrushAtk_FinalHit_LineEffect": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Wyrm_Rock_CrushAtk_FinalHit_Line",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "IsNear",
+                    "HPDLNIPCGHB": true
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_CrushAtk_NoHit",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "DigTime",
+                    "HPDLNIPCGHB": true
+                },
+                {
+                    "$type": "CHPEJGKPFCH",
+                    "HPDLNIPCGHB": -1.0,
+                    "EPDHICCGHAL": "_MONSTER_WYRM_ROCK_DIGMODE",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 0.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_CrushAtk_Failed",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "CrushAtk_Failed"
+                    ],
+                    "PEJCGBFFICP": "Monster_Wyrm_Rock_CrushAtk_FailedState"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Monster_Wyrm_Rock_CrushAtk_FailedState": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "LBCPMFOBIBI": "DigTime",
+                            "HPDLNIPCGHB": true
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_MONSTER_WYRM_ROCK_DIGMODE",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 1.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_CreateSeed",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "KMCKALAPAOH",
+                    "LEPLLACFLJF": 42603012,
+                    "PGCCMJFMBOF": {
+                        "$type": "LAMNGOHKHHL",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 1.0,
+                            "GCFAGHEGMOK": 4.0
+                        },
+                        "HBCDGKBFJKD": {
+                            "$type": "BGADJEACCPC",
+                            "ACMDABCGKAO": {
+                                "GCAICJCAEGC": 0.0,
+                                "OHEABNAJGMK": 1.0,
+                                "GCFAGHEGMOK": 0.0
+                            },
+                            "NIIDKOHODOP": 90.0
+                        },
+                        "ABMNEGGKEIC": "RootNode"
+                    }
+                },
+                {
+                    "$type": "KMCKALAPAOH",
+                    "LEPLLACFLJF": 42603012,
+                    "PGCCMJFMBOF": {
+                        "$type": "LAMNGOHKHHL",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": -3.4000000953674316,
+                            "OHEABNAJGMK": 1.0,
+                            "GCFAGHEGMOK": -2.0
+                        },
+                        "HBCDGKBFJKD": {
+                            "$type": "BGADJEACCPC",
+                            "ACMDABCGKAO": {
+                                "GCAICJCAEGC": 0.0,
+                                "OHEABNAJGMK": 1.0,
+                                "GCFAGHEGMOK": 0.0
+                            },
+                            "NIIDKOHODOP": 90.0
+                        },
+                        "ABMNEGGKEIC": "RootNode"
+                    }
+                },
+                {
+                    "$type": "KMCKALAPAOH",
+                    "LEPLLACFLJF": 42603012,
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 3.4000000953674316,
+                            "OHEABNAJGMK": 1.0,
+                            "GCFAGHEGMOK": -2.0
+                        },
+                        "HBCDGKBFJKD": {
+                            "$type": "BGADJEACCPC",
+                            "ACMDABCGKAO": {
+                                "GCAICJCAEGC": 0.0,
+                                "OHEABNAJGMK": 1.0,
+                                "GCFAGHEGMOK": 0.0
+                            },
+                            "NIIDKOHODOP": 90.0
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_DigIn",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "DigIn",
+                        "DigOut"
+                    ],
+                    "PEJCGBFFICP": "UNIQUE_Monster_Wyrm_Rock_DigState"
+                },
+                {
+                    "$type": "AIEGDOBDLMA",
+                    "NFMLJKBBILH": "DigIn",
+                    "PEJCGBFFICP": "Monster_Wyrm_Rock_Dig_ModeManager",
+                    "KBJPBEFMGLM": 0.8999999761581421
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Monster_Wyrm_Rock_Dig_ModeManager": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PEJCGBFFICP": "UNIQUE_Monster_Wyrm_Rock_DigEnd_MaxTime"
+                        },
+                        {
+                            "$type": "GEKHBJCOBGK",
+                            "PMMKLHAOKCG": "CurLocalAvatar"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_MONSTER_WYRM_ROCK_DIGMODE",
+                                    "HPDLNIPCGHB": 0.0,
+                                    "BFEAMPHKKCE": 1.0
+                                }
+                            ],
+                            "PEJCGBFFICP": "Monster_Wyrm_Rock_DigFindPosition_Near"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "EPDHICCGHAL": "_MONSTER_WYRM_ROCK_DIGMODE",
+                                    "HPDLNIPCGHB": 1.0,
+                                    "BFEAMPHKKCE": 1.0,
+                                    "NECALNHGCCP": "NoneOrEqual"
+                                }
+                            ],
+                            "PEJCGBFFICP": "Monster_Wyrm_Rock_DigFindPosition_Far"
+                        }
+                    ]
+                },
+                "UNIQUE_Monster_Wyrm_Rock_DigState": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider",
+                                "PushCollider_Tail"
+                            ]
+                        },
+                        {
+                            "$type": "HANCONEPJPO",
+                            "PIIBLNGOPBG": true
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "UnderGround_Invincible"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "UnderGround_DenyLockOn"
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider",
+                                "PushCollider_Tail"
+                            ],
+                            "AGGNLAHGDPC": true
+                        },
+                        {
+                            "$type": "HANCONEPJPO"
+                        },
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "UnderGround_Invincible"
+                        },
+                        {
+                            "$type": "PMBLFEECDEC",
+                            "PEJCGBFFICP": "UnderGround_DenyLockOn"
+                        }
+                    ]
+                },
+                "UnderGround_Invincible": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "JBABKKGDEKL": "Invincible"
+                },
+                "UnderGround_DenyLockOn": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "JBABKKGDEKL": "DenyLockOn"
+                },
+                "Monster_Wyrm_Rock_DigFindPosition_Near": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.20000000298023224,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "Monster_Wyrm_Rock_DigOut_Alert_Near"
+                        }
+                    ]
+                },
+                "Monster_Wyrm_Rock_DigFindPosition_Far": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.800000011920929,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "Monster_Wyrm_Rock_DigOut_Alert_Far"
+                        }
+                    ]
+                },
+                "Monster_Wyrm_Rock_DigOut_Alert_Near": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.5,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "JLEJLKPOJCD",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "EOJEMDCPHMK": 360.0,
+                            "MIAACIHNFHO": 2.0,
+                            "GBGKFFDAOMC": 5.0,
+                            "CFPLFCBFBCP": true
+                        },
+                        {
+                            "$type": "OMFELNOHPMJ"
+                        },
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Monster_Wyrm_Rock_DigOut_Alert",
+                            "PGCCMJFMBOF": {
+                                "$type": "DMIMDDKPKHA",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 0.0,
+                                    "GCFAGHEGMOK": 0.0
+                                },
+                                "DAODHDFFELL": true,
+                                "GJDLADJBAEP": true
+                            },
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "EGPFMEPFOPG": "DigOutTrigger"
+                        }
+                    ]
+                },
+                "Monster_Wyrm_Rock_DigOut_Alert_Far": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.5,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "JLEJLKPOJCD",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "EOJEMDCPHMK": 360.0,
+                            "MIAACIHNFHO": 15.0,
+                            "GBGKFFDAOMC": 20.0,
+                            "CFPLFCBFBCP": true
+                        },
+                        {
+                            "$type": "OMFELNOHPMJ"
+                        },
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Monster_Wyrm_Rock_DigOut_Alert",
+                            "PGCCMJFMBOF": {
+                                "$type": "DMIMDDKPKHA",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 0.0,
+                                    "GCFAGHEGMOK": 0.0
+                                },
+                                "DAODHDFFELL": true,
+                                "GJDLADJBAEP": true
+                            },
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "EGPFMEPFOPG": "DigOutTrigger"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_DigOutEffect",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "ALLDMMABLIM",
+                    "CGLDJGDLIHP": "Eff_Monster_Wyrm_Rock_DigOut",
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 20.0,
+                            "GCFAGHEGMOK": 0.0
+                        },
+                        "DAODHDFFELL": true,
+                        "GJDLADJBAEP": true
+                    },
+                    "LMEAGKCCLON": -1.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_DigOut",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AIEGDOBDLMA",
+                    "NFMLJKBBILH": "DigOut",
+                    "PEJCGBFFICP": "Monster_Wyrm_Rock_Dig_Collider",
+                    "EFKCCJHFCMF": 0.550000011920929
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "Monster_Wyrm_Rock_Dig_Collider": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider",
+                                "PushCollider_Tail"
+                            ]
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider",
+                                "PushCollider_Tail"
+                            ],
+                            "AGGNLAHGDPC": true
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BDEMOFOFAEN",
+                    "PMMKLHAOKCG": "SelfAttackTarget"
+                },
+                {
+                    "$type": "EANLMKIJOJK",
+                    "EIIJMGGKJME": "Monster_Wyrm_Rock_PhaseCheck"
+                },
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "MPDDDDJICAK",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "FJJKDHKEGEF": "Lesser",
+                            "HPDLNIPCGHB": 10.0
+                        },
+                        {
+                            "$type": "BEDEFFCBNIG",
+                            "EPDHICCGHAL": "_WYRM_ROCK_CRUSHING_COUNT",
+                            "HPDLNIPCGHB": 1.0
+                        }
+                    ],
+                    "LBCPMFOBIBI": "Crushing",
+                    "HPDLNIPCGHB": true
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_DigEnd",
+            "OJEBMMAGKOF": {
+                "UNIQUE_Monster_Wyrm_Rock_DigEnd_MaxTime": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": 25.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "LBCPMFOBIBI": "DigTime",
+                            "HPDLNIPCGHB": true
+                        }
+                    ]
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "DigTime"
+                },
+                {
+                    "$type": "IOGDPLEIMKH",
+                    "JFBNOJJKPDP": [
+                        201,
+                        211,
+                        212,
+                        221,
+                        231
+                    ]
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "UNIQUE_Monster_Wyrm_Rock_DigEnd_MaxTime"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_AnimationSteer",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "Turn"
+                    ],
+                    "IAEOHPAMKIL": 99.0,
+                    "MPFOAOKIGCA": 120.0,
+                    "GCECEIPILLB": "",
+                    "FJGPMJJBMAB": 12.0
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "NormalAtk"
+                    ],
+                    "IAEOHPAMKIL": 0.30000001192092896,
+                    "MPFOAOKIGCA": 180.0,
+                    "GCECEIPILLB": "",
+                    "FJGPMJJBMAB": 12.0
+                },
+                {
+                    "$type": "LFINGBJPANE",
+                    "JCOGJNPEJHJ": [
+                        "CrushAtk"
+                    ],
+                    "MPFOAOKIGCA": 180.0,
+                    "GCECEIPILLB": "",
+                    "FJGPMJJBMAB": 12.0
+                },
+                {
+                    "$type": "LFINGBJPANE",
+                    "JCOGJNPEJHJ": [
+                        "JumpAtk"
+                    ],
+                    "MPFOAOKIGCA": 180.0,
+                    "GCECEIPILLB": "",
+                    "FJGPMJJBMAB": 12.0
+                },
+                {
+                    "$type": "LFINGBJPANE",
+                    "JCOGJNPEJHJ": [
+                        "RollEnd"
+                    ],
+                    "MPFOAOKIGCA": 60.0,
+                    "GCECEIPILLB": "",
+                    "FJGPMJJBMAB": 12.0
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "DigOut"
+                    ],
+                    "MPFOAOKIGCA": 180.0,
+                    "GCECEIPILLB": "",
+                    "FJGPMJJBMAB": 12.0
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "TailSweep"
+                    ],
+                    "IAEOHPAMKIL": 0.30000001192092896,
+                    "MPFOAOKIGCA": 180.0,
+                    "GCECEIPILLB": "",
+                    "FJGPMJJBMAB": 12.0
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_CrystalSeed_Trigger",
+            "OJEBMMAGKOF": {
+                "Timer": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.10000000149011612,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "BFEFOLDLNKP",
+                            "AGGNLAHGDPC": true
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFEFOLDLNKP"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Timer"
+                },
+                {
+                    "$type": "PIIPMJLIHPC",
+                    "CGLDJGDLIHP": "Eff_Element_Crystal_Rock_Trail",
+                    "LMEAGKCCLON": -1.0
+                }
+            ],
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "PGCCMJFMBOF": {
+                        "$type": "GFDKPJHPEPH",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 0.0,
+                            "GCFAGHEGMOK": 0.0
+                        },
+                        "DAODHDFFELL": true,
+                        "HBCDGKBFJKD": {
+                            "$type": "KHGEOOEBFBO",
+                            "DELIGOFBIPP": {
+                                "_x": 0.10000000149011612,
+                                "_y": 0.10000000149011612,
+                                "_z": 0.10000000149011612
+                            }
+                        }
+                    },
+                    "JHKKFFKBNCH": 42603013,
+                    "BGHDJPBKDEB": 1001,
+                    "KMMEFEBGIKH": "All"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Monster_Wyrm_Rock_CrystalSeed",
+            "ABGJNGNECKP": {
+                "Player_Rock_Shield_Level_Ratio": 0.0,
+                "Team_Crystal_Rock_SHield_Ratio": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_CrystalSeed_Rock_Shield_Handler": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": 0.10000000149011612,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "EONOAKNDNMO",
+                            "PMMKLHAOKCG": "Team",
+                            "PEJCGBFFICP": "UNIQUE_CrystalSeed_Rock_Shield"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PMMKLHAOKCG": "Team",
+                            "PEJCGBFFICP": "UNIQUE_CrystalSeed_Rock_Shield"
+                        },
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "PMMKLHAOKCG": "CurLocalAvatar",
+                            "CGLDJGDLIHP": "Eff_Element_CrystalSeed_Absorb_Rock",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "UNIQUE_CrystalSeed_Rock_Shield": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": 15.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "FFECHODMMNO",
+                            "NBNCOHCMFHN": "Element_Rock",
+                            "LPKIDBPBGFJ": 360.0,
+                            "LHHAMGOHMBP": "Player_Rock_Shield_Level_Ratio",
+                            "NJPMILMBAHC": "",
+                            "LFGIOIINNJA": "INFO_ELITE_DEFENCE",
+                            "POGIFEMLNHN": [
+                                {
+                                    "$type": "ALLDMMABLIM",
+                                    "PMMKLHAOKCG": "Target",
+                                    "CGLDJGDLIHP": "Eff_Element_Crystal_Rock_Shield_Disappear",
+                                    "LMEAGKCCLON": -1.0
+                                }
+                            ],
+                            "CGLDJGDLIHP": "Eff_Element_Crystal_Rock_Shield",
+                            "HPPIAECCDBB": "UNIQUE_CrystalSeed_Rock_Shield_Child",
+                            "OALNKOAKGBM": false
+                        }
+                    ],
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Element_Absorb_Rock_02",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "ELEIPIAKELP",
+                            "PEJCGBFFICP": "UNIQUE_CrystalSeed_Rock_Shield_Mark"
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Element_Crystal_Rock_Shield_Disappear",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "UNIQUE_CrystalSeed_Rock_Shield_Child": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "PMCFIABCPBA",
+                            "JEJNEICGKHI": "UNIQUE_CrystalSeed_Rock_Shield"
+                        }
+                    ],
+                    "FGMKMOLJCFN": {
+                        "Actor_EndureDelta": 0.0
+                    },
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Target",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "LNOOMIAKBLJ",
+                                    "IMHBCNCDFBD": 0.0
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "Team",
+                                    "PEJCGBFFICP": "CrystalShieldHitEffect"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "CrystalShieldHitEffect": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.30000001192092896,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "MOBGNHFHNAL",
+                            "KMJJNGEHKOD": "BeHit",
+                            "CCHDFMLMFPB": "",
+                            "CGLDJGDLIHP": "Eff_Element_Crystal_Rock_Shield"
+                        },
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Element_Crystal_Rock_BeHit",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "UNIQUE_CrystalSeed_Rock_Shield_Mark": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_ABILITY_CrystalSeed_Rock_Shield_Mark",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 1.0,
+                            "CMLGDBNFNNO": 1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": -1.0,
+                            "EPDHICCGHAL": "_ABILITY_CrystalSeed_Rock_Shield_Mark",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                },
+                "Crystal_Rock_Seed_Fx": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Element_Crystal_Rock_Seed",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Element_Crystal_Rock_Seed_Disappear",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                },
+                "Life_Timer": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 15.0,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "ALLDMMABLIM",
+                            "CGLDJGDLIHP": "Eff_Element_Crystal_Rock_Seed_Disappear",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "GHKGCICKBBP"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "Crystal_Rock_Seed_Fx"
+                },
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "Life_Timer"
+                }
+            ],
+            "LDPJDHEGIAB": [
+                {
+                    "$type": "GCEAABLGCKL",
+                    "PMMKLHAOKCG": "Target",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "NIEJOBHILBP",
+                            "ADGLEFMFMNG": [
+                                "Avatar"
+                            ]
+                        }
+                    ],
+                    "EPDHICCGHAL": "Player_Rock_Shield_Level_Ratio",
+                    "OMNDEBJIOCP": "PlayerShieldLevelCo"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PMMKLHAOKCG": "Target",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "NIEJOBHILBP",
+                            "ADGLEFMFMNG": [
+                                "Avatar"
+                            ]
+                        }
+                    ],
+                    "PEJCGBFFICP": "UNIQUE_CrystalSeed_Rock_Shield_Handler"
+                },
+                {
+                    "$type": "PMBLFEECDEC",
+                    "PEJCGBFFICP": "Crystal_Rock_Seed_Fx"
+                },
+                {
+                    "$type": "GHKGCICKBBP",
+                    "KNBINPKEGGM": 1.0
+                }
+            ]
+        }
+    }
+]

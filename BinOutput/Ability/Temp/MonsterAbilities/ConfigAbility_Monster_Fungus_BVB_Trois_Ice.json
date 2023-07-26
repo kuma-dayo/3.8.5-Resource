@@ -1,0 +1,261 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Fungus_Trois_BVB_Ice_Bullet",
+            "OJEBMMAGKOF": {
+                "Fungus_Trois_BVB_Ice_Bullet_Display": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Fungus_Trois_Ice_Bullet",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Fungus_Trois_BVB_Ice_Bullet_Display"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Fungus_Trois_BVB_Ice_Bullet_Fire",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "UnionBurst"
+                    ],
+                    "MPFOAOKIGCA": 120.0,
+                    "GCECEIPILLB": ""
+                }
+            ],
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "KMCKALAPAOH",
+                    "LEPLLACFLJF": 42609011,
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "KFHPDJBPILF": {
+                            "GCAICJCAEGC": 0.0,
+                            "OHEABNAJGMK": 1.2000000476837158,
+                            "GCFAGHEGMOK": -0.5
+                        },
+                        "FHIFDEOICAM": true
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Fungus_Trois_BVB_Ice_Digging",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "DigAttack_Loop"
+                    ],
+                    "PEJCGBFFICP": "DigMoveLoopHandler"
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "NormalAttack"
+                    ],
+                    "IAEOHPAMKIL": 99.0,
+                    "MPFOAOKIGCA": 240.0,
+                    "GCECEIPILLB": "DigOutTrigger",
+                    "FJGPMJJBMAB": 2.0
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "DigMoveLoopHandler": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Fungus_Trois_Ice_DigAttack_Trail",
+                            "LMEAGKCCLON": -1.0
+                        },
+                        {
+                            "$type": "ABEAAIOFEPC"
+                        },
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider"
+                            ]
+                        },
+                        {
+                            "$type": "HANCONEPJPO",
+                            "PIIBLNGOPBG": true
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "ABEAAIOFEPC",
+                            "GEICIGPDNKD": true
+                        },
+                        {
+                            "$type": "BBDDCGLFANL",
+                            "PJDPNAPFBBK": [
+                                "PushCollider"
+                            ],
+                            "AGGNLAHGDPC": true
+                        },
+                        {
+                            "$type": "HANCONEPJPO"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Fungus_Trois_BVB_Ice_Blizzard",
+            "OJEBMMAGKOF": {
+                "Recover_On_Being_Hit": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "PMMKLHAOKCG": "Self",
+                                    "EPDHICCGHAL": "_Heal_Cooldown_",
+                                    "HPDLNIPCGHB": 0.0,
+                                    "NECALNHGCCP": "NoneOrEqual"
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PEJCGBFFICP": "HealHP_Timer"
+                                },
+                                {
+                                    "$type": "MBGGLLIIBMD",
+                                    "BIIMAHKMPGC": 0.05000000074505806
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "HealHP_Timer": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.10000000149011612,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_Heal_Cooldown_",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 0.0,
+                            "EPDHICCGHAL": "_Heal_Cooldown_",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Recover_On_Being_Hit"
+                }
+            ],
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "OKPNJIGBCKE",
+                    "PGCCMJFMBOF": {
+                        "$type": "DMIMDDKPKHA",
+                        "DAODHDFFELL": true,
+                        "FHIFDEOICAM": true
+                    },
+                    "JHKKFFKBNCH": 42609028
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Fungus_Trois_BVB_Ice_Blizzard_Gadget",
+            "OJEBMMAGKOF": {
+                "FrozenStorm_State": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 4.099999904632568,
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 1.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "PIIPMJLIHPC",
+                            "CGLDJGDLIHP": "Eff_Monster_Fungus_Trois_Ice_Blizzard",
+                            "LMEAGKCCLON": -1.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "GHKGCICKBBP"
+                        }
+                    ],
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "EBCKDAAKHEF",
+                            "DCHBNFCPPAP": {
+                                "$type": "LBLIPELFECO",
+                                "DEMBLENCNFF": "FungusAOE_R5",
+                                "KMMEFEBGIKH": "Enemy",
+                                "BAGGOAFKGJE": 1.0
+                            },
+                            "MKDNKDGFHOB": {
+                                "NCHHOHMMGLO": "",
+                                "FBHEHNEKCEC": "FrozenStorm",
+                                "JJDHKGHLAPG": "FungusFightV2_Seq1",
+                                "ECAAIDPICHF": {
+                                    "BHIHBFJCJMF": 3.0,
+                                    "MPFFDBKNGKK": 0.0,
+                                    "JPNOHJMPEGF": "Ice",
+                                    "DJHMCMJNDJL": 25.0,
+                                    "OOCKJPLEGJK": 60.0,
+                                    "GDDCEDKCPHA": "Range"
+                                },
+                                "NBOPNJKHONH": {
+                                    "EFMEOMPPGGB": "default",
+                                    "IMPBPALEIPI": "LV0"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "FrozenStorm_State"
+                }
+            ]
+        }
+    }
+]

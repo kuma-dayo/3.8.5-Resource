@@ -1,0 +1,266 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Tit_Activity_SPecial_01",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "Special_Hit"
+                    ],
+                    "LOIOPKIADKF": 0.12999999523162842,
+                    "IAEOHPAMKIL": 0.5099999904632568,
+                    "MPFOAOKIGCA": 540.0,
+                    "GCECEIPILLB": ""
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_Tit_Invincible": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "JBABKKGDEKL": "Invincible",
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Target",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Avatar",
+                                        "Monster",
+                                        "Gadget",
+                                        "Bullet"
+                                    ]
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BMDJIKAKJBA",
+                                    "EGPFMEPFOPG": "BeHitTrigger"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "UNIQUE_Activity_Tit_Invincible"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Tit_AIStateInitial",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "BJMCOFBOOPH",
+                    "CBDEIEIFLEG": [
+                        1
+                    ],
+                    "FDMELJIJAIB": [
+                        {
+                            "$type": "IOGDPLEIMKH",
+                            "JFBNOJJKPDP": [
+                                202
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "$type": "BJMCOFBOOPH",
+                    "CBDEIEIFLEG": [
+                        2
+                    ],
+                    "FDMELJIJAIB": [
+                        {
+                            "$type": "IOGDPLEIMKH",
+                            "JFBNOJJKPDP": [
+                                101,
+                                102,
+                                103,
+                                104,
+                                201
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Tit_Random",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "FlyDown",
+                        "TakeOff",
+                        "FlyUp",
+                        "Disappear"
+                    ],
+                    "PEJCGBFFICP": "Random_MoveSpeedRatio"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "RandomSpeed": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Random_MoveSpeedRatio": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Animator_MoveSpeedRatio": "RandomSpeed"
+                    }
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "CCDAOMHHEHN",
+                    "GIIJIMGAEAI": 0.10000000149011612,
+                    "PFJEALMJBHL": -0.10000000149011612,
+                    "KFHDNIDDHID": "RandomSpeed"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Tit_FlyDown",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOODDLEAKLD",
+                    "ALCCGJPAPAP": [
+                        "FlyDown"
+                    ],
+                    "PEJCGBFFICP": "FlyState_Down"
+                },
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Land"
+                    ],
+                    "PEJCGBFFICP": "FlyDown_Land"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "FlyState_Down": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "LBCPMFOBIBI": "FlyState",
+                            "HPDLNIPCGHB": true
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "MMBIBNFIOEP",
+                            "LBCPMFOBIBI": "FlyState"
+                        }
+                    ]
+                },
+                "FlyDown_Land": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_AddGravityScale": -1.9900000095367432
+                    }
+                }
+            },
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "FlyState"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Tit_FlyUp",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "FlyState",
+                    "HPDLNIPCGHB": true
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Tit_ToWander",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "WanderState",
+                    "HPDLNIPCGHB": true
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Tit_ToIdle",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "WanderState"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Tit_Disappear",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Disappear"
+                    ],
+                    "PEJCGBFFICP": "DisappearTimer"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "DisappearTimer": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "IAPPPIJGIPK",
+                            "KNBINPKEGGM": 4.0
+                        },
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "Disappear",
+                            "HPDLNIPCGHB": true
+                        },
+                        {
+                            "$type": "GHKGCICKBBP",
+                            "KNBINPKEGGM": 3.5,
+                            "FNEAFDJCKOM": true,
+                            "JGFBFBLFDLN": true,
+                            "NCFHGBFGGNC": "Disappear"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]

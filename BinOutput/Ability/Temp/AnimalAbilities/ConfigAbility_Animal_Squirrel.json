@@ -1,0 +1,141 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Squirrel_AIStateInitial",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "BJMCOFBOOPH",
+                    "CBDEIEIFLEG": [
+                        1
+                    ],
+                    "FDMELJIJAIB": [
+                        {
+                            "$type": "IOGDPLEIMKH",
+                            "JFBNOJJKPDP": [
+                                103,
+                                202
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "$type": "BJMCOFBOOPH",
+                    "CBDEIEIFLEG": [
+                        2
+                    ],
+                    "FDMELJIJAIB": [
+                        {
+                            "$type": "IOGDPLEIMKH",
+                            "JFBNOJJKPDP": [
+                                101,
+                                102,
+                                201
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Squirrel_IntoWander",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "WanderState",
+                    "HPDLNIPCGHB": true
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Squirrel_IntoIdle",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "WanderState"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Squirrel_Random",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Run",
+                        "Disappear"
+                    ],
+                    "PEJCGBFFICP": "Random_MoveSpeedRatio"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "RandomSpeed": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Random_MoveSpeedRatio": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Animator_MoveSpeedRatio": "RandomSpeed"
+                    }
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "CCDAOMHHEHN",
+                    "GIIJIMGAEAI": 0.15000000596046448,
+                    "PFJEALMJBHL": -0.15000000596046448,
+                    "KFHDNIDDHID": "RandomSpeed"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Squirrel_Disappear",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Disappear"
+                    ],
+                    "PEJCGBFFICP": "DisappearTimer"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "DisappearTimer": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "IAPPPIJGIPK",
+                            "KNBINPKEGGM": 2.0
+                        },
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "Disappear",
+                            "HPDLNIPCGHB": true
+                        },
+                        {
+                            "$type": "GHKGCICKBBP",
+                            "KNBINPKEGGM": 1.5,
+                            "FNEAFDJCKOM": true,
+                            "JGFBFBLFDLN": true,
+                            "NCFHGBFGGNC": "Disappear"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]

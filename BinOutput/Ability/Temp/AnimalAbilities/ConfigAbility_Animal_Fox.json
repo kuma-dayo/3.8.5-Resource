@@ -1,0 +1,226 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Fox_AIStateInitial",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "BJMCOFBOOPH",
+                    "CBDEIEIFLEG": [
+                        1
+                    ],
+                    "FDMELJIJAIB": [
+                        {
+                            "$type": "IOGDPLEIMKH",
+                            "JFBNOJJKPDP": [
+                                103,
+                                202
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "$type": "BJMCOFBOOPH",
+                    "CBDEIEIFLEG": [
+                        2
+                    ],
+                    "FDMELJIJAIB": [
+                        {
+                            "$type": "IOGDPLEIMKH",
+                            "JFBNOJJKPDP": [
+                                101,
+                                102,
+                                201
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Fox_Random",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Run",
+                        "Disappear"
+                    ],
+                    "PEJCGBFFICP": "Random_MoveSpeedRatio"
+                }
+            ],
+            "ABGJNGNECKP": {
+                "RandomSpeed": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Random_MoveSpeedRatio": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Animator_MoveSpeedRatio": "RandomSpeed"
+                    }
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "CCDAOMHHEHN",
+                    "GIIJIMGAEAI": 0.25,
+                    "KFHDNIDDHID": "RandomSpeed"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Fox_GetUp",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "WanderState",
+                    "HPDLNIPCGHB": true
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Fox_GetDown",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "MMBIBNFIOEP",
+                    "LBCPMFOBIBI": "WanderState"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Fox_Disappear",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IAHLAGDIKBK",
+                    "ALCCGJPAPAP": [
+                        "Disappear",
+                        "Disappear2"
+                    ],
+                    "PEJCGBFFICP": "DisappearTimer"
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "DisappearTimer": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "IAPPPIJGIPK",
+                            "KNBINPKEGGM": 3.0
+                        },
+                        {
+                            "$type": "HJKKPJOLGPE",
+                            "LBCPMFOBIBI": "Disappear",
+                            "HPDLNIPCGHB": true
+                        },
+                        {
+                            "$type": "GHKGCICKBBP",
+                            "KNBINPKEGGM": 2.5,
+                            "FNEAFDJCKOM": true,
+                            "JGFBFBLFDLN": true,
+                            "NCFHGBFGGNC": "Disappear"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Fox_AwareTigger",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "BJMCOFBOOPH",
+                    "CBDEIEIFLEG": [
+                        101
+                    ],
+                    "FDMELJIJAIB": [
+                        {
+                            "$type": "BMDJIKAKJBA",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "MPDDDDJICAK",
+                                    "FJJKDHKEGEF": "GreaterOrEqual",
+                                    "HPDLNIPCGHB": 5.0
+                                }
+                            ],
+                            "EGPFMEPFOPG": "AwareTrigger"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Fox_02_GoToMHPoint",
+            "OJEBMMAGKOF": {
+                "Animal_Fox_02_CheckPlayerArround": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": 1.0,
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "DCHBNFCPPAP": {
+                                "$type": "LBLIPELFECO",
+                                "DEMBLENCNFF": "CircleR5",
+                                "KMMEFEBGIKH": "Enemy",
+                                "BAGGOAFKGJE": 1.0
+                            },
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Avatar"
+                                    ]
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "IOPHKGFJDKG",
+                                    "KBIFINLCGFF": "SURROUND",
+                                    "KEEJFLJBFKM": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "Animal_Fox_02_CheckPlayerArround"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Animal_Fox_02_Alert",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "IOPHKGFJDKG",
+                    "KBIFINLCGFF": "SURROUND",
+                    "KEEJFLJBFKM": true
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,293 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Eremite_Simitar_AnimatorSteer",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "LFINGBJPANE",
+                    "JCOGJNPEJHJ": [
+                        "Slash01",
+                        "Loop_Slash01"
+                    ],
+                    "LOIOPKIADKF": 0.08699999749660492,
+                    "IAEOHPAMKIL": 0.3370000123977661,
+                    "MPFOAOKIGCA": 55.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "Slash01_AB"
+                    ],
+                    "MPFOAOKIGCA": 300.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "LFINGBJPANE",
+                    "JCOGJNPEJHJ": [
+                        "Slash02",
+                        "Loop_Slash02"
+                    ],
+                    "LOIOPKIADKF": 0.10199999809265137,
+                    "IAEOHPAMKIL": 0.3610000014305115,
+                    "MPFOAOKIGCA": 55.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "Slash02_AB"
+                    ],
+                    "MPFOAOKIGCA": 300.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "JumpBack"
+                    ],
+                    "IAEOHPAMKIL": 0.14100000262260437,
+                    "MPFOAOKIGCA": 600.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "LFINGBJPANE",
+                    "JCOGJNPEJHJ": [
+                        "Feint_Loop"
+                    ],
+                    "IAEOHPAMKIL": 99.0,
+                    "MPFOAOKIGCA": 45.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "Feint_BS"
+                    ],
+                    "MPFOAOKIGCA": 300.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "Taunt"
+                    ],
+                    "MPFOAOKIGCA": 300.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "Alert"
+                    ],
+                    "MPFOAOKIGCA": 270.0,
+                    "GCECEIPILLB": ""
+                },
+                {
+                    "$type": "AEKFCKLBPMN",
+                    "JCOGJNPEJHJ": [
+                        "Crossleg_Alert"
+                    ],
+                    "LOIOPKIADKF": 0.13699999451637268,
+                    "IAEOHPAMKIL": 0.800000011920929,
+                    "MPFOAOKIGCA": 320.0,
+                    "GCECEIPILLB": ""
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Eremite_Simitar_Slash_Dist_Calc",
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BMDJIKAKJBA",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "MPDDDDJICAK",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "FJJKDHKEGEF": "Lesser",
+                            "HPDLNIPCGHB": 4.0
+                        }
+                    ],
+                    "EGPFMEPFOPG": "JumpBackTrigger"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Eremite_Simitar_Feint_Manager",
+            "OJEBMMAGKOF": {
+                "Simitar_Feint_Monitor": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "CPLBCHCGEJC": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Target",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Avatar",
+                                        "Monster",
+                                        "Partner"
+                                    ]
+                                },
+                                {
+                                    "$type": "NHOPIJDIGFH",
+                                    "KEPDIEGMBGI": [
+                                        "Simitar_Feint_Detection"
+                                    ]
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BMDJIKAKJBA",
+                                    "EGPFMEPFOPG": "FeintHitTrigger"
+                                },
+                                {
+                                    "$type": "BDEMOFOFAEN",
+                                    "PMMKLHAOKCG": "Target"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Simitar_Feint_Monitor"
+                }
+            ],
+            "HKPLCDGKAKF": [
+                {
+                    "$type": "BMDJIKAKJBA",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "MPDDDDJICAK",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "HPDLNIPCGHB": 11.5
+                        }
+                    ],
+                    "EGPFMEPFOPG": "FeintEndTrigger"
+                },
+                {
+                    "$type": "BMDJIKAKJBA",
+                    "KHPFBKFKIMJ": [
+                        {
+                            "$type": "MPDDDDJICAK",
+                            "PMMKLHAOKCG": "SelfAttackTarget",
+                            "FJJKDHKEGEF": "Lesser",
+                            "HPDLNIPCGHB": 2.299999952316284
+                        }
+                    ],
+                    "EGPFMEPFOPG": "FeintHitTrigger"
+                }
+            ]
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Eremite_Simitar_SpecialTaunt",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "AIEGDOBDLMA",
+                    "NFMLJKBBILH": "Taunt01",
+                    "PEJCGBFFICP": "SpecialTaunt_Monitor",
+                    "KBJPBEFMGLM": 0.10999999940395355,
+                    "EFKCCJHFCMF": 0.8899999856948853
+                }
+            ],
+            "OJEBMMAGKOF": {
+                "SpecialTaunt_Monitor": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "MJFCHEEHDMO": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Target",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Bullet"
+                                    ]
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "TargetOwner",
+                                    "KHPFBKFKIMJ": [
+                                        {
+                                            "$type": "NIEJOBHILBP",
+                                            "ADGLEFMFMNG": [
+                                                "Avatar"
+                                            ]
+                                        }
+                                    ],
+                                    "PEJCGBFFICP": "Achievement_82129_Unlocker"
+                                },
+                                {
+                                    "$type": "EBCKDAAKHEF",
+                                    "MKDNKDGFHOB": {
+                                        "NCHHOHMMGLO": "",
+                                        "FBHEHNEKCEC": "",
+                                        "JJDHKGHLAPG": "default",
+                                        "ECAAIDPICHF": {
+                                            "MPFFDBKNGKK": 0.0,
+                                            "DJHMCMJNDJL": 100.0,
+                                            "GIDLGFOGCPI": "Default",
+                                            "OOCKJPLEGJK": 200.0,
+                                            "BGPOMBNALJI": 0.0,
+                                            "BFJPDMABDCD": true
+                                        },
+                                        "NBOPNJKHONH": {
+                                            "EFMEOMPPGGB": "default",
+                                            "IMPBPALEIPI": "LV5"
+                                        },
+                                        "ILNMJFMEBFD": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Achievement_82129_Unlocker": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.10000000149011612,
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "CFDIJDAHOJB",
+                            "BGDAAEIHBLD": 82129,
+                            "HIIAAPFGLEH": true
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Affix_Eremite_Simitar_NeverTaunt",
+            "DNEECINBPHM": [
+                {
+                    "$type": "HJKKPJOLGPE",
+                    "PFBHFLMLIJP": true,
+                    "LBCPMFOBIBI": "DisableTaunt",
+                    "HPDLNIPCGHB": true
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    }
+]

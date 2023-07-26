@@ -1,0 +1,1230 @@
+[
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_ActivityTeamChain_TeamControlBuff",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "JOOBHEHMNDA",
+                    "AMOOLHDIAIH": "_GO_CJB_TRIGGER",
+                    "HFMGECJKBMM": 0.0,
+                    "EALHNKBPCIN": [
+                        -0.5,
+                        0.5,
+                        1.5
+                    ],
+                    "GCHODBPEJKH": [
+                        "No_CJB_Trigger",
+                        "Has_CJB_Trigger"
+                    ]
+                }
+            ],
+            "ABGJNGNECKP": {
+                "AvatarBuffDuration": 0.0,
+                "CJBDamageRatio": 0.0,
+                "CJBCD": 0.0,
+                "ChooseCD": 0.0,
+                "MaxCJBNum": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "No_CJB_Trigger": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0
+                },
+                "Has_CJB_Trigger": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "ChooseMonster_CD"
+                        },
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_CJB_NUM",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PEJCGBFFICP": "Reset_CJB_Value"
+                        }
+                    ]
+                },
+                "Reset_CJB_Value": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.30000001192092896,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 0.0,
+                            "EPDHICCGHAL": "_GO_CJB_TRIGGER",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                },
+                "ChooseMonster_CD": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": "ChooseCD",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_CHOOSE_IN_CD",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 0.0,
+                            "EPDHICCGHAL": "_CHOOSE_IN_CD",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                },
+                "Activity_ActivityTeamChain_AvatarCJBBuff": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "MMHDGLJEALP",
+                            "PEJCGBFFICP": "Activity_ActivityTeamChain_AvatarCJBBuff_OnBattle"
+                        }
+                    ]
+                },
+                "CJB_DAMAGE_INCD": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": "CJBCD",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_CJB_IN_CD",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        },
+                        {
+                            "$type": "CHPEJGKPFCH",
+                            "HPDLNIPCGHB": 1.0,
+                            "EPDHICCGHAL": "_CJB_NUM",
+                            "ECNPJNGBKAC": true,
+                            "BFEAMPHKKCE": 10.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 0.0,
+                            "EPDHICCGHAL": "_CJB_IN_CD",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                },
+                "Activity_ActivityTeamChain_AvatarCJBBuff_OnBattle": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "CPLBCHCGEJC": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Other",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Monster"
+                                    ]
+                                },
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "PMMKLHAOKCG": "Team",
+                                    "EPDHICCGHAL": "_CJB_IN_CD",
+                                    "HPDLNIPCGHB": 0.0,
+                                    "NECALNHGCCP": "NoneOrEqual"
+                                },
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "PMMKLHAOKCG": "Team",
+                                    "EPDHICCGHAL": "_CJB_NUM",
+                                    "HPDLNIPCGHB": "MaxCJBNum",
+                                    "NECALNHGCCP": "LessAndEqual"
+                                },
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "PMMKLHAOKCG": "Team",
+                                    "EPDHICCGHAL": "_CHOOSE_IN_CD",
+                                    "HPDLNIPCGHB": 1.0
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "ALLDMMABLIM",
+                                    "PMMKLHAOKCG": "Other",
+                                    "CGLDJGDLIHP": "Eff_EnergyDisk_ElementalBurst_Wave_R40",
+                                    "PGCCMJFMBOF": {
+                                        "$type": "PNNEAJJGDMO"
+                                    },
+                                    "LMEAGKCCLON": -1.0
+                                },
+                                {
+                                    "$type": "HNMEPMFMCEP",
+                                    "PMMKLHAOKCG": "CurLocalAvatar",
+                                    "EIFHKAKNIBJ": false,
+                                    "EEBDJIHOMKG": {
+                                        "MNACMFPGGJM": {
+                                            "$type": "BHDHGOPPAPF",
+                                            "KIALPPECALL": "TriggerNoRepeat",
+                                            "PGCCMJFMBOF": {
+                                                "$type": "GDKHELPJNFI"
+                                            },
+                                            "LAGKLBKPJOD": 4.0
+                                        },
+                                        "MKDNKDGFHOB": {
+                                            "NCHHOHMMGLO": "",
+                                            "FBHEHNEKCEC": "",
+                                            "JJDHKGHLAPG": "default",
+                                            "ECAAIDPICHF": {
+                                                "MPFFDBKNGKK": 0.0,
+                                                "DJHMCMJNDJL": 0.0,
+                                                "MFMAMBFGCJA": true,
+                                                "OOCKJPLEGJK": 25.0,
+                                                "GDDCEDKCPHA": "Melee",
+                                                "BGPOMBNALJI": [
+                                                    "CJBDamageRatio",
+                                                    "DamageSystemValue",
+                                                    "MUL"
+                                                ],
+                                                "MOLMIIJJKIO": true,
+                                                "BFJPDMABDCD": true
+                                            },
+                                            "NBOPNJKHONH": {
+                                                "EFMEOMPPGGB": "default",
+                                                "IMPBPALEIPI": "LV2",
+                                                "MGAHMIHLGPO": 0.019999999552965164
+                                            }
+                                        }
+                                    },
+                                    "HDHMLBLHGPD": "Enemy"
+                                },
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "Team",
+                                    "PEJCGBFFICP": "CJB_DAMAGE_INCD"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "GCEAABLGCKL",
+                    "EPDHICCGHAL": "DamageSystemValue",
+                    "OMNDEBJIOCP": "ElementLevelCo"
+                },
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "Activity_ActivityTeamChain_AvatarCJBBuff"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_ActivityTeamChainV3.4_TideBuff",
+            "DNOLJKGCMDK": [
+                {
+                    "$type": "IPPJPHLDEMP",
+                    "AMOOLHDIAIH": "_IN_HIGH_TIDE_V3.4",
+                    "EALHNKBPCIN": [
+                        -0.5,
+                        0.5,
+                        1.5
+                    ],
+                    "GCHODBPEJKH": [
+                        "Crazy_In_Peace",
+                        "Crazy_DamageUp"
+                    ]
+                },
+                {
+                    "$type": "MDIHNAEMKCK",
+                    "EPDHICCGHAL": "_IN_HIGH_TIDE_V3.4",
+                    "ECNPJNGBKAC": true,
+                    "BFEAMPHKKCE": 1.0,
+                    "CMLGDBNFNNO": 0.0
+                }
+            ],
+            "ABGJNGNECKP": {
+                "DamageUp": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Crazy_In_Peace": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0
+                },
+                "Crazy_DamageUp": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "MMHDGLJEALP",
+                            "PEJCGBFFICP": "Crazy_DamageUp_TeamChainV3.4_Eff"
+                        }
+                    ],
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "ELEIPIAKELP",
+                            "PMMKLHAOKCG": "AllPlayerAvatars",
+                            "PEJCGBFFICP": "Crazy_DamageUp_TeamChainV3.4"
+                        }
+                    ]
+                },
+                "Crazy_DamageUp_TeamChainV3.4": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_FireAddHurtDelta": "DamageUp",
+                        "Actor_ElecAddHurtDelta": "DamageUp",
+                        "Actor_WaterAddHurtDelta": "DamageUp",
+                        "Actor_GrassAddHurtDelta": "DamageUp",
+                        "Actor_WindAddHurtDelta": "DamageUp",
+                        "Actor_IceAddHurtDelta": "DamageUp",
+                        "Actor_RockAddHurtDelta": "DamageUp",
+                        "Actor_PhysicalAddHurtDelta": "DamageUp"
+                    },
+                    "JBABKKGDEKL": "AttackUp"
+                },
+                "Crazy_DamageUp_TeamChainV3.4_Eff": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "AOBGBMLFACK",
+                    "HPDLNIPCGHB": 0.0,
+                    "EPDHICCGHAL": "_IN_HIGH_TIDE_V3.4",
+                    "BFEAMPHKKCE": 0.0,
+                    "CMLGDBNFNNO": 0.0
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_LockedAvatar",
+            "ABGJNGNECKP": {
+                "DamageUpRatio": 0.0,
+                "OffStageInterval": 0.0,
+                "Energy": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_TeamChain_LockedAvatar": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GFPCHDHKKBO",
+                            "LAGIGBDJHNN": true,
+                            "MPFFDBKNGKK": "DamageUpRatio"
+                        }
+                    ]
+                },
+                "UNIQUE_TeamChain_LockedAvatar_OffStage": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": "OffStageInterval",
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "EIFHKAKNIBJ": true,
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "HLNFCJDJIHA"
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "HGKGGEKHOBB",
+                                    "EIFHKAKNIBJ": true,
+                                    "PILMKPPOHPN": [
+                                        {
+                                            "$type": "MKHJOLCEPOB",
+                                            "PMMKLHAOKCG": "Self"
+                                        }
+                                    ],
+                                    "BLCNENOAPBF": [
+                                        {
+                                            "$type": "JFFPCJGBPBO",
+                                            "EIFHKAKNIBJ": true,
+                                            "HPDLNIPCGHB": "Energy"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_TeamChain_LockedAvatar"
+                },
+                {
+                    "$type": "ELEIPIAKELP",
+                    "EIFHKAKNIBJ": true,
+                    "PEJCGBFFICP": "UNIQUE_TeamChain_LockedAvatar_OffStage"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_ElementAddHurt_Swirl",
+            "ABGJNGNECKP": {
+                "ElementAddHurt_Swirl": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_TeamChain_ElementAddHurt_Swirl": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_ElemReactSwirlFireDelta": "ElementAddHurt_Swirl",
+                        "Actor_ElemReactSwirlWaterDelta": "ElementAddHurt_Swirl",
+                        "Actor_ElemReactSwirlIceDelta": "ElementAddHurt_Swirl",
+                        "Actor_ElemReactSwirlElectricDelta": "ElementAddHurt_Swirl"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_TeamChain_ElementAddHurt_Swirl"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_Frozen_PercentageRatio",
+            "ABGJNGNECKP": {
+                "damagePercentageRatio": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "Activity_TeamChain_Frozen_PercentageRatio": {
+                    "PEJCGBFFICP": "",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GFPCHDHKKBO",
+                            "LAGIGBDJHNN": true,
+                            "MPFFDBKNGKK": "damagePercentageRatio",
+                            "KHPFBKFKIMJ": [
+                                {
+                                    "$type": "NKNPMENBGGC",
+                                    "IEAMBBJIHNB": "ElementFrozen"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "Activity_TeamChain_Frozen_PercentageRatio"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_BurstDamageUp_ReduceCD",
+            "ABGJNGNECKP": {
+                "ElementalBurst_Rate": 0.0,
+                "Actor_SkillCDMinusRatio": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_TeamChain_BurstDamageUp_ReduceCD": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GFPCHDHKKBO",
+                            "KEPDIEGMBGI": [
+                                "Elemental_Burst"
+                            ],
+                            "MPFFDBKNGKK": "ElementalBurst_Rate"
+                        }
+                    ],
+                    "FGMKMOLJCFN": {
+                        "Actor_SkillCDMinusRatio": "Actor_SkillCDMinusRatio"
+                    }
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_TeamChain_BurstDamageUp_ReduceCD"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_UltGainEnergy",
+            "ABGJNGNECKP": {
+                "Duration": 0.0,
+                "Interval": 0.0,
+                "Energy": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_UltGainEnergy_Handler": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "ALFLMBOODFG",
+                            "MLGPLEGGEDH": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "EIFHKAKNIBJ": true,
+                                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_UltGainEnergy_Effect"
+                                }
+                            ],
+                            "PIGKHMLADBD": 0.20000000298023224
+                        }
+                    ]
+                },
+                "UNIQUE_Activity_TeamChain_UltGainEnergy_Effect": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": "Duration",
+                    "DJHMCMJNDJL": 100.0,
+                    "NKIHJHNDJBI": "Interval",
+                    "DKDBJMBJGIJ": [
+                        {
+                            "$type": "JFFPCJGBPBO",
+                            "EIFHKAKNIBJ": true,
+                            "HPDLNIPCGHB": "Energy"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "EIFHKAKNIBJ": true,
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_UltGainEnergy_Handler"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_GrassReaction_ElemMasteryDelta",
+            "ABGJNGNECKP": {
+                "GrassReaction_ElemMasteryDelta": 0.0,
+                "BuffTime": 0.0,
+                "BuffMaxLevel": 0.0,
+                "Multiple_CdTime": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_TeamChain_GrassReaction_ElemMasteryDelta_Handler": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "HPHKFOFJENP",
+                            "ADGLEFMFMNG": [
+                                "Monster"
+                            ],
+                            "GJFPIBBGJEA": [
+                                "Burning",
+                                "Overdose",
+                                "Overgrow",
+                                "OverdoseGrass",
+                                "OverdoseElectric",
+                                "OvergrowMushroomElectric",
+                                "OvergrowMushroomFire"
+                            ],
+                            "OEPEJHJBNDG": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "PMMKLHAOKCG": "Team",
+                                    "EIFHKAKNIBJ": true,
+                                    "PEJCGBFFICP": "UNIQUE_TeamChain_GrassReaction_ElemMasteryDelta_Multiple_Handler"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "UNIQUE_TeamChain_GrassReaction_ElemMasteryDelta_Multiple_Handler": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": "Multiple_CdTime",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PMMKLHAOKCG": "CurTeamAvatars",
+                            "EIFHKAKNIBJ": true,
+                            "PEJCGBFFICP": "UNIQUE_TeamChain_GrassReaction_ElemMasteryDelta_MultipleEffect"
+                        }
+                    ]
+                },
+                "UNIQUE_TeamChain_GrassReaction_ElemMasteryDelta_MultipleEffect": {
+                    "BOKEOPPFJJC": "MultipleRefreshNoRemove",
+                    "KOCIALFAGFJ": {
+                        "MEOHAJKCBDM": "",
+                        "DPAKDPCGEFE": "BuffMaxLevel",
+                        "EMNIKOKOMLL": true
+                    },
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": "BuffTime",
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_ElemMasteryDelta": "GrassReaction_ElemMasteryDelta"
+                    },
+                    "JBABKKGDEKL": "AttackUp"
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "EIFHKAKNIBJ": true,
+                    "PEJCGBFFICP": "UNIQUE_TeamChain_GrassReaction_ElemMasteryDelta_Handler"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_NormalAttackAndElementalArt_DamageUp",
+            "ABGJNGNECKP": {
+                "NormalAttackRate": 0.0,
+                "ElementalArtRate": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_TeamChain_NormalAttackAndElementalArt_DamageUp": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GFPCHDHKKBO",
+                            "KEPDIEGMBGI": [
+                                "NormalAttack_01",
+                                "NormalAttack_02",
+                                "NormalAttack_03",
+                                "NormalAttack_04",
+                                "NormalAttack_05",
+                                "NormalAttack_06"
+                            ],
+                            "MPFFDBKNGKK": "NormalAttackRate"
+                        },
+                        {
+                            "$type": "GFPCHDHKKBO",
+                            "KEPDIEGMBGI": [
+                                "Elemental_Art",
+                                "Elemental_Art_Hold",
+                                "Elemental_Art_Extra"
+                            ],
+                            "MPFFDBKNGKK": "ElementalArtRate"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "UNIQUE_TeamChain_NormalAttackAndElementalArt_DamageUp"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_FallingWindZone",
+            "ABGJNGNECKP": {
+                "FallingDamageUp": 0.0,
+                "WindZone_CD": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_TeamChain_FallingWindZone_Handler": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GFPCHDHKKBO",
+                            "KEPDIEGMBGI": [
+                                "FallingAttack"
+                            ],
+                            "MPFFDBKNGKK": "FallingDamageUp"
+                        }
+                    ],
+                    "CPLBCHCGEJC": [
+                        {
+                            "$type": "HGKGGEKHOBB",
+                            "PMMKLHAOKCG": "Other",
+                            "PILMKPPOHPN": [
+                                {
+                                    "$type": "NIEJOBHILBP",
+                                    "ADGLEFMFMNG": [
+                                        "Monster"
+                                    ]
+                                },
+                                {
+                                    "$type": "BEDEFFCBNIG",
+                                    "PMMKLHAOKCG": "Team",
+                                    "EPDHICCGHAL": "RogueV2_FallingWindZone_CD",
+                                    "HPDLNIPCGHB": 0.0,
+                                    "NECALNHGCCP": "NoneOrEqual"
+                                },
+                                {
+                                    "$type": "NHOPIJDIGFH",
+                                    "PMMKLHAOKCG": "Self",
+                                    "KEPDIEGMBGI": [
+                                        "FallingAttack"
+                                    ]
+                                }
+                            ],
+                            "BDJHNHMPGDB": [
+                                {
+                                    "$type": "BFIMNGHHDEN",
+                                    "EIFHKAKNIBJ": true,
+                                    "PEJCGBFFICP": "TeamChain_FallingWindZone_WindZoneEffect"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "TeamChain_FallingWindZone_WindZoneEffect": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": 0.20000000298023224,
+                    "DJHMCMJNDJL": 100.0,
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "OKPNJIGBCKE",
+                            "EIFHKAKNIBJ": true,
+                            "PGCCMJFMBOF": {
+                                "$type": "DMIMDDKPKHA",
+                                "KFHPDJBPILF": {
+                                    "GCAICJCAEGC": 0.0,
+                                    "OHEABNAJGMK": 0.5,
+                                    "GCFAGHEGMOK": 0.0
+                                },
+                                "FHIFDEOICAM": true
+                            },
+                            "JHKKFFKBNCH": 44000428,
+                            "BGHDJPBKDEB": 1001,
+                            "KMMEFEBGIKH": "Enemy"
+                        },
+                        {
+                            "$type": "BFIMNGHHDEN",
+                            "PMMKLHAOKCG": "Team",
+                            "EIFHKAKNIBJ": true,
+                            "PEJCGBFFICP": "UNIQUE_TeamChain_FallingWindZone_WindZone_CD"
+                        }
+                    ]
+                },
+                "UNIQUE_TeamChain_FallingWindZone_WindZone_CD": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "LBPCINOGHGB": "WindZone_CD",
+                    "DJHMCMJNDJL": 100.0,
+                    "DNEECINBPHM": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": -1.0,
+                            "EPDHICCGHAL": "RogueV2_FallingWindZone_CD",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ],
+                    "PJIJPAIFEMN": [
+                        {
+                            "$type": "AOBGBMLFACK",
+                            "HPDLNIPCGHB": 0.0,
+                            "EPDHICCGHAL": "RogueV2_FallingWindZone_CD",
+                            "BFEAMPHKKCE": 0.0,
+                            "CMLGDBNFNNO": 0.0
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_TeamChain_FallingWindZone_Handler"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_Mastery_DamageUp",
+            "ABGJNGNECKP": {
+                "DamageUpTime": 0.0,
+                "DamageUpRatio": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_TeamChain_Mastery_DamageUp": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "HPHKFOFJENP",
+                            "ADGLEFMFMNG": [
+                                "Monster"
+                            ],
+                            "GJFPIBBGJEA": [
+                                "SwirlFire",
+                                "SwirlElectric",
+                                "SwirlWater",
+                                "SwirlIce"
+                            ],
+                            "OEPEJHJBNDG": [
+                                {
+                                    "$type": "ELEIPIAKELP",
+                                    "PMMKLHAOKCG": "CurTeamAvatars",
+                                    "EIFHKAKNIBJ": true,
+                                    "PEJCGBFFICP": "TeamChain_Mastery_BuffEffect"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "TeamChain_Mastery_BuffEffect": {
+                    "PEJCGBFFICP": "",
+                    "LBPCINOGHGB": "DamageUpTime",
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GFPCHDHKKBO",
+                            "LAGIGBDJHNN": true,
+                            "MPFFDBKNGKK": "DamageUpRatio"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "EIFHKAKNIBJ": true,
+                    "PEJCGBFFICP": "UNIQUE_TeamChain_Mastery_DamageUp"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_AttackSpeedRatio",
+            "ABGJNGNECKP": {
+                "AttackSpeedRatio": 0.0,
+                "CriticalUpValue": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_AttackSpeedRatio": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GFPCHDHKKBO",
+                            "KEPDIEGMBGI": [
+                                "NormalAttack_01",
+                                "NormalAttack_02",
+                                "NormalAttack_03",
+                                "NormalAttack_04",
+                                "NormalAttack_05",
+                                "NormalAttack_06"
+                            ],
+                            "MPFFDBKNGKK": 0.0,
+                            "NAIGJLJJDHB": "CriticalUpValue"
+                        }
+                    ],
+                    "FGMKMOLJCFN": {
+                        "Animator_AttackSpeedRatio": "AttackSpeedRatio"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_AttackSpeedRatio"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_NormalAttackDamageUp",
+            "ABGJNGNECKP": {
+                "Rate": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_TeamChain_NormalAttackDamageUp": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GFPCHDHKKBO",
+                            "KEPDIEGMBGI": [
+                                "NormalAttack_01",
+                                "NormalAttack_02",
+                                "NormalAttack_03",
+                                "NormalAttack_04",
+                                "NormalAttack_05",
+                                "NormalAttack_06"
+                            ],
+                            "MPFFDBKNGKK": "Rate"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "UNIQUE_TeamChain_NormalAttackDamageUp"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_AttackRatio",
+            "ABGJNGNECKP": {
+                "AttackRatio": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_AttackRatio": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_AttackRatio": "AttackRatio"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_AttackRatio"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_CriticalHurtDelta",
+            "ABGJNGNECKP": {
+                "CriticalHurt": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_CriticalHurtDelta": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_CriticalHurtDelta": "CriticalHurt"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_CriticalHurtDelta"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_ElemMasteryDeltaUp",
+            "ABGJNGNECKP": {
+                "ElemMasteryDelta": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_ElemMasteryDeltaUp": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_ElemMasteryDelta": "ElemMasteryDelta"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_ElemMasteryDeltaUp"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_BurstDamageUp",
+            "ABGJNGNECKP": {
+                "Rate": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_TeamChain_BurstDamageUp": {
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "EEEIPAMAIGD": [
+                        {
+                            "$type": "GFPCHDHKKBO",
+                            "KEPDIEGMBGI": [
+                                "Elemental_Burst"
+                            ],
+                            "MPFFDBKNGKK": "Rate"
+                        }
+                    ]
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "BFIMNGHHDEN",
+                    "PEJCGBFFICP": "UNIQUE_TeamChain_BurstDamageUp"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_ElementAddHurt_Wind",
+            "ABGJNGNECKP": {
+                "ElementAddHurt": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_ElementAddHurt_Wind": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_WindAddHurtDelta": "ElementAddHurt"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_ElementAddHurt_Wind"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_ElementAddHurt_Fire",
+            "ABGJNGNECKP": {
+                "ElementAddHurt": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_ElementAddHurt_Fire": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_FireAddHurtDelta": "ElementAddHurt"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_ElementAddHurt_Fire"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_ElementAddHurt_Elec",
+            "ABGJNGNECKP": {
+                "ElementAddHurt": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_ElementAddHurt_Elec": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_ElecAddHurtDelta": "ElementAddHurt"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_ElementAddHurt_Elec"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_ElementAddHurt_Water",
+            "ABGJNGNECKP": {
+                "ElementAddHurt": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_ElementAddHurt_Water": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_WaterAddHurtDelta": "ElementAddHurt"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_ElementAddHurt_Water"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_ElementAddHurt_Grass",
+            "ABGJNGNECKP": {
+                "ElementAddHurt": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_ElementAddHurt_Grass": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_GrassAddHurtDelta": "ElementAddHurt"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_ElementAddHurt_Grass"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    },
+    {
+        "Default": {
+            "$type": "DDKKBPLFIDM",
+            "EIIJMGGKJME": "Activity_TeamChain_ElementAddHurt_Ice",
+            "ABGJNGNECKP": {
+                "ElementAddHurt": 0.0
+            },
+            "OJEBMMAGKOF": {
+                "UNIQUE_Activity_TeamChain_ElementAddHurt_Ice": {
+                    "BOKEOPPFJJC": "Unique",
+                    "PEJCGBFFICP": "",
+                    "JNKBDOPADKM": true,
+                    "DJHMCMJNDJL": 100.0,
+                    "FGMKMOLJCFN": {
+                        "Actor_IceAddHurtDelta": "ElementAddHurt"
+                    },
+                    "JGIEEEJENCK": true
+                }
+            },
+            "DNEECINBPHM": [
+                {
+                    "$type": "ELEIPIAKELP",
+                    "PEJCGBFFICP": "UNIQUE_Activity_TeamChain_ElementAddHurt_Ice"
+                }
+            ],
+            "PBMDJHJOEFD": true
+        }
+    }
+]

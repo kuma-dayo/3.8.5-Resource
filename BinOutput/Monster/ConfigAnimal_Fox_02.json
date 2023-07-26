@@ -1,0 +1,420 @@
+{
+    "OFNHPDKGMBO": {
+        "KPDCCCFMMNM": {
+            "$type": "CDMOEIFBCBL",
+            "PBDBHNNFKJC": "EffectMesh"
+        },
+        "LLKKIMCGGMP": 45.0,
+        "BJFNPGBKPHH": 1.0,
+        "KIJFPIAFOKB": true,
+        "JJICMJMKEGN": true,
+        "PGPDHMAPLJH": 1.2000000476837158,
+        "LJPOBNMEHDI": false,
+        "MDBNPGGABHG": true
+    },
+    "DDIGPJLJGKO": {
+        "FNEPOCJLBOB": "",
+        "CICGMFOPNGH": "",
+        "AOMCDAICKHC": false
+    },
+    "KHJIOLEGICF": {
+        "DGHLIDBLCPA": 1.0
+    },
+    "AKPOCAMDGEL": {
+        "BOHBDKMKFJE": {
+            "KBLEHGMMDLH": "Monster_Minion",
+            "EBCFFCMCDML": 50.0
+        },
+        "LNBADHMFIMB": {
+            "BHFKKLAMLPH": "",
+            "JNOCHKLMAMD": true
+        },
+        "HMMLLBBLCLE": {
+            "EPMENDKCCCF": "CircleLockEnemy",
+            "HLFOGIDKLIN": "Animal_Lv2"
+        },
+        "MFJMJGIDDKA": {
+            "PDEFNNPDCPH": 2.0,
+            "HLADHKKAEEB": 10.0,
+            "DFJOABCBAKD": ""
+        }
+    },
+    "GFMPGALDFCL": [
+        {
+            "DMOIAIOPGLK": "CommonInitial",
+            "EIIJMGGKJME": "Animal_Common_Initial",
+            "ADAIAEJJJOI": ""
+        },
+        {
+            "DMOIAIOPGLK": "AIStateInitial",
+            "EIIJMGGKJME": "Animal_Fox_AIStateInitial",
+            "ADAIAEJJJOI": ""
+        },
+        {
+            "DMOIAIOPGLK": "Random",
+            "EIIJMGGKJME": "Animal_Fox_Random",
+            "ADAIAEJJJOI": ""
+        },
+        {
+            "DMOIAIOPGLK": "Disappear",
+            "EIIJMGGKJME": "Animal_Fox_Disappear",
+            "ADAIAEJJJOI": ""
+        },
+        {
+            "DMOIAIOPGLK": "Animal_Fox_AwareTigger",
+            "EIIJMGGKJME": "Animal_Fox_AwareTigger",
+            "ADAIAEJJJOI": ""
+        },
+        {
+            "DMOIAIOPGLK": "Alet",
+            "EIIJMGGKJME": "Animal_Fox_02_Alert",
+            "ADAIAEJJJOI": ""
+        }
+    ],
+    "BOPDGGDNGGA": {
+        "defaultLayer": {
+            "$type": "BDNMJMOALBB",
+            "EIJBDDFAFHI": "",
+            "ALCCGJPAPAP": {
+                "Born": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Born": [
+                            "Audio_Fox_Born"
+                        ]
+                    },
+                    "PEKJNBLPIAG": true
+                },
+                "NormalIdle": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Standby": [],
+                        "Standby_Alert": [],
+                        "Standby_Prone": []
+                    },
+                    "PEKJNBLPIAG": true,
+                    "HGOCNBJLAHH": true,
+                    "OEEEHHOGCPP": [
+                        "DoSkill"
+                    ]
+                },
+                "NormalMove": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Walk": [
+                            "Audio_Fox_Walk"
+                        ],
+                        "Run": [
+                            "Audio_Fox_Run"
+                        ]
+                    },
+                    "HGOCNBJLAHH": true,
+                    "OEEEHHOGCPP": [
+                        "DoSkill"
+                    ],
+                    "OPBDBMNDAEE": true
+                },
+                "BeHit": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Hit_L": [
+                            "Audio_Fox_Hit_L"
+                        ]
+                    },
+                    "AHNDHCGDPAB": [
+                        "BeHit"
+                    ],
+                    "OEEEHHOGCPP": [
+                        "DoSkill"
+                    ]
+                },
+                "Die": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Die": [
+                            "Animal_Fox_Die",
+                            "Audio_Fox_Die"
+                        ],
+                        "Die_Disappear": [
+                            "Animal_Fox_Disappear",
+                            "Audio_Fox_Run"
+                        ]
+                    }
+                },
+                "GetUp": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "GetUp": [
+                            "Animal_Fox_GetUp",
+                            "Audio_Fox_GetUp"
+                        ]
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                },
+                "GetDown": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "GetDown": [
+                            "Animal_Fox_GetDown",
+                            "Audio_Fox_GetDown"
+                        ]
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                },
+                "Aware": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Aware_GetUp": [
+                            "Audio_Fox_Personality_102"
+                        ],
+                        "Aware": [
+                            "Audio_Fox_Aware"
+                        ]
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill",
+                        "AwareTrigger"
+                    ]
+                },
+                "Alert": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Alert": [
+                            "Audio_Fox_Walk",
+                            "Animal_Fox_02_Alert"
+                        ],
+                        "Alert_Scared": [
+                            "Animal_Fox_02_Alert",
+                            "Audio_Fox_Alert_Scared"
+                        ]
+                    },
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                },
+                "Personality_101": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Personality_101": [
+                            "Audio_Fox_Personality_102"
+                        ]
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                },
+                "Personality_102": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Personality_102": [
+                            "Audio_Fox_Personality_102"
+                        ]
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                },
+                "Disappear": {
+                    "$type": "PLOPDGLCAAH",
+                    "IOPMAHPMMJP": {
+                        "Disappear": [
+                            "Audio_Fox_Personality_103"
+                        ]
+                    },
+                    "PEKJNBLPIAG": true,
+                    "OEEEHHOGCPP": [
+                        "BeHit",
+                        "DoSkill"
+                    ]
+                }
+            }
+        }
+    },
+    "BIPNALLAFAP": {
+        "Default": {}
+    },
+    "PBHIHNLMDMB": {
+        "KEEJFLJBFKM": true,
+        "MBDNCFDFBBD": 1,
+        "ENMOIIALFBM": "Animal",
+        "HBKOEJNINJN": {
+            "DJGPPKDCDGP": {
+                "Rain": [
+                    "WEATHER_BAD"
+                ],
+                "Storm": [
+                    "WEATHER_BAD"
+                ]
+            }
+        },
+        "LDBDDNJABKB": {
+            "MDDAALMBPKE": {
+                "DefaultSetting": {
+                    "LGOOBFMHIIA": 15.0,
+                    "IENHCNPMGJE": 90.0,
+                    "ELDCDGCDKFC": 30.0,
+                    "AMOLIIHFDOC": 9.0
+                }
+            }
+        },
+        "AKIDGLJAGDJ": {
+            "DefaultSetting": [
+                "HIT",
+                "FEAR",
+                "SURROUND"
+            ]
+        },
+        "DBKDPIOFBEH": {
+            "MJHMOCIAEEE": 500.0,
+            "GNLEDMAGNLJ": [
+                {
+                    "IJDGHDPACBJ": 7.0,
+                    "BHJPOLJKFKN": 2.5
+                },
+                {
+                    "IJDGHDPACBJ": 9.0,
+                    "BHJPOLJKFKN": 2.0
+                },
+                {
+                    "IJDGHDPACBJ": 11.0,
+                    "BHJPOLJKFKN": 1.5
+                },
+                {
+                    "IJDGHDPACBJ": 11.0,
+                    "BHJPOLJKFKN": 1.0
+                },
+                {
+                    "IJDGHDPACBJ": 15.0,
+                    "BHJPOLJKFKN": 0.5
+                }
+            ]
+        },
+        "JKGCEOCJIKI": {
+            "HPMPAMMFAOG": 100.0
+        },
+        "OBLHFHMHJHM": {
+            "3": {
+                "EONPAHCMPOI": "OnAlert",
+                "HCADBFNDJAE": "OnAlert",
+                "MNBMLJLBHNN": "",
+                "AJCHPBDCOGH": false,
+                "ALCCGJPAPAP": [
+                    "Alert"
+                ],
+                "JHHIMGEFEJB": 3.0,
+                "KFCEIOHAFKA": "10",
+                "FAOLJKNENAB": "01",
+                "JEHMEKCLPNE": "10",
+                "IFALIEJEMJP": "11"
+            },
+            "101": {
+                "EONPAHCMPOI": "Personality_101",
+                "HCADBFNDJAE": "Free",
+                "KBJDKOPKNDB": {
+                    "JHMDALMOFKE": [
+                        2
+                    ]
+                },
+                "AEOGHAGMFIO": 15.0,
+                "MBMINIMBNAN": 45.0,
+                "HGPHPHDGHJB": 5.0,
+                "PJPOLLMBDCH": 10.0,
+                "MNBMLJLBHNN": "",
+                "ALCCGJPAPAP": [
+                    "Personality_101"
+                ],
+                "KFCEIOHAFKA": "10",
+                "FAOLJKNENAB": "01",
+                "JEHMEKCLPNE": "10",
+                "IFALIEJEMJP": "11"
+            },
+            "102": {
+                "EONPAHCMPOI": "Personality_102",
+                "HCADBFNDJAE": "Free",
+                "KBJDKOPKNDB": {
+                    "JHMDALMOFKE": [
+                        2
+                    ]
+                },
+                "AEOGHAGMFIO": 15.0,
+                "MBMINIMBNAN": 45.0,
+                "HGPHPHDGHJB": 5.0,
+                "PJPOLLMBDCH": 10.0,
+                "MNBMLJLBHNN": "",
+                "ALCCGJPAPAP": [
+                    "Personality_102"
+                ],
+                "KFCEIOHAFKA": "10",
+                "FAOLJKNENAB": "01",
+                "JEHMEKCLPNE": "10",
+                "IFALIEJEMJP": "11"
+            },
+            "103": {
+                "EONPAHCMPOI": "Personality_103",
+                "HCADBFNDJAE": "ActionPoint",
+                "KBJDKOPKNDB": {
+                    "JHMDALMOFKE": [
+                        201
+                    ]
+                },
+                "AEOGHAGMFIO": 10.0,
+                "MNBMLJLBHNN": "",
+                "ALCCGJPAPAP": [
+                    "Disappear"
+                ],
+                "KFCEIOHAFKA": "10",
+                "FAOLJKNENAB": "01",
+                "JEHMEKCLPNE": "10",
+                "IFALIEJEMJP": "11"
+            }
+        },
+        "ODDLABMOJFN": 1.5,
+        "CPNEGNCAMNB": {
+            "KEEJFLJBFKM": true
+        },
+        "LCHGJBHNFLN": {
+            "KEEJFLJBFKM": true,
+            "ELPEJKDEOEI": {
+                "FKEGIODNLGC": [
+                    {
+                        "IECNAAMEBOO": "MoleHolePoint",
+                        "MBENMHKIIGH": 30.0,
+                        "PBLCCOKIJCD": 2,
+                        "JHMDALMOFKE": [
+                            2,
+                            201
+                        ],
+                        "MIAKPPONHLK": [
+                            "SURROUND"
+                        ],
+                        "MAJPPKBABEP": 103
+                    }
+                ]
+            }
+        }
+    },
+    "ILOPKHGODKG": {
+        "IEJPFJPCNGD": false,
+        "LDPCGHJPEBI": false
+    },
+    "KHCPOKFGOHJ": {
+        "KKHCOMAPDLI": {
+            "BKOEFJKLKNO": "Eff_SceneObj_CatchAnimal_CaughtSuccess"
+        }
+    }
+}
